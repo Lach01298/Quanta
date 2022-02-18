@@ -1,0 +1,216 @@
+<galaxy>
+    <star name="Sol" temp="100" x="0" y="0" size="1.0" numPlanets="0" numGasGiants="0" blackHole="false">
+		<planet name="Mercury" DIMID="110" customIcon="moon">
+            <orbitalDistance>39</orbitalDistance>
+			<orbitalTheta>30</orbitalTheta>
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <rotationalPeriod>192000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+			<avgTemperature>340</avgTemperature>
+			<biomeIds>biometweaker:mercury_plains,biometweaker:mercury_highlands</biomeIds>
+			<generateCaves>true</generateCaves>
+			<seaLevel>1</seaLevel>
+        </planet>
+		<planet name="Venus" DIMID="120" customIcon="venusian">
+            <orbitalDistance>72</orbitalDistance>
+			
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <atmosphereDensity>1200</atmosphereDensity>
+			<avgTemperature>737</avgTemperature>
+			<hasOxygen>false</hasOxygen>
+
+			<biomeIds>biometweaker:venus_plains,biometweaker:venus_highlands</biomeIds>
+			<generateVolcanos>true</generateVolcanos>
+			<generateCaves>true</generateCaves>
+			<seaLevel>1</seaLevel>
+			<fogColor>0xC39E3B</fogColor>
+			<skyColor>0xC39E3B</skyColor>
+        </planet>
+        <planet name="Earth" DIMID="0" dimMapping="" customIcon="earthlike">
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalTheta>0</orbitalTheta>
+			<orbitalPhi>24</orbitalPhi>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>100</atmosphereDensity>
+			<avgTemperature>287</avgTemperature>
+			<planet name="Luna" DIMID="131" customIcon="moon">
+				<orbitalDistance>100</orbitalDistance>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<rotationalPeriod>192000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>250</avgTemperature>
+				<biomeIds>biometweaker:lunar_mare,biometweaker:lunar_midlands,biometweaker:lunar_highlands</biomeIds>
+				<generateCaves>true</generateCaves>
+				<seaLevel>1</seaLevel>
+				<generateCraters>true</generateCraters>
+				<craterBiomeWeights>biometweaker:lunar_mare;1,biometweaker:lunar_midlands;100,biometweaker:lunar_highlands;90</craterBiomeWeights>
+			</planet>
+        </planet>
+		<planet name="Mars" DIMID="140" customIcon="marslike">
+			<orbitalDistance>152</orbitalDistance>
+			<orbitalTheta>200</orbitalTheta>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<rotationalPeriod>24600</rotationalPeriod>
+			<atmosphereDensity>1</atmosphereDensity>
+			<avgTemperature>210</avgTemperature>
+			<hasOxygen>false</hasOxygen>
+			<fogColor>1.0,0.2,0.0</fogColor>
+			<skyColor>1.0,0.2,0.0</skyColor>
+			<biomeIds>biometweaker:mars_lowlands,biometweaker:mars_highlands,biometweaker:mars_poles,biometweaker:mars_valleys</biomeIds>
+			<generateCaves>true</generateCaves>
+			<seaLevel>1</seaLevel>
+			<generateCraters>true</generateCraters>
+			<craterFrequencyMultiplier>5</craterFrequencyMultiplier>
+		</planet>
+		<planet name="Jupiter" DIMID="150" customIcon="gasgiantred">
+			<orbitalDistance>300</orbitalDistance>
+			<orbitalTheta>50</orbitalTheta>
+			<GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+			<gas>deuterium</gas>
+			<planet name="Io" DIMID="151" customIcon="lava">
+				<orbitalDistance>110</orbitalDistance>
+				<orbitalTheta>200</orbitalTheta>
+				<gravitationalMultiplier>18</gravitationalMultiplier>
+				<rotationalPeriod>42500</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>110</avgTemperature>
+				<seaLevel>1</seaLevel>
+				<biomeIds>biometweaker:io_plains</biomeIds>
+				<generateCaves>true</generateCaves>
+				
+            </planet>
+			<planet name="Europa" DIMID="152" customIcon="iceworld">
+				<orbitalDistance>175</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+				<gravitationalMultiplier>13</gravitationalMultiplier>
+				<rotationalPeriod>85200</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>102</avgTemperature>
+				<biomeIds>biometweaker:europa_wastes,biometweaker:europa_vents</biomeIds>
+
+				<generateCaves>true</generateCaves>
+				
+            </planet>
+			<!--><planet name="Ganymede" DIMID="153" customIcon="moon">
+				<orbitalDistance>280</orbitalDistance>
+				<orbitalTheta>100</orbitalTheta>
+				<gravitationalMultiplier>15</gravitationalMultiplier>
+				<rotationalPeriod>172000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>110</avgTemperature>
+				
+				
+				<seaLevel>1</seaLevel>
+            </planet>
+			
+			<planet name="Callisto" DIMID="154" customIcon="moon">
+				<orbitalDistance>365</orbitalDistance>
+				<orbitalTheta>220</orbitalTheta>
+				<gravitationalMultiplier>13</gravitationalMultiplier>
+				<rotationalPeriod>192000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>134</avgTemperature>
+				
+				
+				<seaLevel>1</seaLevel>
+            </planet>
+			<!-->
+        </planet>
+		<planet name="Saturn" DIMID="160" customIcon="gasgiantbrown">
+			<orbitalDistance>400</orbitalDistance>
+			<orbitalTheta>220</orbitalTheta>
+			<GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+			<gas>helium</gas>
+			<gas>deuterium</gas>
+            <hasRings>true</hasRings>
+			<ringColor>0.8,0.7,0.4</ringColor>
+			<!-->
+			<planet name="Enceladus" DIMID="161" customIcon="iceworld">
+			    <orbitalDistance>62</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+                <rotationalPeriod>32800</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>75</avgTemperature>
+            </planet>
+			<!-->
+			<planet name="Titan" DIMID="162" customIcon="venusian">
+			    <orbitalDistance>318</orbitalDistance>
+				<orbitalTheta>30</orbitalTheta>
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <rotationalPeriod>192000</rotationalPeriod>
+                <atmosphereDensity>145</atmosphereDensity>
+				<avgTemperature>94</avgTemperature>
+				<hasOxygen>false</hasOxygen>
+                <skyColor>1.0,0.8,0.1</skyColor>
+                <fogColor>1.0,0.8,0.1</fogColor>
+				<biomeIds>biometweaker:titan_plains,biometweaker:titan_dunes,biometweaker:titan_hills,biometweaker:titan_lakes</biomeIds>
+				<oceanBlock>contenttweaker:liquid_methane</oceanBlock>
+				<generateCaves>true</generateCaves>
+            </planet>
+        </planet>
+		<planet name="Uranus" DIMID="170" customIcon="gasgiantblue">
+			<orbitalDistance>500</orbitalDistance>
+			<orbitalTheta>350</orbitalTheta>
+			<GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>water</gas>
+            <gas>ammonia</gas>
+			<!-->
+			<planet name="Titania" DIMID="171" customIcon="moon">
+			    <orbitalDistance>113</orbitalDistance>
+				<orbitalTheta>0</orbitalTheta>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+                <rotationalPeriod>192000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>70</avgTemperature>
+				
+				
+				<seaLevel>1</seaLevel>
+            </planet>
+			<!-->
+        </planet>
+		<planet name="Neptune" DIMID="180" customIcon="gasgiantblue">
+			<orbitalDistance>600</orbitalDistance>
+			<orbitalTheta>270</orbitalTheta>
+			<GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>water</gas>
+            <gas>ammonia</gas>
+			<!-->
+			<planet name="Triton" DIMID="181" customIcon="iceworld">
+				<orbitalTheta>0</orbitalTheta>
+				<orbitalPhi>180</orbitalPhi>
+				<orbitalDistance>92</orbitalDistance>
+				<gravitationalMultiplier>7</gravitationalMultiplier>
+				<rotationalPeriod>141000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<avgTemperature>38</avgTemperature>
+
+				
+				<seaLevel>1</seaLevel>			
+            </planet>
+			<!-->
+        </planet>
+		<!-->
+        <planet name="Pluto" DIMID="190"  customIcon="iceworld">
+			<orbitalDistance>1400</orbitalDistance>
+			<orbitalTheta>250</orbitalTheta>
+			<gravitationalMultiplier>6</gravitationalMultiplier>
+			<rotationalPeriod>192000</rotationalPeriod>
+			<atmosphereDensity>0</atmosphereDensity>
+			<avgTemperature>44</avgTemperature>
+			
+			
+			<seaLevel>1</seaLevel>
+		</planet>
+		<!-->
+    </star>
+</galaxy>

@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:8>)
+setTitle("Fermenter")
+setDescription("Make a fermenter")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,240)
+
+criteria = addCriteria("Built fermenter", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Fermenter")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

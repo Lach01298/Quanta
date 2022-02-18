@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:sulfur_crust>)
+setTitle("Io")
+setDescription("Land on Io. Waring very high radiation!")
+addParent("triumph:pack/space/nuclear_rocketry")
+addParent("triumph:pack/space/space_suit")
+setRequiresParents()
+setPos(210,120)
+
+criteria = addCriteria("Landed on Io", "minecraft:changed_dimension")
+criteria.setDimensionDestination(151)
+
+setAnnounceToChat(false)
+setShowToast(false)

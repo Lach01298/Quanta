@@ -1,0 +1,15 @@
+setIcon(<nuclearcraft:uranium:5>)
+setTitle("Uranium 235")
+setDescription("Separate Uranium into uranium 235")
+addParent("triumph:pack/nuclear/root")
+setRequiresParents()
+setPos(35,0)
+
+criteria = addCriteria("Completed Uranium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/uranium")
+
+criteria = addCriteria("Obtained uranium 235", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotUranium235>)
+
+setAnnounceToChat(false)
+setShowToast(false)

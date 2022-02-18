@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot:9>)
+setTitle("Iridium")
+setDescription("Iridium ore can be mined from asteroids")
+addParent("triumph:pack/space/basic_rocketry")
+addParent("triumph:pack/space/tungsten")
+setRequiresParents()
+setPos(140,30)
+
+criteria = addCriteria("Obtained iridium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotIridium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

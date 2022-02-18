@@ -1,0 +1,16 @@
+setIcon(<nuclearcraft:alloy>)
+setTitle("Bronze")
+setDescription("Make bronze by mixing copper and tin")
+addParent("triumph:pack/start/alloy_kiln")
+addParent("triumph:pack/start/copper")
+addParent("triumph:pack/start/tin")
+setRequiresParents()
+setPos(140,30)
+
+
+criteria = addCriteria("Obtained", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBronze>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

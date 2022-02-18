@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:fuel_reprocessor>)
+setTitle("Fuel Reprocessor")
+setDescription("Craft a fuel reprocessor")
+addParent("triumph:pack/nuclear/uranium_235")
+setRequiresParents()
+setPos(70,30)
+
+criteria = addCriteria("Crafted fuel reprocessor", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:fuel_reprocessor>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,12 @@
+setIcon(<qmd:atmosphere_collector>)
+setTitle("Atmosphere Collector")
+setDescription("Craft an atmosphere collector")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,90)
+
+criteria = addCriteria("Crafted atmosphere collector", "triumph:player_crafted_item")
+criteria.setItem(<qmd:atmosphere_collector>)
+
+setAnnounceToChat(false)
+setShowToast(false)

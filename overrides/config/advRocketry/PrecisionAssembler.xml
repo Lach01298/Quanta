@@ -1,0 +1,277 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIrrrrrrrZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>qmd:semiconductor;1;3</itemStack>
+			<itemStack>contenttweaker:plastic_sheet</itemStack>
+			<itemStack>immersiveengineering:material;1;21</itemStack>
+			<fluidStack>diborane;100</fluidStack>
+			<fluidStack>phosphine;100</fluidStack>
+			
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<fluidStack>hydrogen;450</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<oreDict>blockGlass</oreDict>
+			<itemStack>contenttweaker:plastic_sheet;2</itemStack>
+			<oreDict>plateAluminum;2</oreDict>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacehelmet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>contenttweaker:plastic_sheet;3</itemStack>
+			<oreDict>plateAluminum;2</oreDict>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>libvulpes:productfan;1;6</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spacechestplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>contenttweaker:plastic_sheet;3</itemStack>
+			<oreDict>plateAluminum;2</oreDict>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spaceleggings</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>contenttweaker:plastic_sheet;2</itemStack>
+			<oreDict>plateAluminum;2</oreDict>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:spaceboots</itemStack>
+		</output>
+	</Recipe>
+	
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>plateGold</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>plateTin</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>plateCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;5</itemStack>
+		</output>
+	</Recipe>
+	
+	
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>refinedstorage:processor;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>refinedstorage:processor;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>ingotHardCarbon</oreDict>
+		</input>
+		<output>
+			<itemStack>refinedstorage:processor;2;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;2</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>libvulpes:advancedmotor;2</itemStack>
+			<oreDict>stickTitanium;4</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<oreDict>blockGlass;3</oreDict>
+			<itemStack>contenttweaker:dust_thorium_dioxide</itemStack>
+			<itemStack>contenttweaker:dust_zirconium_dioxide</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:lens</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateIron</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateGold</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4;2</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;4;2</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<oreDict>plateIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;1</itemStack>
+			<itemStack>minecraft:redstone;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>advancedrocketry:ic;1</itemStack>
+			<oreDict>ingotGold</oreDict>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="200">
+		<input>
+			<itemStack>minecraft:leather_boots</itemStack>
+			<itemStack>contenttweaker:plastic_sheet;4</itemStack>
+			<itemStack>immersiveengineering:material;4;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
+		</output>
+	</Recipe>
+	
+</Recipes>

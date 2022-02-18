@@ -1,0 +1,53 @@
+{
+  imports: [
+    caves/standard.cave as STANDARD_CAVES
+    cat/water.cave as WATER_DECORATORS
+    conditions.cave :: OCEAN_BIOMES
+  ]
+  enabled: true
+  dimensions: [ 0 ]
+  inner: [
+    {
+      biomes: $OCEAN_BIOMES
+      $STANDARD_CAVES: ALL
+      caveBlocks: [
+        # Fills y=(12-45) with water.
+        {
+          states: water
+          height: [ 12, 64 ]
+        }
+        # Manually places obsidian above lava.
+        {
+          states: obsidian
+          height: 11
+        }
+        # Imitates the normal lava placement behavior.
+        {
+          states: lava
+          height: [ 0, 10 ]
+        }
+      ]
+      *tunnels.checkWater: false
+      *ravines.checkWater: false
+    }
+    {
+      blacklistBiomes: true
+      biomes: $OCEAN_BIOMES
+      $STANDARD_CAVES: ALL
+      caveBlocks: {
+        states: lava
+        height: [ 0, 10 ]
+      }
+      caverns: {
+        height: [ 10, 50 ]
+        generators: [
+          {
+            threshold: [ -0.8 ]
+            frequency: 0.0143
+            stretch: 0.5
+          }
+        ]
+      }
+    }
+  ]
+}

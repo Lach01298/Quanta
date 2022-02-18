@@ -1,0 +1,14 @@
+setIcon(<qmd:semiconductor:0>)
+setTitle("P-Type Doped Silicon")
+setDescription("Accelerating boron ions into silicon wafers make highly uniform P-type doped silicon")
+addParent("triumph:pack/nuclear/linac")
+addParent("triumph:pack/nuclear/target_chamber")
+setRequiresParents()
+setPos(210,-30)
+
+
+criteria = addCriteria("Obtained P-type doped silicon", "minecraft:inventory_changed")
+criteria.addItem(<ore:siliconPDoped>)
+
+setAnnounceToChat(false)
+setShowToast(false)

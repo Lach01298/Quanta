@@ -1,0 +1,28 @@
+setIcon(<advancedrocketry:nuclearcore>)
+setTitle("Nuclear Rocketry")
+setDescription("Make a nuclear thermal rocket fueled by liquid hydrogen to go to other planets within the solar system")
+addParent("triumph:pack/space/iridium")
+setRequiresParents()
+setPos(175,60)
+
+criteria = addCriteria("Completed Uranium 235", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/uranium_235")
+
+criteria = addCriteria("Crafted nuclear thermal fission core", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:nuclearcore>)
+
+criteria = addCriteria("Crafted nuclear thermal working fluid tank", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:nuclearfueltank>)
+
+criteria = addCriteria("Crafted nuclear thermal rocket engine", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:nuclearrocketmotor>)
+
+criteria = addCriteria("Obtained liquid hydrogen", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "liquid_hydrogen"}>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+
+

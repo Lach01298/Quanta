@@ -1,0 +1,83 @@
+{
+  enabled: true
+  layers: [
+    {
+      state: minecraft:planks
+      height: [
+        0
+        256
+      ]
+      ceiling: {
+        frequency: 0.06
+        range: [
+          -5
+          5
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.01
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: -1
+        seed: 1010
+        cache: true
+      }
+    }
+    {
+      state: minecraft:tnt
+      height: [
+        0
+        256
+      ]
+      ceiling: {
+        frequency: 0.06
+        range: [
+          -5
+          5
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.01
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: 0
+        seed: 1010
+        cache: true
+      }
+    }
+    {
+      state: minecraft:wool
+      height: [
+        0
+        256
+      ]
+      ceiling: {
+        frequency: 0.06
+        range: [
+          -5
+          5
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.01
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: 0.5
+        seed: 1010
+        cache: true
+      }
+    }
+  ]
+}

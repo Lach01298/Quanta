@@ -1,0 +1,91 @@
+{
+  variables: {
+    CELL(): {
+      type: Cellular
+      frequency: 0.005
+      returnType: CellValue
+      jitter: 0.45
+      perturb: true
+      perturbAmp: 20
+      perturbFreq: 0.02
+      threshold: @1
+      seed: @2
+      cache: true
+    }
+  }
+  enabled: true
+  dimensions: [ 152 ]
+  caveBlocks: [
+    {
+      states: [ "water" ]
+      height: [ 11, 128 ]
+    }
+    {
+      states: [ "obsidian" ]
+      height: [ 10 ]
+    }
+    {
+      states: [ "lava" ]
+      height: [ 0, 9 ]
+    }
+  ]
+  wallDecorators: [
+    {
+      states: magma
+      height: [ 11, 45 ]
+      matchers: [ "stone" ]
+      directions: down
+      placement: embed
+      integrity: 0.01
+    }
+  ]
+  tunnels: {
+    height: [ 1, 64 ]
+    resolution: 4
+    distance: 0
+    systemChance: 0.25
+    chance: 0.142
+    systemDensity: 4
+    noiseYReduction: true
+    resizeBranches: true
+    dYaw: {
+      startVal: 0
+      factor: 0.75
+      randFactor: 4
+      exponent: 1
+    }
+    dPitch: {
+      startVal: 0
+      factor: 0.9
+      randFactor: 2
+      exponent: 1
+    }
+    scale: {
+      startVal: 0
+      startValRandFactor: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    stretch: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    yaw: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    pitch: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+    rooms: {
+      scale: 3
+      stretch: 0.5
+      chance: 0.3
+    }
+    count: 10
+  }
+}

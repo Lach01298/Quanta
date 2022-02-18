@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:10>)
+setTitle("Zirconium")
+setDescription("Zircon is a byproduct of ore leaching monozite. This is then separated into zirconium and hafnium oxides. This is then reacted with coke and chlorine to make zirconium tetrachloride, which is finally reduced with magnesium to make molten zirconium")
+addParent("triumph:pack/nuclear/root")
+setRequiresParents()
+setPos(35,30)
+
+
+criteria = addCriteria("Obtained zirconium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotZiconium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

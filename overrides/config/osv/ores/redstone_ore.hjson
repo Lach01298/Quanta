@@ -1,0 +1,64 @@
+name: redstone_ore
+mod: minecraft
+block: {
+  location: redstone_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: redstone
+    count: [ 4, 5 ]
+    xp: [ 1, 5 ]
+    chance: 1
+  }
+]
+texture: {
+  shade: false
+  original: blocks/redstone_ore
+}
+
+gen: [
+  {
+    dimensions: [0]
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [110]
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [120]
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [131]
+    height: [ 0, 32 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [140]
+    height: [ 0, 64 ]
+    size: 8
+    count: 12
+  }
+  {
+    dimensions: [151]
+    height: [ 0, 128 ]
+    size: 8
+    count: 16
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 64 ]
+    size: 8
+    count: 12
+  }
+]

@@ -1,0 +1,14 @@
+setIcon(<qmd:ingot:10>)
+setTitle("Platinum")
+setDescription("Crushing nickel ore gives a byproduct of platinum")
+addParent("triumph:pack/industrial/crusher")
+setRequiresParents()
+setPos(70,-60)
+
+
+
+criteria = addCriteria("Obtained manganese ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotPlatinum>)
+
+setAnnounceToChat(false)
+setShowToast(false)

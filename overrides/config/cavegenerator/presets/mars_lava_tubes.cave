@@ -1,0 +1,76 @@
+{
+  variables: {
+    lava_tube(): {
+      height: [ 8, 255 ]
+      originHeight: [ 45, 70 ] # The height at which these tunnels can start. If this value is not set, it will default to the value of height.
+      count: 2 #Relative # of tries.
+      hasBranches: false
+      systemChance: 1
+      chance: 0.05
+      systemDensity: 1
+      # The length in blocks of this tunnel. 0 is a wildcard (132-176).
+      distance: @1
+      resizeBranches: true # When branches are created in vanilla, they shrink. You can disable that.
+      checkWater: true # Whether to test for water before generating to avoid water walls.
+      # Radius in blocks.
+      scale: {
+        startVal: 2
+        startValRandFactor: 2
+        randFactor: 0
+        factor: 1
+      }
+      # The horizontal angle in radians.
+      # These parameters only control the initial yaw.
+      yaw: {
+        startVal: 0
+        startValRandFactor: 6 # The size of the random number added to startVal.
+      }
+      # The change in yaw over distance.
+      dYaw: {
+        startVal: 0 # Added to current yaw
+        factor: 1
+        randFactor: 0.1 # Size of the random addend
+        exponent: 1
+      }
+      # The vertical angle in radians.
+      # These parameters only control the initial pitch.
+      pitch: {
+        startVal: -0.1
+        startValRandFactor: 0.2
+      }
+      # The change in pitch over distance
+      dPitch: {
+        startVal: -0.1
+        factor: 1
+        randFactor: 0.05
+        exponent: 1
+      }
+    }
+  }
+  enabled: true
+  dimensions: [ 140 ]
+  replaceableBlocks: [ "stone", "advancedrocketry:hotturf" ]
+  wallDecorators: [
+    {
+      states: gravel
+      height: [ 8, 80 ]
+      matchers: [ "stone" ]
+      directions: down
+      placement: embed
+      integrity: 0.15
+    }
+    {
+      states: [ "packed_ice", "contenttweaker:co2_ice" ]
+      height: [ 8, 55 ]
+      matchers: [ "stone" ]
+      directions: [ "side" ]
+      placement: embed
+      integrity: 0.04
+    }
+  ]
+  tunnels: [
+    $lava_tube(70)
+    $lava_tube(140)
+    $lava_tube(210)
+  ]
+}

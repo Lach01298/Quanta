@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot:1>)
+setTitle("Niobium")
+setDescription("Columbite is a byproduct of crushing uranium ore. This is then ore leached with hydrofluoric acid and ammonia solution to make niobium pentoxide. This is then reduced in an arc furnace with aluminium to make niobium.")
+addParent("triumph:pack/space/ore_leacher")
+setRequiresParents()
+setPos(70,30)
+
+
+criteria = addCriteria("Obtained niobium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotNiobium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

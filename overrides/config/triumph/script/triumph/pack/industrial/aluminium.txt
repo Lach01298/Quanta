@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:12>)
+setTitle("Aluminium")
+setDescription("Aluminium oxide can be smelted in an arc furnace to make aluminium")
+addParent("triumph:pack/industrial/arc_furnace")
+setRequiresParents()
+setPos(140,0)
+
+
+criteria = addCriteria("Obtained aluminium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotAluminum>)
+
+setAnnounceToChat(false)
+setShowToast(false)

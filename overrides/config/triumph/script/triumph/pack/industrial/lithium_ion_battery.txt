@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:lithium_ion_battery_basic>)
+setTitle("Basic Lithium Ion Battery")
+setDescription("Craft an basic lithium ion battery")
+addParent("triumph:pack/industrial/lithium")
+setRequiresParents()
+setPos(280,-30)
+
+criteria = addCriteria("Crafted basic lithium ion battery", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:lithium_ion_battery_basic>)
+
+setAnnounceToChat(false)
+setShowToast(false)

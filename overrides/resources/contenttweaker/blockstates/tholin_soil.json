@@ -1,0 +1,13 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+        "model":"cube_all",
+        "textures": {
+            "all": "contenttweaker:blocks/space/tholin_soil"
+        }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

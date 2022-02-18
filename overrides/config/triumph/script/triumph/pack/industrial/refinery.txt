@@ -1,0 +1,15 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:9>)
+setTitle("Refinery")
+setDescription("Make a refinery")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,60)
+
+criteria = addCriteria("Built refinery", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Refinery")
+
+
+
+setAnnounceToChat(false)
+setShowToast(false)

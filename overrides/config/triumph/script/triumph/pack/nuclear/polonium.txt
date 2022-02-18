@@ -1,0 +1,16 @@
+setIcon(<nuclearcraft:fission_dust:2>)
+setTitle("Polonium")
+setDescription("Irradiate bismuth to make Polonium. Bismuth is made from decaying uranium 233")
+addParent("triumph:pack/nuclear/solid_fission")
+addParent("triumph:pack/nuclear/irradiator")
+setRequiresParents()
+setPos(140,60)
+
+criteria = addCriteria("Completed Thorium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/thorium")
+
+criteria = addCriteria("Obtained polonium dust", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustPolonium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

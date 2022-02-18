@@ -1,0 +1,77 @@
+{
+  enabled: true
+  dimensions: [ 131 ]
+  replaceableBlocks: [ "stone", "contenttweaker:anorthosite_regolith", "undergroundbiomes:igneous_stone:3" ]
+  wallDecorators: [
+    {
+      states: gravel
+      height: [ 20, 80 ]
+      matchers: [ "stone" ]
+      directions: down
+      placement: embed
+      integrity: 0.15
+    }
+    {
+      states: packed_ice
+      height: [ 20, 50 ]
+      matchers: [ "stone" ]
+      directions: down
+      placement: embed
+      integrity: 0.05
+    }
+  ]
+  tunnels: {
+    height: [ 8, 255 ]
+    originHeight: [ 50, 90 ] # The height at which these tunnels can start. If this value is not set, it will default to the value of height.
+    count: 2 #Relative # of tries.
+    systemChance: 1
+    chance: 0.1
+    systemDensity: 1
+    distance: 300 # The length in blocks of this tunnel. 0 is a wildcard (132-176).
+    resizeBranches: true # When branches are created in vanilla, they shrink. You can disable that.
+    checkWater: true # Whether to test for water before generating to avoid water walls.
+    # Radius in blocks.
+    scale: {
+      startVal: 3
+      startValRandFactor: 0
+      randFactor: 0
+      factor: 1.1
+    }
+    # Vertical ratio of `scale`.
+    stretch: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    # The horizontal angle in radians.
+    # These parameters only control the initial yaw.
+    yaw: {
+      startVal: 0
+      startValRandFactor: 0 # The size of the random number added to startVal.
+    }
+    # The change in yaw over distance.
+    dYaw: {
+      startVal: 0 # Added to current yaw
+      factor: 1
+      randFactor: 0 # Size of the random addend
+      exponent: 1
+    }
+    # The vertical angle in radians.
+    # These parameters only control the initial pitch.
+    pitch: {
+      startVal: -0.1
+      startValRandFactor: 0
+    }
+    # The change in pitch over distance
+    dPitch: {
+      startVal: -0.1
+      factor: 1
+      randFactor: 0.1
+      exponent: 1
+    }
+    branches: {
+      chance: 0.001
+    }
+  }
+}

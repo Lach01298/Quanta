@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:plutonium:5>)
+setTitle("Plutonium 239")
+setDescription("Make some plutonium 239 from reprocessing uranium 235 fuel")
+addParent("triumph:pack/nuclear/solid_fission")
+addParent("triumph:pack/nuclear/fuel_reprocessor")
+setRequiresParents()
+setPos(140,0)
+
+criteria = addCriteria("Obtained plutonium 239", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotPlutonium239All>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:plastic_sheet>)
+setTitle("Plastic")
+setDescription("LPG can be reacted with steam to make ethylene which can then make plastic")
+addParent("triumph:pack/industrial/chemical_reactor")
+addParent("triumph:pack/industrial/distillation_tower")
+
+setRequiresParents()
+setPos(245,-90)
+
+criteria = addCriteria("Obtained plastic sheet", "minecraft:inventory_changed")
+criteria.addItem(<ore:sheetPlastic>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,14 @@
+setIcon(<nuclearcraft:decay_hastener>)
+setTitle("Decay Hastener")
+setDescription("Craft a decay hastener")
+addParent("triumph:pack/nuclear/uranium_235")
+addParent("triumph:pack/nuclear/zirconium")
+setRequiresParents()
+setPos(70,0)
+
+criteria = addCriteria("Crafted decay hastener", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:decay_hastener>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

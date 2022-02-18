@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:fission_irradiator>)
+setTitle("Fission Neutron Irradiator")
+setDescription("Craft a fission neutron irradiator")
+addParent("triumph:pack/nuclear/zirconium")
+setRequiresParents()
+setPos(70,60)
+
+criteria = addCriteria("Crafted fission neutron irradiator", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:fission_irradiator>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)

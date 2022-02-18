@@ -1,0 +1,15 @@
+setIcon(<nuclearcraft:alloy:5>)
+setTitle("Steel")
+setDescription("Acquire Steel")
+addParent("triumph:pack/start/coke_oven")
+addParent("triumph:pack/start/blast_furnace")
+setRequiresParents()
+setPos(210,-60)
+
+
+criteria = addCriteria("Obtained steel ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotSteel>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

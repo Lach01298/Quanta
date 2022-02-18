@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:13>)
+setTitle("Silver")
+setDescription("smelt silver ore in a furnace")
+addParent("triumph:pack/start/pickaxe_iron")
+setRequiresParents()
+setPos(175,30)
+
+criteria = addCriteria("Obtained silver ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotSilver>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

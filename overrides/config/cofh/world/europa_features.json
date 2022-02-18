@@ -1,0 +1,287 @@
+{
+	"populate": {
+		"europa_vents": {
+			"distribution": "underfluid",
+			"generator": {
+                "type": "sequential",
+                "generators": [
+					{
+						"type": "spike",
+						"block": "undergroundbiomes:sedimentary_stone",
+						"min-height": 10,
+						"height-variance": 5,
+						"size-variance": 3,
+						"position-variance": 1,
+						"large-spikes": false,
+						"material": [
+							{
+								"name": "minecraft:water"
+							},
+							{
+								"name": "minecraft:gravel"
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 0
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 1
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 2
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 3
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 4
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 5
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 6
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 7
+							}
+						]
+					},
+					{
+						"type": "spout",
+						"block": "minecraft:water",
+						"radius": 0,
+						"height": 20,
+						"material": [
+							{
+								"name": "minecraft:gravel"
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 0
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 1
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 2
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 3
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 4
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 5
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 6
+							},
+							{
+								"name": "undergroundbiomes:igneous_stone"
+								"metadata": 7
+							},
+							{
+								"name": "undergroundbiomes:sedimentary_stone"
+							}
+						
+						]
+					},
+					{
+						"type": "spout",
+						"block": "minecraft:magma",
+						"radius": 0,
+						"height": 2,
+						"material": [
+							{
+								"name": "undergroundbiomes:sedimentary_stone"
+							},
+							{
+								"name": "minecraft:water"
+							}
+						]
+					}					
+				]
+			},
+			"cluster-count": {
+				"min": 3,
+				"max": 7
+			}, 
+
+			"chunk-chance": 40,
+			"fluid": "water",
+			"material": [
+					{
+						"name": "minecraft:gravel"
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 0
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 1
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 2
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 3
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 4
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 5
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 6
+					},
+					{
+						"name": "undergroundbiomes:igneous_stone"
+						"metadata": 7
+					}
+			],
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": ["biometweaker:europa_vents"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					152
+				]
+			}
+		},
+		"europa_coral": {
+			"distribution": "underfluid",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:coral",
+						"metadata": 0						
+					},
+					{
+						"name": "biomesoplenty:coral",
+						"metadata": 1						
+					},
+					{
+						"name": "biomesoplenty:coral",
+						"metadata": 2						
+					},
+					{
+						"name": "biomesoplenty:coral",
+						"metadata": 3						
+					}
+				],
+				"surface": [
+					{
+						"name":"minecraft:gravel"
+					}
+				],
+				"see-sky": false,
+				"check-stay": false
+				"cluster-size": 20,
+				"material": [
+					{
+						"name":"minecraft:water"
+					}
+				],
+			},
+			"cluster-count": 10,
+			"chunk-chance": 4,
+			"fluid": "water",
+			"material": [
+					{
+						"name":"minecraft:gravel"
+					}
+				],
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": ["biometweaker:europa_vents"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					152
+				]
+			}
+		},
+		"europa_sponge": {
+			"distribution": "underfluid",
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+						"name": "minecraft:sponge",
+						"metadata": 1						
+					}
+				],
+				"surface": [
+					"minecraft:gravel"
+				],
+				"diameter": 3,
+				"size-variance": 2,
+				"count": 1,
+				"count-variance": 5
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"fluid": "water",
+			"material": [
+					"minecraft:gravel"
+				],
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": ["biometweaker:europa_vents"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					152
+				]
+			}
+		}
+	}
+}

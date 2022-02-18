@@ -1,0 +1,26 @@
+setIcon(<advancedrocketry:ic>)
+setTitle("Space Age")
+setDescription("Make a basic circuit")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Completed Phosphine", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/phosphine")
+
+criteria = addCriteria("Completed Diborane", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/diborane")
+
+criteria = addCriteria("Completed Plastic", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/plastic")
+
+criteria = addCriteria("Completed Silicon Wafer", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/silicon_wafer")
+
+criteria = addCriteria("Obtained basic circuit", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:ic>)
+
+setPos(0,0)
+
+setAnnounceToChat(false)
+setShowToast(false)

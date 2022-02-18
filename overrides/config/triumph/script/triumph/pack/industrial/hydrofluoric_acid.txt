@@ -1,0 +1,15 @@
+setIcon(<forge:bucketfilled,nbt:{FluidName: "hydrofluoric_acid"}>)
+setTitle("Hydrofluoric Acid")
+setDescription("crushing feldspar a common rock component gives fluorite. This is then dissolved in water and reacted with sulfuric acid to make hydrofluoric acid")
+addParent("triumph:pack/industrial/sulfuric_acid")
+addParent("triumph:pack/industrial/sieve")
+addParent("triumph:pack/industrial/mixer")
+
+setRequiresParents()
+setPos(140,90)
+
+criteria = addCriteria("Obtained hydrofluoric acid", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "hydrofluoric_acid"}>)
+
+setAnnounceToChat(false)
+setShowToast(false)

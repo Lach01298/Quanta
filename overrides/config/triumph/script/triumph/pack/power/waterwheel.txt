@@ -1,0 +1,16 @@
+setIcon(<immersiveengineering:wooden_device1>)
+setTitle("Water Wheel")
+setDescription("Make a water wheel. Output 22 RF/t")
+addParent("triumph:pack/power/root")
+
+
+setRequiresParents()
+setPos(35,30)
+
+
+criteria = addCriteria("Crafted water wheel", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:wooden_device1>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

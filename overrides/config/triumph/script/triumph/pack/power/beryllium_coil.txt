@@ -1,0 +1,20 @@
+setIcon(<nuclearcraft:turbine_dynamo_coil:1>)
+setTitle("Beryllium Dynamo Coil")
+setDescription("Make a Beryllium Turbine Dynamo Coil")
+addParent("triumph:pack/power/turbine")
+
+
+setPos(175,30)
+
+criteria = addCriteria("Completed Manganese", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/manganese")
+
+criteria = addCriteria("Completed Aluminium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/beryllium")
+
+criteria = addCriteria("Crafted beryllium dynamo coil", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:turbine_dynamo_coil:1>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)

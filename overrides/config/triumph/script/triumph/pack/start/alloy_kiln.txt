@@ -1,0 +1,18 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:stone_device:7>)
+setTitle("Alloy Kiln")
+setDescription("Make a alloy kiln")
+addParent("triumph:pack/start/clay")
+addParent("triumph:pack/start/furnace")
+addParent("triumph:pack/start/iron")
+setRequiresParents()
+
+setPos(105,-60)
+
+
+criteria = addCriteria("Built alloy kiln", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:AlloySmelter")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

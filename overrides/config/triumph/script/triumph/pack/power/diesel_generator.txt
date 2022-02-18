@@ -1,0 +1,15 @@
+setIcon(<immersiveengineering:metal_multiblock:10>)
+setTitle("Diesel Generator")
+setDescription("Build a Diesel Generator. It can be fueled with either diesel or biodiesel. Output 4096 RF/t")
+addParent("triumph:pack/power/root")
+
+
+hideLines()
+setPos(70,0)
+
+criteria = addCriteria("Built diesel generator", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:DieselGenerator")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

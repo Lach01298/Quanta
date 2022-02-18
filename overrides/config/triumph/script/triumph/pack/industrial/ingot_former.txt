@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:ingot_former>)
+setTitle("Ingot Former")
+setDescription("Craft an ingot former")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,-90)
+
+criteria = addCriteria("Crafted ingot former", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:ingot_former>)
+
+setAnnounceToChat(false)
+setShowToast(false)

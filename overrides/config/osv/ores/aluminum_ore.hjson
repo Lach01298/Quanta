@@ -1,0 +1,76 @@
+name: aluminum_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:1
+  hardness: 3
+  level: 1
+}
+loot: [
+  {
+    item: immersiveengineering:ore:1
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_aluminum
+}
+
+gen: [
+  {
+    dimensions: [0]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [110]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [120]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [131]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [131]
+	biomes: {
+        names: ["biometweaker:lunar_highlands"]
+    }
+    height: [ 40, 128 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [140]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [151]
+    height: [ 40, 72 ]
+    size: 8
+    count: 8
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 64 ]
+    size: 8
+    count: 8
+  }
+  
+  
+  
+  
+]

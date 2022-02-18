@@ -1,0 +1,34 @@
+name: boron_ore
+mod: nuclearcraft
+block: {
+  location: nuclearcraft:ore:5
+  hardness: 3
+  level: 2
+
+}
+
+texture: {
+  shade: false
+  original: nuclearcraft:blocks/ore/boron
+}
+
+gen: [
+  {
+    dimensions: [0]
+	height: [ 32, 64 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [140]
+	height: [ 32, 64 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [152]
+	height: [ 0, 64 ]
+    size: 6
+    count: 6
+  }
+]

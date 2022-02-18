@@ -1,0 +1,57 @@
+name: lead_ore
+mod: nuclearcraft
+block: {
+  location: nuclearcraft:ore:2
+  hardness: 3
+  level: 1
+}
+
+texture: {
+  shade: false
+  original: nuclearcraft:blocks/ore/lead
+}
+
+gen: [
+  {
+    dimensions: [0]
+	height: [ 0, 36 ]
+    size: 6
+    count: 8
+  }
+  {
+    dimensions: [110]
+	height: [ 0, 36 ]
+    size: 6
+    count: 8
+  }
+  {
+    dimensions: [120]
+	height: [ 0, 36 ]
+    size: 6
+    count: 8
+  }
+  {
+    dimensions: [131]
+	height: [ 0, 36 ]
+    size: 6
+    count: 8
+  }
+  {
+    dimensions: [140]
+	height: [ 0, 36 ]
+    size: 6
+    count: 8
+  }
+    {
+    dimensions: [151]
+	height: [ 0, 70 ]
+    size: 6
+    count: 12
+  }
+  {
+    dimensions: [152]
+	height: [ 0, 64 ]
+    size: 6
+    count: 8
+  }
+]

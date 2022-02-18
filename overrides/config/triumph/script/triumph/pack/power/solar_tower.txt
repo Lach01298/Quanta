@@ -1,0 +1,19 @@
+setIcon(<immersivetech:metal_multiblock:1>)
+setTitle("Solar tower")
+setDescription("Build a solar tower and reflector. Boils water with a lot of sunlight")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(70,60)
+
+criteria = addCriteria("Started Industrial Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/root")
+
+criteria = addCriteria("Built solar tower", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:SolarTower")
+criteria = addCriteria("Built solar reflector", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:SolarReflector")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

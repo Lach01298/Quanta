@@ -1,0 +1,14 @@
+setIcon(<qmd:ring_accelerator_controller>)
+setTitle("Synchrotron Accelerator")
+setDescription("Build a synchrotron accelerator")
+addParent("triumph:pack/nuclear/p_doped_silicon")
+
+setRequiresParents()
+setPos(245,-30)
+
+
+criteria = addCriteria("Crafted synchrotron accelerator controller", "triumph:player_crafted_item")
+criteria.setItem(<qmd:ring_accelerator_controller>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,14 @@
+setIcon(<qmd:nucleosynthesis_chamber_controller>)
+setTitle("Nucleosynthesis Chamber")
+setDescription("Build a nucleosynthesis chamber")
+addParent("triumph:pack/nuclear/strontium")
+
+setRequiresParents()
+setPos(325,0)
+
+
+criteria = addCriteria("Crafted nucleosynthesis chamber controller", "triumph:player_crafted_item")
+criteria.setItem(<qmd:nucleosynthesis_chamber_controller>)
+
+setAnnounceToChat(false)
+setShowToast(false)

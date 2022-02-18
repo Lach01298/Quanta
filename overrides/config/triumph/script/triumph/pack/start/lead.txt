@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:2>)
+setTitle("Lead")
+setDescription("Smelt lead ore in a furnace")
+addParent("triumph:pack/start/furnace")
+
+setPos(105,90)
+
+criteria = addCriteria("Obtained lead ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotLead>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

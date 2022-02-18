@@ -1,0 +1,13 @@
+setIcon(<minecraft:stone_pickaxe>)
+setTitle("Stone Pickaxe")
+setDescription("Craft a stone pick")
+addParent("triumph:pack/start/pickaxe_wood")
+setRequiresParents()
+setPos(70,30)
+
+criteria = addCriteria("Crafted stone pickaxe", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:stone_pickaxe>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

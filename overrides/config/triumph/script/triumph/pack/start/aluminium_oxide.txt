@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:dust_aluminium_oxide>)
+setTitle("Alumina")
+setDescription("Bauxite can be crushed to make aluminium oxide")
+addParent("triumph:pack/start/crushing_table")
+setRequiresParents()
+setPos(140,-60)
+
+
+
+criteria = addCriteria("Obtained", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:dust_aluminium_oxide>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,746 @@
+{
+  dimensions: [ 140 ]
+  layers: [
+    #Layer 0: igneous Intrusive
+    {
+      state: undergroundbiomes:igneous_stone
+      height: [
+        0
+        35
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.25 ]
+        seed: 10
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:4
+      height: [
+        0
+        35
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.25, 0.25 ]
+        seed: 10
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:1
+      height: [
+        0
+        35
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.25, 1 ]
+        seed: 10
+        cache: true
+      }
+    }
+    # Layer 1: igneous
+    {
+      state: undergroundbiomes:igneous_stone
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.75 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:1
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.75, -0.5 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:4
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.5, -0.25 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:5
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.25, 0 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:6
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0, 0.25 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:3
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.25, 0.5 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:7
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.5, 0.75 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:2
+      height: [
+        25
+        60
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.75, 1 ]
+        seed: 696
+        cache: true
+      }
+    }
+    # Layer 2: sedimentary
+    {
+      state: red_sandstone
+      height: [
+        50
+        85
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.6 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:2
+      height: [
+        50
+        85
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.6, -0.2 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:3
+      height: [
+        50
+        85
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.2, 0.2 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: sandstone
+      height: [
+        50
+        85
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.2, 0.6 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:5
+      height: [
+        50
+        85
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.6, 1 ]
+        seed: 845
+        cache: true
+      }
+    }
+    # Layer 3: sedimentary
+    {
+      state: red_sandstone
+      height: [
+        75
+        256
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.6 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:2
+      height: [
+        75
+        256
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.6, -0.2 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:3
+      height: [
+        75
+        256
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.2, 0.2 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: sandstone
+      height: [
+        75
+        256
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.2, 0.6 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:sedimentary_stone:5
+      height: [
+        75
+        256
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.6, 1 ]
+        seed: 638
+        cache: true
+      }
+    }
+  ]
+  clusters: [
+    # igneous intrusions
+    {
+      states: undergroundbiomes:igneous_stone:2
+      centerHeight: [ 0, 20 ]
+      matchers: [
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 40, 100 ]
+      radiusY: [ 40, 180 ]
+      radiusZ: [ 40, 100 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: undergroundbiomes:igneous_stone:3
+      centerHeight: [ 0, 20 ]
+      matchers: [
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 40, 100 ]
+      radiusY: [ 40, 180 ]
+      radiusZ: [ 40, 100 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: undergroundbiomes:igneous_stone:5
+      centerHeight: [ 0, 20 ]
+      matchers: [
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 40, 100 ]
+      radiusY: [ 40, 180 ]
+      radiusZ: [ 40, 100 ]
+      chance: 0.03
+      integrity: 1
+    }
+    {
+      states: undergroundbiomes:igneous_stone:6
+      centerHeight: [ 0, 20 ]
+      matchers: [
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 40, 100 ]
+      radiusY: [ 40, 180 ]
+      radiusZ: [ 40, 100 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: undergroundbiomes:igneous_stone:7
+      centerHeight: [ 0, 10 ]
+      matchers: [
+        undergroundbiomes:metamorphic_stone
+        undergroundbiomes:metamorphic_stone:1
+        undergroundbiomes:metamorphic_stone:2
+        undergroundbiomes:metamorphic_stone:3
+        undergroundbiomes:metamorphic_stone:4
+        undergroundbiomes:metamorphic_stone:5
+        undergroundbiomes:metamorphic_stone:6
+        undergroundbiomes:metamorphic_stone:7
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 40, 100 ]
+      radiusY: [ 40, 180 ]
+      radiusZ: [ 40, 100 ]
+      chance: 0.02
+      integrity: 1
+    }
+    # sedimentary veins
+    {
+      states: clay
+      centerHeight: [ 40, 128 ]
+      matchers: [
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 30, 80 ]
+      radiusY: [ 2, 8 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.03
+      integrity: 1
+    }
+    {
+      states: red_sandstone
+      centerHeight: [ 40, 128 ]
+      matchers: [
+        undergroundbiomes:sedimentary_stone
+        undergroundbiomes:sedimentary_stone:1
+        undergroundbiomes:sedimentary_stone:2
+        undergroundbiomes:sedimentary_stone:3
+        undergroundbiomes:sedimentary_stone:4
+        undergroundbiomes:sedimentary_stone:5
+        undergroundbiomes:sedimentary_stone:6
+        undergroundbiomes:sedimentary_stone:7
+        sandstone
+        red_sandstone
+      ]
+      radiusX: [ 30, 80 ]
+      radiusY: [ 2, 8 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.05
+      integrity: 1
+    }
+  ]
+}

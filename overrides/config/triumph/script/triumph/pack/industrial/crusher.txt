@@ -1,0 +1,15 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:1>)
+setTitle("Crusher")
+setDescription("Make a crusher")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,0)
+
+criteria = addCriteria("Built crusher", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Crusher")
+
+
+
+setAnnounceToChat(false)
+setShowToast(false)

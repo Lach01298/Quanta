@@ -1,0 +1,18 @@
+setIcon(<advancedrocketry:solargenerator>)
+setTitle("Solar Generator")
+setDescription("Make a solar generator. produces power directly from light.")
+addParent("triumph:pack/power/root")
+
+
+hideLines()
+setPos(104,-30)
+
+criteria = addCriteria("Started Space Age", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/root")
+
+criteria = addCriteria("Crafted solar generator", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:solargenerator>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

@@ -1,0 +1,57 @@
+name: copper_ore
+mod: nuclearcraft
+block: {
+  location: nuclearcraft:ore
+  hardness: 3
+  level: 1
+}
+
+texture: {
+  shade: false
+  original: nuclearcraft:blocks/ore/copper
+}
+
+gen: [
+  {
+    dimensions: [0]
+    height: [ 0, 48 ]
+    size: 8
+    count: 10
+  }
+  {
+    dimensions: [110]
+    height: [ 0, 48 ]
+    size: 8
+    count: 10
+  }
+  {
+    dimensions: [120]
+    height: [ 0, 48 ]
+    size: 8
+    count: 10
+  }
+  {
+    dimensions: [131]
+    height: [ 0, 48 ]
+    size: 8
+    count: 10
+  }
+  {
+    dimensions: [140]
+    height: [ 0, 48 ]
+    size: 8
+    count: 10
+  }
+  {
+    dimensions: [151]
+    height: [ 0, 70 ]
+    size: 8
+    count: 16
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 64 ]
+    size: 8
+    count: 10
+  }
+]

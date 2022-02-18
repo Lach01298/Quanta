@@ -1,0 +1,14 @@
+setIcon(<minecraft:wooden_pickaxe>)
+setTitle("Wood Pickaxe")
+setDescription("Craft a pick")
+addParent("triumph:pack/start/root")
+setRequiresParents()
+setPos(35,0)
+
+criteria = addCriteria("Crafted wooden pickaxe", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:wooden_pickaxe>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+

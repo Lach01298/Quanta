@@ -1,0 +1,27 @@
+setIcon(<immersiveengineering:metal_device1:2>)
+setTitle("Power")
+setDescription("Craft a kinetic dynamo")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Completed Steel", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/steel")
+
+criteria = addCriteria("Completed Bronze", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/copper")
+
+criteria = addCriteria("Completed Redstone Ore", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/redstone")
+
+criteria = addCriteria("Crafted kinetic dynamo", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:metal_device1:2>)
+
+
+
+
+
+setPos(0,0)
+
+setAnnounceToChat(false)
+setShowToast(false)

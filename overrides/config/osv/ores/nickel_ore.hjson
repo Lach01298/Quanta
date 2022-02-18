@@ -1,0 +1,62 @@
+name: nickel_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:4
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: immersiveengineering:ore:4
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_nickel
+}
+gen: [
+  {
+    dimensions: [0]
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+  {
+    dimensions: [110]
+    height: [ 0, 128 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [120]
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+  {
+    dimensions: [131]
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+  {
+    dimensions: [140]
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+  {
+    dimensions: [151]
+    height: [ 8, 24 ]
+    size: 6
+    count: 2
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 24 ]
+    size: 6
+    count: 2
+  }
+]

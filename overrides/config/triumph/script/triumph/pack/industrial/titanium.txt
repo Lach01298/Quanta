@@ -1,0 +1,17 @@
+setIcon(<qmd:ingot:3>)
+setTitle("Titanium")
+setDescription("Rutile is crushed into titanium dioxide. This is then reacted with coke and chlorine to create titanium tetrachloride, Which is then reduced with magnesium to create molten titanium.")
+addParent("triumph:pack/industrial/chemical_reactor")
+addParent("triumph:pack/industrial/magnesium")
+addParent("triumph:pack/industrial/chlorine")
+addParent("triumph:pack/industrial/ingot_former")
+setRequiresParents()
+setPos(245,30)
+
+
+
+criteria = addCriteria("Obtained titanium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTitanium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

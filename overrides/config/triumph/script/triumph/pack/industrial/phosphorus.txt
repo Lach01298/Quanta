@@ -1,0 +1,14 @@
+setIcon(<contenttweaker:dust_white_phosphorus>)
+setTitle("White Phosphorus")
+setDescription("Sieving limestone, chalk or siltstone has a byproduct of phosphorite. This can then be reacted with sand and coke dust to make white phosphorus")
+addParent("triumph:pack/industrial/chemical_reactor")
+setRequiresParents()
+setPos(245,60)
+
+
+
+criteria = addCriteria("Obtained white phosphorus", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:dust_white_phosphorus>)
+
+setAnnounceToChat(false)
+setShowToast(false)

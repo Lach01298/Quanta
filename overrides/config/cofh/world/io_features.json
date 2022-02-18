@@ -1,0 +1,130 @@
+{
+	"populate": {
+			"io_volcano": {
+			"distribution": "uniform",
+			"generator": {
+                "type": "sequential",
+                "generators": [
+					{
+						"type": "stalagmite",
+						"block": "contenttweaker:sulfur_crust",
+						"gen-body": [
+							"minecraft:air",
+						],
+						"min-height": 10,
+						"height-variance": 1,
+						"gen-size": 12,
+						"size-variance": 1,
+						"smooth": true,
+						"fat": true,
+						"alt-sinc": true
+					},
+                    {
+						"type": "spout",
+						"block": [
+							{
+								"name": "minecraft:flowing_lava",
+							}
+						],
+						"material": [
+							"minecraft:air",
+							"contenttweaker:sulfur_crust"
+						],
+						"radius": 2,
+						"height": 12
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 150,
+			"min-height": {
+				"operation": "ADD",
+				"value-a":{
+						"world-data": "SURFACE_BLOCK"
+					}		
+				"value-b": -5	
+			},
+			"max-height": {
+				"operation": "ADD",
+				"value-a":{
+						"world-data": "SURFACE_BLOCK"
+					}		
+				"value-b": -4	
+			},
+
+			"material": [
+				"contenttweaker:sulfur_crust"
+			],
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					151
+				]
+			}
+		},
+		"io_volcano_big": {
+			"distribution": "uniform",
+			"generator": {
+                "type": "sequential",
+                "generators": [
+					{
+						"type": "stalagmite",
+						"block": "contenttweaker:sulfur_crust",
+						"gen-body": [
+							"minecraft:air",
+						],
+						"min-height": 14,
+						"height-variance": 1,
+						"gen-size": 15,
+						"size-variance": 1,
+						"smooth": true,
+						"fat": true,
+						"alt-sinc": true
+					},
+                    {
+						"type": "spout",
+						"block": [
+							{
+								"name": "minecraft:flowing_lava",
+							}
+						],
+						"material": [
+							"minecraft:air",
+							"contenttweaker:sulfur_crust"
+						],
+						"radius": 3,
+						"height": 15
+					}
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 300,
+			"min-height": {
+				"operation": "ADD",
+				"value-a":{
+						"world-data": "SURFACE_BLOCK"
+					}		
+				"value-b": -7	
+			},
+			"max-height": {
+				"operation": "ADD",
+				"value-a":{
+						"world-data": "SURFACE_BLOCK"
+					}		
+				"value-b": -6	
+			},
+
+			"material": [
+				"contenttweaker:sulfur_crust"
+			],
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					151
+				]
+			}
+		}
+	}
+}

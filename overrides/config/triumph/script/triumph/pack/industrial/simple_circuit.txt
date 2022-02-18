@@ -1,0 +1,15 @@
+setIcon(<immersiveengineering:material:27>)
+setTitle("Simple Circuit Board")
+setDescription("Make a circuit board from vacuum tubes. Vacuum tubes require barium oxide which can be obtained from sieving dolomite to get witherite")
+addParent("triumph:pack/industrial/aluminium")
+addParent("triumph:pack/industrial/sieve")
+addParent("triumph:pack/start/nickel")
+setRequiresParents()
+setPos(175,-30)
+
+
+criteria = addCriteria("Obtained circuit board", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:27>)
+
+setAnnounceToChat(false)
+setShowToast(false)

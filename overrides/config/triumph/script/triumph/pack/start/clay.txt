@@ -1,0 +1,12 @@
+setIcon(<minecraft:clay_ball>)
+setTitle("Clay")
+setDescription("Mine some clay")
+addParent("triumph:pack/start/root")
+setPos(35,-60)
+
+criteria = addCriteria("Mined clay", "triumph:player_harvest_block")
+criteria.setBlock(<ore:blockClay>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

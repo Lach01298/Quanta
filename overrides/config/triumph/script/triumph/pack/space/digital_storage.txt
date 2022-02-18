@@ -1,0 +1,19 @@
+setIcon(<refinedstorage:controller:1>)
+setTitle("Digital Storage")
+setDescription("Build a refined storage system")
+addParent("triumph:pack/space/iridium")
+setRequiresParents()
+setPos(175,30)
+
+criteria = addCriteria("Crafted controller", "triumph:player_crafted_item")
+criteria.setItem(<refinedstorage:controller>)
+
+criteria = addCriteria("Crafted grid", "triumph:player_crafted_item")
+criteria.setItem(<refinedstorage:grid>)
+
+criteria = addCriteria("Crafted disk drive", "triumph:player_crafted_item")
+criteria.setItem(<refinedstorage:disk_drive>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,16 @@
+setIcon(<advancedrocketry:rocketbuilder>)
+setTitle("Rocket Assembly Machine")
+setDescription("Craft a rocket assembly machine")
+addParent("triumph:pack/space/root")
+setRequiresParents()
+setPos(35,60)
+
+criteria = addCriteria("Crafted rocket assembly machine", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:rocketbuilder>)
+
+criteria = addCriteria("Completed Titanium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/titanium")
+
+
+setAnnounceToChat(false)
+setShowToast(false)

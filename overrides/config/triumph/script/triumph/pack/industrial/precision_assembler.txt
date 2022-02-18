@@ -1,0 +1,15 @@
+setIcon(<advancedrocketry:precisionassemblingmachine>)
+setTitle("Precision Assembler")
+setDescription("Craft a precision assembler")
+addParent("triumph:pack/industrial/chromium")
+addParent("triumph:pack/industrial/simple_circuit")
+addParent("triumph:pack/industrial/alloy_furnace")
+
+setRequiresParents()
+setPos(210, 0)
+
+criteria = addCriteria("Crafted precision assembler", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:precisionassemblingmachine>)
+
+setAnnounceToChat(false)
+setShowToast(false)

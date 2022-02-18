@@ -1,0 +1,285 @@
+{
+  imports: [
+    blocks.cave
+  ]
+  variables: {
+    CEILING_1: {
+      frequency: 0.03
+      range: [ -10, 10 ]
+    }
+    CEILING_2: {
+      frequency: 0.02
+      range: [ -10, 30 ]
+    }
+    CEILING_3: {
+      frequency: 0.03
+      range: [ 1, 5 ]
+    }
+    FLOOR_3: {
+      frequency: 0.03
+      range: [ -5, -1 ]
+    }
+    LAYER_0: [ 0, 35 ]
+    LAYER_1: [ 25, 60 ]
+    LAYER_2: [ 50, 85 ]
+    LAYER_3: [ 75, 256 ]
+    CELL(): {
+      type: Cellular
+      frequency: 0.005
+      returnType: CellValue
+      jitter: 0.45
+      perturb: true
+      perturbAmp: 20
+      perturbFreq: 0.02
+      threshold: @1
+      seed: @2
+      cache: true
+    }
+    CELL2(): {
+      type: Cellular
+      frequency: 0.008
+      returnType: CellValue
+      jitter: 0.45
+      perturb: true
+      perturbAmp: 20
+      perturbFreq: 0.02
+      threshold: @1
+      seed: @2
+      cache: true
+    }
+  }
+  dimensions: [ 120 ]
+  layers: [
+    #Layer 0: igneous Intrusive
+    {
+      state: $RED_GRANITE
+      height: $LAYER_0
+      ceiling: $CEILING_1
+      region: $CELL([-1,-0.25],1010)
+    }
+    {
+      state: $GABBRO
+      height: $LAYER_0
+      ceiling: $CEILING_1
+      region: $CELL([-0.25,0.25],1010)
+    }
+    {
+      state: $BLACK_GRANITE
+      height: $LAYER_0
+      ceiling: $CEILING_1
+      region: $CELL([0.25,1],1010)
+    }
+    # Layer 1: igneous
+    {
+      state: $RED_GRANITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([-1,-0.75],4696)
+    }
+    {
+      state: $BLACK_GRANITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([-0.75,-0.5],4696)
+    }
+    {
+      state: $GABBRO
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([-0.5,-0.25],4696)
+    }
+    {
+      state: $BASALT
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([-0.25,0],4696)
+    }
+    {
+      state: $KOMATIITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([0,0.25],4696)
+    }
+    {
+      state: $ANDESITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([0.25,0.5],4696)
+    }
+    {
+      state: $DACITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([0.5,0.75],4696)
+    }
+    {
+      state: $RHYOLITE
+      height: $LAYER_1
+      ceiling: $CEILING_2
+      region: $CELL([0.75,1],4696)
+    }
+    # Layer 2: igneous extrusive
+    {
+      state: $RHYOLITE
+      height: $LAYER_2
+      ceiling: $CEILING_1
+      region: $CELL([-1,-0.6],5638)
+    }
+    {
+      state: $DACITE
+      height: $LAYER_2
+      ceiling: $CEILING_1
+      region: $CELL([-0.6,-0.2],5638)
+    }
+    {
+      state: $BASALT
+      height: $LAYER_2
+      ceiling: $CEILING_1
+      region: $CELL([-0.2,0.2],5638)
+    }
+    {
+      state: $KOMATIITE
+      height: $LAYER_2
+      ceiling: $CEILING_1
+      region: $CELL([0.2,0.6],5638)
+    }
+    {
+      state: $ANDESITE
+      height: $LAYER_2
+      ceiling: $CEILING_1
+      region: $CELL([0.6,1],5638)
+    }
+    # Layer 3: sedimentary and igneous extrusive
+    {
+      state: $RHYOLITE
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([-1,-0.75],5638)
+    }
+    {
+      state: $DACITE
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([-0.75,-0.5],5638)
+    }
+    {
+      state: $SHALE
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([-0.5,-0.25],5638)
+    }
+    {
+      state: $BASALT
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([-0.25,0],5638)
+    }
+    {
+      state: sandstone
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([0,0.25],5638)
+    }
+    {
+      state: $KOMATIITE
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([0.25,0.5],5638)
+    }
+    {
+      state: $ANDESITE
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([0.5,0.75],5638)
+    }
+    {
+      state: red_sandstone
+      height: $LAYER_3
+      ceiling: $CEILING_1
+      region: $CELL([0.75,1],5638)
+    }
+  ]
+  clusters: [
+    # igneous intrusions
+    {
+      states: $RHYOLITE
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 120 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: $RED_GRANITE
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: $BLACK_GRANITE
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: $GABBRO
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.02
+      integrity: 1
+    }
+    {
+      states: $ANDESITE
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.04
+      integrity: 1
+    }
+    {
+      states: $BASALT
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.04
+      integrity: 1
+    }
+    {
+      states: $KOMATIITE
+      centerHeight: [ 0, 20 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.03
+      integrity: 1
+    }
+    {
+      states: $DACITE
+      centerHeight: [ 0, 10 ]
+      matchers: $NONIGNEOUS_ROCKS
+      radiusX: [ 30, 80 ]
+      radiusY: [ 40, 130 ]
+      radiusZ: [ 30, 80 ]
+      chance: 0.03
+      integrity: 1
+    }
+  ]
+}

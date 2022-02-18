@@ -1,0 +1,13 @@
+setIcon(<qmd:ore_leacher>)
+setTitle("Ore leacher")
+setDescription("Craft an ore leacher")
+addParent("triumph:pack/space/root")
+setRequiresParents()
+setPos(35,0)
+
+criteria = addCriteria("Crafted ore leacher", "triumph:player_crafted_item")
+criteria.setItem(<qmd:ore_leacher>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

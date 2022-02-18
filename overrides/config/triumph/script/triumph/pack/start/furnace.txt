@@ -1,0 +1,13 @@
+setIcon(<minecraft:furnace>)
+setTitle("Furnace")
+setDescription("Craft a furnace")
+addParent("triumph:pack/start/pickaxe_wood")
+setRequiresParents()
+setPos(70,-30)
+
+criteria = addCriteria("Crafted furnace", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:furnace>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

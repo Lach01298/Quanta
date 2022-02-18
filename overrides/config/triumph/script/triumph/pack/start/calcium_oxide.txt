@@ -1,0 +1,15 @@
+setIcon(<contenttweaker:dust_calcium_oxide>)
+setTitle("Lime")
+setDescription("Calcium oxide is a key ingredient for cement and concrete. It can be obtained by smashing limestone or chalk on a crushing table then smelting the resultant calcite")
+addParent("triumph:pack/start/crushing_table")
+setRequiresParents()
+setPos(140,-90)
+
+
+
+criteria = addCriteria("Obtained", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:dust_calcium_oxide>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

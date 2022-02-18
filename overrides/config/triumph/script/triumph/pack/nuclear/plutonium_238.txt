@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:plutonium>)
+setTitle("Plutonium 238")
+setDescription("Make some plutonium 238")
+addParent("triumph:pack/nuclear/tbu")
+setRequiresParents()
+setPos(175,60)
+
+criteria = addCriteria("Obtained plutonium 238", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotPlutonium238All>)
+
+setAnnounceToChat(false)
+setShowToast(false)

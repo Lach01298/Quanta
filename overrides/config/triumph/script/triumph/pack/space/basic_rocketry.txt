@@ -1,0 +1,33 @@
+setIcon(<advancedrocketry:bipropellantrocketmotor>)
+setTitle("Basic Rocketry")
+setDescription("Make a bipropellant rocket fueled with kerosene and liquid oxygen")
+addParent("triumph:pack/space/rocket_assembly_machine")
+addParent("triumph:pack/space/supercooler")
+addParent("triumph:pack/space/niobium")
+setRequiresParents()
+setPos(105,60)
+
+criteria = addCriteria("Completed Kerosene", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/kerosene")
+
+criteria = addCriteria("Crafted bipropellant rocket engine", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:bipropellantrocketmotor>)
+
+criteria = addCriteria("Crafted bipropellant fuel tank", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:bipropellantfueltank>)
+
+criteria = addCriteria("Crafted oxidizer fuel tank", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:oxidizerfueltank>)
+
+criteria = addCriteria("Crafted guidance computer", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:guidancecomputer>)
+
+criteria = addCriteria("Obtained liquid oxygen", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "liquid_oxygen"}>)
+
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+
+

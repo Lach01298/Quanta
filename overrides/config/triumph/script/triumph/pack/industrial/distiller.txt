@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersivetech")
+setIcon(<immersivetech:metal_multiblock>)
+setTitle("Distiller")
+setDescription("Make a distiller")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,120)
+
+criteria = addCriteria("Built distiller", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:Distiller")
+
+
+setAnnounceToChat(false)
+setShowToast(false)

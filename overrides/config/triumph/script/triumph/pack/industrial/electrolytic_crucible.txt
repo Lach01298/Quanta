@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersivetech")
+setIcon(<immersivetech:metal_multiblock1:6>)
+setTitle("Electrolytic Crucible Battery")
+setDescription("Make a electrolytic crucible battery")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,150)
+
+criteria = addCriteria("Built electrolytic crucible battery", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:electrolyticCrucibleBattery")
+
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:glass>)
+setTitle("Glass")
+setDescription("Make some glass")
+addParent("triumph:pack/start/alloy_kiln")
+addParent("triumph:pack/start/sodium_carbonate")
+addParent("triumph:pack/start/calcium_oxide")
+setRequiresParents()
+setPos(175,-30)
+
+
+
+criteria = addCriteria("Obtained glass", "minecraft:inventory_changed")
+criteria.addItem(<ore:blockGlass>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

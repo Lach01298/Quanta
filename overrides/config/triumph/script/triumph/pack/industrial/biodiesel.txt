@@ -1,0 +1,15 @@
+setIcon(<forge:bucketfilled,nbt:{FluidName: "biodiesel"}>)
+setTitle("Biodiesel")
+setDescription("Biodiesel is a renewable fuel for the diesel generator")
+addParent("triumph:pack/industrial/fermenter")
+addParent("triumph:pack/industrial/squeezer")
+addParent("triumph:pack/industrial/refinery")
+addParent("triumph:pack/industrial/distiller")
+setRequiresParents()
+setPos(70,210)
+
+criteria = addCriteria("Obtained biodiesel", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "biodiesel"}>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:3>)
+setTitle("Thorium")
+setDescription("Crushing thorium ore gives monaziter. Mixing it with sodium hydroxide solution and hydrochloric acid in an ore leacher gives thorium dioxide. This is then reacted with hydrofluoric acid to make thorium tetrafluoride. This then reduced with calcium to make molten thorium")
+addParent("triumph:pack/space/ore_leacher")
+setRequiresParents()
+setPos(70,-60)
+
+
+criteria = addCriteria("Obtained thorium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotThorium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

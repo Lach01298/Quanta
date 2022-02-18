@@ -1,0 +1,17 @@
+setIcon(<nuclearcraft:separator>)
+setTitle("Nuclear Age")
+setDescription("Craft a separator")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Completed Niobium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/niobium")
+
+criteria = addCriteria("Crafted separator", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:separator>)
+
+setPos(0,0)
+
+setAnnounceToChat(false)
+setShowToast(false)

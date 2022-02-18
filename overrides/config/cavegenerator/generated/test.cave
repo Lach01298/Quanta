@@ -1,0 +1,32 @@
+{
+  clusters: [
+    {
+      matchers: [
+        minecraft:stone
+        minecraft:dirt
+        minecraft:air
+        minecraft:grass
+      ]
+      states: [ "minecraft:redstone_block" ]
+      radiusX: [
+        40
+        60
+      ]
+      radiusY: [
+        80
+        120
+      ]
+      radiusZ: [
+        40
+        60
+      ]
+      centerHeight: [
+        50
+        70
+      ]
+      chance: 0.1
+    }
+  ]
+  # Whether the preset is enabled globally.
+  enabled: false
+}

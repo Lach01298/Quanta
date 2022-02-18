@@ -1,0 +1,12 @@
+setIcon(<qmd:ingot:6>)
+setTitle("Hafnium")
+setDescription("Zircon is a byproduct of ore leaching monozite. This is then separated into zirconium and hafnium oxides. This is then reacted with coke and chlorine to make hafnium tetrachloride, which is finally reduced with magnesium to make molten hafnium")
+addParent("triumph:pack/nuclear/root")
+setRequiresParents()
+setPos(35,-30)
+
+
+criteria = addCriteria("Obtained hafnium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotHafnium>)
+setAnnounceToChat(false)
+setShowToast(false)

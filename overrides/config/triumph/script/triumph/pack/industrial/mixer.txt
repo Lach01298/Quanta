@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:15>)
+setTitle("Mixer")
+setDescription("Make a mixer")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,180)
+
+criteria = addCriteria("Built Mixer", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Mixer")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

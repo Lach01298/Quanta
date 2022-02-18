@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:voltaic_pile_basic>)
+setTitle("Basic Voltaic Pile")
+setDescription("Craft an basic voltaic pile")
+addParent("triumph:pack/industrial/sulfuric_acid")
+addParent("triumph:pack/start/lead")
+setRequiresParents()
+setPos(140,60)
+
+criteria = addCriteria("Crafted basic voltaic pile", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:voltaic_pile_basic>)
+
+setAnnounceToChat(false)
+setShowToast(false)

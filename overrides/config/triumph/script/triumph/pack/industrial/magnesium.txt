@@ -1,0 +1,14 @@
+setIcon(<nuclearcraft:ingot:7>)
+setTitle("Magnesium")
+setDescription("smelting dolomite gives magnesium oxide. This can then be smelted in an electric arc furnace with silicon and calcium oxide to create magnesium")
+addParent("triumph:pack/industrial/silicon")
+setRequiresParents()
+setPos(175,30)
+
+
+
+criteria = addCriteria("Obtained magnesium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotMagnesium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

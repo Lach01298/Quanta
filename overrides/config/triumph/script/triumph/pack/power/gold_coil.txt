@@ -1,0 +1,20 @@
+setIcon(<nuclearcraft:turbine_dynamo_coil:3>)
+setTitle("Copper Dynamo Coil")
+setDescription("Make a Copper Turbine Dynamo Coil")
+addParent("triumph:pack/power/turbine")
+
+
+setPos(140,60)
+
+criteria = addCriteria("Completed Manganese", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/manganese")
+
+criteria = addCriteria("Completed Gold", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/gold")
+
+criteria = addCriteria("Crafted gold dynamo coil", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:turbine_dynamo_coil:3>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

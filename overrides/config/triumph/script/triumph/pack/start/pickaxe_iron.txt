@@ -1,0 +1,12 @@
+setIcon(<minecraft:iron_pickaxe>)
+setTitle("Iron Pickaxe")
+setDescription("Craft an iron pick")
+addParent("triumph:pack/start/iron")
+setRequiresParents()
+setPos(140,0)
+
+criteria = addCriteria("Crafted iron pickaxe", "triumph:player_crafted_item")
+criteria.setItem(<minecraft:iron_pickaxe>)
+
+setAnnounceToChat(false)
+setShowToast(false)

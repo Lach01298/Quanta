@@ -1,0 +1,18 @@
+setIcon(<nuclearcraft:ingot:8>)
+setTitle("Graphite Ingot")
+setDescription("Sieving granite or rhyolite gives mica. This can be crushed to give some graphite dust. The dust then can be combined with bitumen in an alloy furnace to make a graphite ingot")
+addParent("triumph:pack/industrial/alloy_furnace")
+addParent("triumph:pack/industrial/oil")
+addParent("triumph:pack/industrial/distilation_tower")
+addParent("triumph:pack/industrial/sieve")
+addParent("triumph:pack/industrial/crusher")
+setRequiresParents()
+setPos(70,0)
+
+
+
+criteria = addCriteria("Obtained graphite ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotGraphite>)
+
+setAnnounceToChat(false)
+setShowToast(false)

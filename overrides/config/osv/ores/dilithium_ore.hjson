@@ -1,0 +1,12 @@
+name: dilithium_ore
+mod: libvulpes
+block: {
+  location: libvulpes:ore0
+
+}
+
+texture: {
+  original: libvulpes:blocks/oredilithium
+}
+
+

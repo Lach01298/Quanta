@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersivetech")
+setIcon(<immersivetech:metal_multiblock1:8>)
+setTitle("Melting Crucible")
+setDescription("Make a melting crucible")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,30)
+
+criteria = addCriteria("Built melting crucible", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:meltingCrucible")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

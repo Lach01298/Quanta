@@ -1,0 +1,15 @@
+setIcon(<nuclearcraft:gem:6>)
+setTitle("Raw Silicon")
+setDescription("Quartz dust is smelted in an electric arc furnace with coke dust to produce silicon.")
+addParent("triumph:pack/industrial/arc_furnace")
+addParent("triumph:pack/industrial/sieve")
+setRequiresParents()
+setPos(140,30)
+
+
+
+criteria = addCriteria("Obtained silicon", "minecraft:inventory_changed")
+criteria.addItem(<ore:itemSilicon>)
+
+setAnnounceToChat(false)
+setShowToast(false)

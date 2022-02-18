@@ -1,0 +1,70 @@
+name: emerald_ore
+mod: minecraft
+block: {
+  location: emerald_ore
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: emerald
+    count: [ 1, 1 ]
+    xp: [ 3, 7 ]
+    chance: 1
+  }
+]
+texture: {
+  original: blocks/emerald_ore
+}
+recipe: {
+  result: emerald
+  xp: 1
+  quantity: 1
+}
+gen: [
+  {
+    dimensions: [0]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6
+    
+  }
+  {
+    dimensions: [110]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6
+    
+  }
+  {
+    dimensions: [120]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6
+    
+  }
+  {
+    dimensions: [131]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6 
+  }
+  {
+    dimensions: [140]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6 
+  }
+  {
+    dimensions: [151]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6 
+  }
+  {
+    dimensions: [152]
+	height: [ 0, 32 ]
+    size: 3
+    count: 6 
+  }
+]

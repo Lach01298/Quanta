@@ -1,0 +1,15 @@
+setIcon(<qmd:semiconductor:3>)
+setTitle("Silicon Wafer")
+setDescription("Silicon is melted then formed into a boule in a crystallizer. This boule is then cut into wafers on a cutting machine")
+addParent("triumph:pack/industrial/silicon")
+addParent("triumph:pack/industrial/cutting machine")
+addParent("triumph:pack/industrial/crystallizer")
+
+setRequiresParents()
+setPos(280,0)
+
+criteria = addCriteria("Obtained silicon wafer", "minecraft:inventory_changed")
+criteria.addItem(<ore:siliconWafer>)
+
+setAnnounceToChat(false)
+setShowToast(false)

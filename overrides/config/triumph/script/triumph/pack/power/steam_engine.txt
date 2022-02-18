@@ -1,0 +1,23 @@
+setIcon(<magneticraft:steam_engine>)
+setTitle("Steam Engine")
+setDescription("Build a steam engine and small boiler. It can be fueled with solid fuels like coal or coke. Output 250 RF/t")
+addParent("triumph:pack/power/root")
+
+
+setPos(35,0)
+
+criteria = addCriteria("Crafted small steam engine", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:steam_engine>)
+
+criteria = addCriteria("Crafted boiler", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:steam_boiler>)
+
+criteria = addCriteria("Crafted combustion camber", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:combustion_chamber>)
+
+criteria = addCriteria("Crafted electric engine", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:electric_engine>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

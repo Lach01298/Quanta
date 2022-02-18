@@ -1,0 +1,13 @@
+setIcon(<forge:bucketfilled,nbt:{FluidName: "natural_gas"}>)
+setTitle("Natural Gas")
+setDescription("Natural gas is extracted from the ground using a pumpjack")
+addParent("triumph:pack/industrial/pumpjack")
+
+setRequiresParents()
+setPos(70,-150)
+
+criteria = addCriteria("Obtained natural gas", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "natural_gas"}>)
+
+setAnnounceToChat(false)
+setShowToast(false)

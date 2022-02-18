@@ -1,0 +1,15 @@
+setIcon(<minecraft:redstone>)
+setTitle("Redstone")
+setDescription("Mine some redstone")
+addParent("triumph:pack/start/pickaxe_iron")
+setRequiresParents()
+setPos(175,120)
+
+
+criteria = addCriteria("Mined redstone", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreRedstone>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+

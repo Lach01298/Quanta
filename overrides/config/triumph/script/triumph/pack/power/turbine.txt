@@ -1,0 +1,19 @@
+setIcon(<nuclearcraft:turbine_controller>)
+setTitle("Turbine")
+setDescription("Make a Turbine. Uses high or low pressure steam to make power.")
+addParent("triumph:pack/power/boiler")
+addParent("triumph:pack/power/solar_tower")
+
+
+
+setPos(105,30)
+
+criteria = addCriteria("Completed Manganese", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/manganese")
+
+criteria = addCriteria("Crafted turbine controller", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:turbine_controller>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

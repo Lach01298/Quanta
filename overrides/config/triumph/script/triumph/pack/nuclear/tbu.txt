@@ -1,0 +1,16 @@
+setIcon(<nuclearcraft:pellet_thorium>)
+setTitle("TBU")
+setDescription("Irradiate thorium to make TBU")
+addParent("triumph:pack/nuclear/solid_fission")
+addParent("triumph:pack/nuclear/irradiator")
+setRequiresParents()
+setPos(140,30)
+
+criteria = addCriteria("Completed Thorium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/thorium")
+
+criteria = addCriteria("Obtained TBU", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTBU>)
+
+setAnnounceToChat(false)
+setShowToast(false)

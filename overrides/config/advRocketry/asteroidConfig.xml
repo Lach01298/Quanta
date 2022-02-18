@@ -1,0 +1,50 @@
+<Asteroids>
+	<asteroid name="Carbonaceous Asteroid" distance="90" mass="200" massVariability="1.0" minLevel="0" probability="15" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="undergroundbiomes:igneous_cobble 5" chance="50" />
+		<ore itemStack="undergroundbiomes:sedimentary_stone 5" chance="30" />
+		<ore itemStack="nuclearcraft:ingot_block 8" chance="30" />
+		<ore itemStack="immersivepetroleum:material" chance="20" />
+		<ore itemStack="minecraft:diamond" chance="1" />
+	</asteroid>
+	
+	<asteroid name="Silicaceous Asteroid" distance="90" mass="200" massVariability="1.0" minLevel="0" probability="30" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="undergroundbiomes:igneous_cobble 1" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 3" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 5" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 6" chance="50" />
+		<ore itemStack="immersiveengineering:ore 1" chance="20" />
+		<ore itemStack="nuclearcraft:ore 1" chance="15" />
+		<ore itemStack="libvulpes:ore0 8" chance="15" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+		<ore itemStack="nuclearcraft:ore 3" chance="7" />
+		<ore itemStack="nuclearcraft:ore 4" chance="7" />
+		<ore itemStack="minecraft:emerald" chance="3" />
+	</asteroid>
+	
+	<asteroid name="Sulfurous Asteroid" distance="90" mass="200" massVariability="1.0" minLevel="0" probability="30" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="undergroundbiomes:igneous_cobble 1" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 3" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 5" chance="50" />
+		<ore itemStack="undergroundbiomes:igneous_cobble 6" chance="50" />
+		<ore itemStack="nuclearcraft:ore" chance="15" />
+		<ore itemStack="nuclearcraft:ore 2" chance="15" />
+		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="minecraft:iron_ore" chance="10" />
+	</asteroid>
+	
+	<asteroid name="Metallic Asteroid" distance="100" mass="200" massVariability="1.0" minLevel="0" probability="10" richness="1.0" richnessVariability="0.0">
+			<ore itemStack="minecraft:iron_ore" chance="50" />
+			<ore itemStack="immersiveengineering:ore 4" chance="30" />
+			<ore itemStack="immersiveengineering:ore 3" chance="10" />
+			<ore itemStack="minecraft:gold_ore" chance="10" />
+			<ore itemStack="libvulpes:ore0 10" chance="2" />
+	</asteroid>
+	
+	<asteroid name="Comet" distance="150" mass="200" massVariability="1.0" minLevel="0" probability="15" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="minecraft:packed_ice" chance="50" />
+		<ore itemStack="contenttweaker:co2_ice" chance="20" />
+		<ore itemStack="contenttweaker:co_ice" chance="20" />
+		<ore itemStack="contenttweaker:ammonia_ice" chance="10" />
+	</asteroid>
+	
+</Asteroids>

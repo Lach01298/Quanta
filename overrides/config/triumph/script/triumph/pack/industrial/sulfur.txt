@@ -1,0 +1,14 @@
+setIcon(<nuclearcraft:gem_dust:6>)
+setTitle("Sulfur")
+setDescription("Sulfur is a by product of copper and lead crushing")
+addParent("triumph:pack/industrial/crusher")
+setRequiresParents()
+setPos(70,60)
+
+
+
+criteria = addCriteria("Obtained sulfur", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustSulfur>)
+
+setAnnounceToChat(false)
+setShowToast(false)

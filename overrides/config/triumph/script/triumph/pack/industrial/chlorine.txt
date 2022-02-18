@@ -1,0 +1,13 @@
+setIcon(<forge:bucketfilled,nbt:{FluidName: "chlorine"}>)
+setTitle("Chlorine")
+setDescription("Chlorine is made by electrolysis sodium chloride solution which can either come from mixing water with salt or be pumped from a pumpjack in an ocean")
+addParent("triumph:pack/industrial/electrolytic_crucible")
+
+setRequiresParents()
+setPos(70,90)
+
+criteria = addCriteria("Obtained chlorine", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "chlorine"}>)
+
+setAnnounceToChat(false)
+setShowToast(false)

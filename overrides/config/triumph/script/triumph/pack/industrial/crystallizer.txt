@@ -1,0 +1,17 @@
+setIcon(<advancedrocketry:crystallizer>)
+setTitle("Crystallizer")
+setDescription("Make a crystallizer")
+addParent("triumph:pack/industrial/chromium")
+addParent("triumph:pack/industrial/simple_circuit")
+addParent("triumph:pack/industrial/alloy_furnace")
+
+setRequiresParents()
+setPos(210,30)
+
+
+criteria = addCriteria("Crafted crystallizer", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:crystallizer>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

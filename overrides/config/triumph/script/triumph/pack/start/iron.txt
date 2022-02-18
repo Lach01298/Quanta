@@ -1,0 +1,14 @@
+setIcon(<minecraft:iron_ingot>)
+setTitle("Iron")
+setDescription("Smelt iron ore in a furnace")
+addParent("triumph:pack/start/furnace")
+setRequiresParents()
+setPos(105,0)
+
+
+criteria = addCriteria("Obtained iron ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotIron>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

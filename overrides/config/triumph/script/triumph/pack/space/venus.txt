@@ -1,0 +1,13 @@
+setIcon(<undergroundbiomes:igneous_stone:5>)
+setTitle("Venus")
+setDescription("Land on Venus")
+addParent("triumph:pack/space/nuclear_rocketry")
+addParent("triumph:pack/space/space_suit")
+setRequiresParents()
+setPos(210,90)
+
+criteria = addCriteria("Landed on Venus", "minecraft:changed_dimension")
+criteria.setDimensionDestination(120)
+
+setAnnounceToChat(false)
+setShowToast(false)

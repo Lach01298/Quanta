@@ -1,0 +1,608 @@
+{
+  dimensions: [ 131 ]
+  layers: [
+    #Layer 0: igneous Intrusive
+    {
+      state: undergroundbiomes:igneous_stone
+      height: [
+        0
+        25
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.25 ]
+        seed: 10
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:4
+      height: [
+        0
+        25
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.25, 0.25 ]
+        seed: 10
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:1
+      height: [
+        0
+        25
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.25, 1 ]
+        seed: 10
+        cache: true
+      }
+    }
+    # Layer 1: igneous
+    {
+      state: undergroundbiomes:igneous_stone
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.75 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:1
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.75, -0.5 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:4
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.5, -0.25 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:2
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.25, 0 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:3
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0, 0.25 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:5
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.25, 0.5 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:6
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.5, 0.75 ]
+        seed: 696
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:7
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          -10
+          10
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.75, 1 ]
+        seed: 696
+        cache: true
+      }
+    }
+    # Layer 2: igneous
+    {
+      state: undergroundbiomes:igneous_stone
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.75 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:1
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.75, -0.5 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:4
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.5, -0.25 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:2
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.25, 0 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:3
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0, 0.25 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:5
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.25, 0.5 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:6
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.5, 0.75 ]
+        seed: 845
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:7
+      height: [
+        40
+        75
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.75, 1 ]
+        seed: 845
+        cache: true
+      }
+    }
+    # Layer 3: igneous extrusive
+    {
+      state: undergroundbiomes:igneous_stone:2
+      height: [
+        65
+        256
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -1, -0.5 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:3
+      height: [
+        65
+        256
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ -0.5, 0 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:5
+      height: [
+        65
+        256
+      ]
+      ceiling: {
+        frequency: 0.02
+        range: [
+          -10
+          30
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0, 0.5 ]
+        seed: 638
+        cache: true
+      }
+    }
+    {
+      state: undergroundbiomes:igneous_stone:7
+      height: [
+        15
+        50
+      ]
+      ceiling: {
+        frequency: 0.03
+        range: [
+          1
+          5
+        ]
+      }
+      region: {
+        type: Cellular
+        frequency: 0.005
+        returnType: CellValue
+        jitter: 0.45
+        perturb: true
+        perturbAmp: 20
+        perturbFreq: 0.02
+        threshold: [ 0.5, 1 ]
+        seed: 638
+        cache: true
+      }
+    }
+  ]
+  clusters: []
+}

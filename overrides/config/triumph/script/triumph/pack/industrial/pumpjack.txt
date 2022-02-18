@@ -1,0 +1,12 @@
+Parser.addRequiredMod("immersivepetroleum")
+setIcon(<immersivepetroleum:metal_multiblock:2>)
+setTitle("Pumpjack")
+setDescription("Make a pumpjack. It can extract fluids from certain chunks.(Immersive petroleum advancement trigger broken)")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,-120)
+
+
+setAnnounceToChat(false)
+setShowToast(false)
+

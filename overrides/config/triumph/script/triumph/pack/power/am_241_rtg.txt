@@ -1,0 +1,17 @@
+setIcon(<nuclearcraft:rtg_americium>)
+setTitle("Americium RTG")
+setDescription("Make a americium 241 radioisotope thermoelectric generator. Output 10 RF/t")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(140,-60)
+
+criteria = addCriteria("Completed Americium 241", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/americium_241")
+
+criteria = addCriteria("Crafted americium RTG", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:rtg_americium>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

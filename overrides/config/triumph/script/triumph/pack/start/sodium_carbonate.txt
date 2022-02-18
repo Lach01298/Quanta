@@ -1,0 +1,15 @@
+setIcon(<contenttweaker:dust_sodium_carbonate>)
+setTitle("Soda ash")
+setDescription("Sodium carbonate is a key ingredient for glass. It can be obtained by smelting kelp")
+addParent("triumph:pack/start/furnace")
+setRequiresParents()
+setPos(105,-30)
+
+
+
+criteria = addCriteria("Obtained sodium carbonate", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:dust_sodium_carbonate>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

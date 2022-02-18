@@ -1,0 +1,27 @@
+setIcon(<advancedrocketry:spacehelmet>)
+setTitle("Rocket Assembly Machine")
+setDescription("Craft a rocket assembly machine")
+addParent("triumph:pack/space/root")
+setRequiresParents()
+setPos(35,90)
+
+criteria = addCriteria("Obtained space suit helmet", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spacehelmet>)
+
+criteria = addCriteria("Obtained space suit chest piece", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spacechestplate>)
+
+criteria = addCriteria("Obtained space suit leggings", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spaceleggings>)
+
+criteria = addCriteria("Obtained space suit boots", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spaceboots>)
+
+criteria = addCriteria("Obtained low pressure tank", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:pressuretank>)
+
+criteria = addCriteria("Obtained suit workstation", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:suitworkstation>)
+
+setAnnounceToChat(false)
+setShowToast(false)

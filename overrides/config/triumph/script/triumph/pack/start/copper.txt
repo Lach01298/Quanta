@@ -1,0 +1,15 @@
+setIcon(<nuclearcraft:ingot>)
+setTitle("Copper")
+setDescription("Smelt copper ore in a furnace")
+addParent("triumph:pack/start/furnace")
+setRequiresParents()
+setPos(105,30)
+
+
+
+criteria = addCriteria("Obtained copper ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotCopper>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

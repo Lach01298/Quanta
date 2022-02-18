@@ -1,0 +1,63 @@
+name: silver_ore
+mod: immersiveengineering
+block: {
+  location: immersiveengineering:ore:3
+  hardness: 3
+  level: 2
+}
+loot: [
+  {
+    item: immersiveengineering:ore:3
+    count: [ 1, 1 ]
+    xp: [ 0, 0 ]
+    chance: 1
+  }
+]
+texture: {
+  original: immersiveengineering:blocks/ore_silver
+}
+
+gen: [
+  {
+    dimensions: [0]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [110]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [120]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [131]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [140]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [151]
+	height: [ 8, 40 ]
+    size: 8
+    count: 3
+  }
+  {
+    dimensions: [152]
+	height: [ 0, 40 ]
+    size: 8
+    count: 3
+  }
+]

@@ -1,0 +1,155 @@
+{
+  GRANITE: stone:1
+  DIORITE: stone:3
+  ANDESITE: stone:5
+  COARSE_DIRT: dirt:1
+  PODZOL: dirt:2
+  RED_GRANITE: undergroundbiomes:igneous_stone
+  BLACK_GRANITE: undergroundbiomes:igneous_stone:1
+  RHYOLITE: undergroundbiomes:igneous_stone:2
+  ANDESITE: undergroundbiomes:igneous_stone:3
+  GABBRO: undergroundbiomes:igneous_stone:4
+  BASALT: undergroundbiomes:igneous_stone:5
+  KOMATIITE: undergroundbiomes:igneous_stone:6
+  DACITE: undergroundbiomes:igneous_stone:7
+  GNEISS: undergroundbiomes:metamorphic_stone
+  ECLOGITE: undergroundbiomes:metamorphic_stone:1
+  MARBLE: undergroundbiomes:metamorphic_stone:2
+  QUARTZITE: undergroundbiomes:metamorphic_stone:3
+  BLUE_SCHIST: undergroundbiomes:metamorphic_stone:4
+  GREEN_SCHIST: undergroundbiomes:metamorphic_stone:5
+  SOAPSTONE: undergroundbiomes:metamorphic_stone:6
+  MIGMATITE: undergroundbiomes:metamorphic_stone:7
+  LIMESTONE: undergroundbiomes:sedimentary_stone
+  CHALK: undergroundbiomes:sedimentary_stone:1
+  SHALE: undergroundbiomes:sedimentary_stone:2
+  SILTSTONE: undergroundbiomes:sedimentary_stone:3
+  LIGNITE: undergroundbiomes:sedimentary_stone:4
+  DOLOMITE: undergroundbiomes:sedimentary_stone:5
+  GREYWACKE: undergroundbiomes:sedimentary_stone:6
+  CHERT: undergroundbiomes:sedimentary_stone:7
+  DIORITE: minecraft:stone:3
+  SEDIMETARY_ROCKS: [
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    sandstone
+    red_sandstone
+  ]
+  ROCKS: [
+    undergroundbiomes:igneous_stone
+    undergroundbiomes:igneous_stone:1
+    undergroundbiomes:igneous_stone:2
+    undergroundbiomes:igneous_stone:3
+    undergroundbiomes:igneous_stone:4
+    undergroundbiomes:igneous_stone:5
+    undergroundbiomes:igneous_stone:6
+    undergroundbiomes:igneous_stone:7
+    undergroundbiomes:metamorphic_stone
+    undergroundbiomes:metamorphic_stone:1
+    undergroundbiomes:metamorphic_stone:2
+    undergroundbiomes:metamorphic_stone:3
+    undergroundbiomes:metamorphic_stone:4
+    undergroundbiomes:metamorphic_stone:5
+    undergroundbiomes:metamorphic_stone:6
+    undergroundbiomes:metamorphic_stone:7
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    sandstone
+    red_sandstone
+  ]
+  NONIGNEOUS_ROCKS: [
+    undergroundbiomes:metamorphic_stone
+    undergroundbiomes:metamorphic_stone:1
+    undergroundbiomes:metamorphic_stone:2
+    undergroundbiomes:metamorphic_stone:3
+    undergroundbiomes:metamorphic_stone:4
+    undergroundbiomes:metamorphic_stone:5
+    undergroundbiomes:metamorphic_stone:6
+    undergroundbiomes:metamorphic_stone:7
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    sandstone
+    red_sandstone
+  ]
+  CAVE_ROCKS: [
+    undergroundbiomes:igneous_stone:2
+    undergroundbiomes:igneous_stone:3
+    undergroundbiomes:igneous_stone:5
+    undergroundbiomes:igneous_stone:6
+    undergroundbiomes:igneous_stone:7
+    undergroundbiomes:metamorphic_stone
+    undergroundbiomes:metamorphic_stone:1
+    undergroundbiomes:metamorphic_stone:2
+    undergroundbiomes:metamorphic_stone:3
+    undergroundbiomes:metamorphic_stone:4
+    undergroundbiomes:metamorphic_stone:5
+    undergroundbiomes:metamorphic_stone:6
+    undergroundbiomes:metamorphic_stone:7
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    sandstone
+    red_sandstone
+  ]
+  REPLACEABLE_BLOCKS: [
+    undergroundbiomes:igneous_stone
+    undergroundbiomes:igneous_stone:1
+    undergroundbiomes:igneous_stone:2
+    undergroundbiomes:igneous_stone:3
+    undergroundbiomes:igneous_stone:4
+    undergroundbiomes:igneous_stone:5
+    undergroundbiomes:igneous_stone:6
+    undergroundbiomes:igneous_stone:7
+    undergroundbiomes:metamorphic_stone
+    undergroundbiomes:metamorphic_stone:1
+    undergroundbiomes:metamorphic_stone:2
+    undergroundbiomes:metamorphic_stone:3
+    undergroundbiomes:metamorphic_stone:4
+    undergroundbiomes:metamorphic_stone:5
+    undergroundbiomes:metamorphic_stone:6
+    undergroundbiomes:metamorphic_stone:7
+    undergroundbiomes:sedimentary_stone
+    undergroundbiomes:sedimentary_stone:1
+    undergroundbiomes:sedimentary_stone:2
+    undergroundbiomes:sedimentary_stone:3
+    undergroundbiomes:sedimentary_stone:4
+    undergroundbiomes:sedimentary_stone:5
+    undergroundbiomes:sedimentary_stone:6
+    undergroundbiomes:sedimentary_stone:7
+    sandstone
+    red_sandstone
+    dirt
+    dirt:1
+    dirt:2
+    mycelium
+    gravel
+    sand
+    sand:1
+    hardened_clay
+    stone
+    grass
+  ]
+}

@@ -1,0 +1,18 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:stone_decoration>)
+setTitle("Coke Oven")
+setDescription("Make a coke oven")
+addParent("triumph:pack/start/iron")
+addParent("triumph:pack/start/clay")
+addParent("triumph:pack/start/calcium_oxide")
+setRequiresParents()
+
+setPos(175,-90)
+
+
+criteria = addCriteria("Built coke oven", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:CokeOven")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

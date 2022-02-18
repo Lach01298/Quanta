@@ -1,0 +1,16 @@
+setIcon(<immersiveengineering:wooden_device1:1>)
+setTitle("Windmill")
+setDescription("Make a windmill. Output 35 RF/t")
+addParent("triumph:pack/power/root")
+
+
+setRequiresParents()
+setPos(35,-30)
+
+
+criteria = addCriteria("Crafted windmill", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:wooden_device1:1>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

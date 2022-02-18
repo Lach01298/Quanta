@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:californium:15>)
+setTitle("Californium 252")
+setDescription("Make some californium 252")
+addParent("triumph:pack/nuclear/plutonium_239")
+setRequiresParents()
+setPos(175,0)
+
+criteria = addCriteria("Obtained californium 252", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotCalifornium252All>)
+
+setAnnounceToChat(false)
+setShowToast(false)

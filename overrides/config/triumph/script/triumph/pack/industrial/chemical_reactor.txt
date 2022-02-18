@@ -1,0 +1,16 @@
+setIcon(<modularmachinery:itemblueprint>)
+setTitle("Chemical Reactor")
+setDescription("Craft a large chemical reactor")
+addParent("triumph:pack/industrial/chromium")
+addParent("triumph:pack/industrial/simple_circuit")
+addParent("triumph:pack/industrial/alloy_furnace")
+addParent("triumph:pack/industrial/platinum")
+
+setRequiresParents()
+setPos(210,-30)
+
+criteria = addCriteria("Crafted large chemical reactor", "triumph:player_crafted_item")
+criteria.setItem(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:large_chemical_reactor"}))
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,15 @@
+setIcon(<qmd:linear_accelerator_controller>)
+setTitle("Linear Accelerator")
+setDescription("Build a linear accelerator")
+addParent("triumph:pack/nuclear/n_doped_silicon")
+setRequiresParents()
+setPos(175,-30)
+
+
+criteria = addCriteria("Crafted linear accelerator controller", "triumph:player_crafted_item")
+criteria.setItem(<qmd:linear_accelerator_controller>)
+criteria = addCriteria("Crafted accelerator ion source", "triumph:player_crafted_item")
+criteria.setItem(<qmd:accelerator_source>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,57 @@
+name: tin_ore
+mod: nuclearcraft
+block: {
+  location: nuclearcraft:ore:1
+  hardness: 3
+  level: 1
+}
+
+texture: {
+  shade: false
+  original: nuclearcraft:blocks/ore/tin
+}
+
+gen: [
+  {
+    dimensions: [0]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [110]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [120]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [131]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [140]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [151]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+  {
+    dimensions: [152]
+	height: [ 0, 40 ]
+    size: 8
+    count: 9
+  }
+]

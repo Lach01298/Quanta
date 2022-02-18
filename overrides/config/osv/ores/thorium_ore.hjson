@@ -1,0 +1,57 @@
+name: thorium_ore
+mod: nuclearcraft
+block: {
+  location: nuclearcraft:ore:3
+  hardness: 3
+  level: 2
+}
+
+texture: {
+  shade: false
+  original: nuclearcraft:blocks/ore/thorium
+}
+
+gen: [
+  {
+    dimensions: [0]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [110]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [120]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [131]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [140]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [151]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 32 ]
+    size: 6
+    count: 6
+  }
+]

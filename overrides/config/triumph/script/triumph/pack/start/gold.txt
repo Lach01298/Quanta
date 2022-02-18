@@ -1,0 +1,14 @@
+setIcon(<minecraft:gold_ingot>)
+setTitle("Gold")
+setDescription("Smelt gold ore in a furnace")
+addParent("triumph:pack/start/pickaxe_iron")
+setRequiresParents()
+setPos(175,0)
+
+
+criteria = addCriteria("Obtained gold ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotGold>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

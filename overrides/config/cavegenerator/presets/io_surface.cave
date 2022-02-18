@@ -1,0 +1,54 @@
+{
+  variables: {
+    CELL(): {
+      type: Cellular
+      frequency: 0.005
+      returnType: CellValue
+      jitter: 0.45
+      perturb: true
+      perturbAmp: 20
+      perturbFreq: 0.02
+      threshold: @1
+      seed: @2
+      cache: true
+    }
+  }
+  enabled: true
+  dimensions: [ 151 ]
+  caverns: [
+    {
+      height: [ 50, 80 ]
+      generators: [
+        {
+          threshold: [ -1, 0 ]
+          frequency: 0.0143
+          stretch: 0.5
+        }
+      ]
+      replaceableBlocks: [ "contenttweaker:sulfur_crust" ]
+      caveBlocks: [
+        {
+          states: contenttweaker:orange_sulfur_crust
+          height: [ 50, 80 ]
+        }
+      ]
+    }
+    {
+      height: [ 50, 80 ]
+      generators: [
+        {
+          threshold: [ -1, 0 ]
+          frequency: 0.0143
+          stretch: 0.5
+        }
+      ]
+      replaceableBlocks: [ "contenttweaker:sulfur_crust" ]
+      caveBlocks: [
+        {
+          states: contenttweaker:white_sulfur_crust
+          height: [ 50, 80 ]
+        }
+      ]
+    }
+  ]
+}

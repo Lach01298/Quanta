@@ -1,0 +1,13 @@
+setIcon(<qmd:target_chamber_controller>)
+setTitle("Target Chamber")
+setDescription("Build a target chamber")
+addParent("triumph:pack/nuclear/n_doped_silicon")
+setRequiresParents()
+setPos(175,-60)
+
+
+criteria = addCriteria("Crafted target chamber controller", "triumph:player_crafted_item")
+criteria.setItem(<qmd:target_chamber_controller>)
+
+setAnnounceToChat(false)
+setShowToast(false)

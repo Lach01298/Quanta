@@ -1,0 +1,84 @@
+{
+  enabled: true
+  dimensions: [ 162 ]
+  replaceableBlocks: [ "contenttweaker:dirty_ice", "contenttweaker:tholin_soil", "contenttweaker:tholin_sand" ]
+  caveBlocks: [
+    {
+      states: [ "nuclearcraft:fluid_ice" ]
+      height: [ 0, 20 ]
+    }
+  ]
+  tunnels: [
+    {
+      height: [ 8, 128 ]
+      resolution: 4
+      distance: 0
+      systemChance: 0.25
+      chance: 0.142
+      systemDensity: 4
+      noiseYReduction: true
+      resizeBranches: true
+      dYaw: {
+        startVal: 0
+        factor: 0.75
+        randFactor: 4
+        exponent: 1
+      }
+      dPitch: {
+        startVal: 0
+        factor: 0.9
+        randFactor: 2
+        exponent: 1
+      }
+      scale: {
+        startVal: 0
+        startValRandFactor: 1
+        factor: 1
+        randFactor: 0
+        exponent: 1
+      }
+      stretch: {
+        startVal: 1
+        factor: 1
+        randFactor: 0
+        exponent: 1
+      }
+      yaw: {
+        startVal: 0
+        startValRandFactor: 1
+      }
+      pitch: {
+        startVal: 0
+        startValRandFactor: 0.25
+      }
+      rooms: {
+        scale: 6
+        stretch: 0.5
+        chance: 0.3
+      }
+      count: 15
+    }
+  ]
+  clusters: [
+    {
+      states: [ "contenttweaker:ammonia_ice" ]
+      chance: 0.5
+      radiusX: [ 10, 60 ]
+      radiusY: [ 10, 60 ]
+      radiusZ: [ 10, 60 ]
+      centerHeight: [ 0, 100 ]
+      integrity: 0.6
+      matchers: [ "contenttweaker:dirty_ice" ]
+      dimensions: [ 162 ]
+      blacklistDimensions: false
+      biomes: {
+        names: [ "biometweaker:europa_wastes", "biometweaker:europa_vents" ]
+      }
+      blacklistBiomes: true
+      noise: {
+        type: SimplexFractal
+        frequency: 0.1
+      }
+    }
+  ]
+}

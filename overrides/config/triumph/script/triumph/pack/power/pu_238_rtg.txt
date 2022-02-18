@@ -1,0 +1,16 @@
+setIcon(<nuclearcraft:rtg_plutonium>)
+setTitle("Plutonium RTG")
+setDescription("Make a plutonium 238 radioisotope thermoelectric generator. Output 40 RF/t")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(140,-30)
+
+criteria = addCriteria("Completed Plutonium 238", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/plutonium_238")
+
+criteria = addCriteria("Crafted plutonium RTG", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:rtg_plutonium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

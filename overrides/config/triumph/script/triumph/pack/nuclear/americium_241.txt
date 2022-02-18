@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:americium>)
+setTitle("Americium 241")
+setDescription("Make some americium 241")
+addParent("triumph:pack/nuclear/plutonium_239")
+setRequiresParents()
+setPos(175,30)
+
+criteria = addCriteria("Obtained americium 241", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotAmericium241All>)
+
+setAnnounceToChat(false)
+setShowToast(false)

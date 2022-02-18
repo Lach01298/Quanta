@@ -1,0 +1,44 @@
+{
+  variables: {
+    CELL(): {
+      type: Cellular
+      frequency: 0.005
+      returnType: CellValue
+      jitter: 0.45
+      perturb: true
+      perturbAmp: 20
+      perturbFreq: 0.02
+      threshold: @1
+      seed: @2
+      cache: true
+    }
+  }
+  enabled: true
+  dimensions: [ 152 ]
+  ravines: [
+    {
+      caveBlocks: [
+        {
+          states: contenttweaker:dirty_ice
+          height: [ 75, 101 ]
+        }
+      ]
+      replaceableBlocks: [ "minecraft:packed_ice" ]
+      height: [ 80, 120 ]
+      distance: 300
+      resolution: 10
+      chance: 0.45
+      cutoffStrength: 0.3
+      pitch: {
+        startVal: 0
+        startValRandFactor: 0
+      }
+      dPitch: {
+        startVal: 0
+        factor: 0
+        randFactor: 0
+        exponent: 1
+      }
+    }
+  ]
+}

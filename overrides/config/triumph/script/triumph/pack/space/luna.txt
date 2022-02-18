@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:anorthosite_regolith>)
+setTitle("To the Moon!")
+setDescription("Land on the Earth's moon")
+addParent("triumph:pack/space/basic_rocketry")
+addParent("triumph:pack/space/space_suit")
+setRequiresParents()
+setPos(140,60)
+
+criteria = addCriteria("Landed on Luna", "minecraft:changed_dimension")
+criteria.setDimensionDestination(131)
+
+setAnnounceToChat(false)
+setShowToast(false)

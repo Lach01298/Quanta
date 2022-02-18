@@ -1,0 +1,14 @@
+setIcon(<forge:bucketfilled,nbt:{FluidName: "kerosene"}>)
+setTitle("Kerosene")
+setDescription("Kerosene is made from fractional distillation of oil")
+addParent("triumph:pack/industrial/oil")
+addParent("triumph:pack/industrial/distillation_tower")
+
+setRequiresParents()
+setPos(105,-120)
+
+criteria = addCriteria("Obtained kerosene", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "kerosene"}>)
+
+setAnnounceToChat(false)
+setShowToast(false)

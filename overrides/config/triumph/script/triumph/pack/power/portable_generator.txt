@@ -1,0 +1,16 @@
+setIcon(<immersivepetroleum:metal_device:1>)
+setTitle("Portable")
+setDescription("Make a portable generator. It is quite inefficient but very compact. It can be fueled with gasoline, kerosene or light oil. Output 256 RF/t")
+addParent("triumph:pack/power/root")
+
+
+hideLines()
+setPos(70,-30)
+
+
+criteria = addCriteria("Crafted portable generator", "triumph:player_crafted_item")
+criteria.setItem(<immersivepetroleum:metal_device:1>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

@@ -1,0 +1,13 @@
+setIcon(<magneticraft:crushing_table>)
+setTitle("Crushing Table")
+setDescription("A crushing table can crush certain things with either a stone or engineers hammer")
+addParent("triumph:pack/start/furnace")
+setRequiresParents()
+setPos(105,-90)
+
+criteria = addCriteria("Crafted crushing table", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:crushing_table>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

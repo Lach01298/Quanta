@@ -1,0 +1,15 @@
+setIcon(<qmd:neutral_containment_controller>)
+setTitle("Exotic Containment Chamber")
+setDescription("Build a exotic containment chamber")
+addParent("triumph:pack/nuclear/strontium")
+addParent("triumph:pack/nuclear/yttrium")
+
+setRequiresParents()
+setPos(325,-30)
+
+
+criteria = addCriteria("Crafted exotic containment controller", "triumph:player_crafted_item")
+criteria.setItem(<qmd:neutral_containment_controller>)
+
+setAnnounceToChat(false)
+setShowToast(false)

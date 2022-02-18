@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:4>)
+setTitle("Uranium")
+setDescription("Uranium ore is first crushed into uranite then mixed with sulfuric acid and ammonia solution in an ore leacher producing ammonium diuranate. This is then decomposed into uranium trioxide, then reacted with hydrogen making uranium dioxide, then reacted with hydrofluoric acid creating uranium tetrafluoride. Finally this is reacted with calcium to make molten uranium")
+addParent("triumph:pack/space/ore_leacher")
+setRequiresParents()
+setPos(70,0)
+
+
+criteria = addCriteria("Obtained uranium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotUranium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

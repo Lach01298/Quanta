@@ -1,0 +1,13 @@
+setIcon(<nuclearcraft:ingot:9>)
+setTitle("Beryllium")
+setDescription("Emerald is mixed with sodium fluorosilicate, sodium carbonate and ammonia solutions in an ore leacher. This makes beryllium oxide which is then reacted with coke and chlorine to form beryllium chloride, which is finally electrolised into molten beryllium")
+addParent("triumph:pack/space/ore_leacher")
+setRequiresParents()
+setPos(70,-90)
+
+
+criteria = addCriteria("Obtained beryllium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBerylium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

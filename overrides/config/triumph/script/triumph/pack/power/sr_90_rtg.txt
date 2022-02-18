@@ -1,0 +1,20 @@
+setIcon(<qmd:rtg_strontium>)
+setTitle("Strontium RTG")
+setDescription("Make a strontium 90 radioisotope thermoelectric generator. Output 50 RF/t")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(140,0)
+
+criteria = addCriteria("Completed Fuel Reprocessor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/fuel_reprocessor")
+
+criteria = addCriteria("Completed Solid Fission Reactor", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/solid_fission")
+
+criteria = addCriteria("Crafted strontium RTG", "triumph:player_crafted_item")
+criteria.setItem(<qmd:rtg_strontium>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

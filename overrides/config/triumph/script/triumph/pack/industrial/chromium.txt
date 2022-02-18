@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot:2>)
+setTitle("Chromium")
+setDescription("Chromium oxide is a byproduct of iron ore crushing. It can then be smelted with aluminium dust in an arc furnace to make chromium")
+addParent("triumph:pack/industrial/aluminium")
+setRequiresParents()
+setPos(175,0)
+
+
+criteria = addCriteria("Obtained chromium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotChromium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

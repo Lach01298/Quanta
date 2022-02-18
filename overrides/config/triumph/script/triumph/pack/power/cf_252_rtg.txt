@@ -1,0 +1,17 @@
+setIcon(<nuclearcraft:rtg_californium>)
+setTitle("Californium RTG")
+setDescription("Make a californium 252 radioisotope thermoelectric generator. Output 200 RF/t")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(140,-90)
+
+criteria = addCriteria("Completed Manganese", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/nuclear/californium_252")
+
+criteria = addCriteria("Crafted californium RTG", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:rtg_californium>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

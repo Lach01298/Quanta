@@ -1,0 +1,35 @@
+setIcon(<immersiveengineering:metal_decoration0:4>)
+setTitle("Industrial Age")
+setDescription("Craft all engineering blocks")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+criteria = addCriteria("Completed Steel", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/steel")
+
+criteria = addCriteria("Completed Bronze", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/bronze")
+
+criteria = addCriteria("Completed Redstone Ore", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/redstone")
+
+criteria = addCriteria("Completed Electrum", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/electrum")
+
+criteria = addCriteria("Crafted light engineering block", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:metal_decoration0:4>)
+
+criteria = addCriteria("Crafted redstone engineering block", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:metal_decoration0:3>)
+
+criteria = addCriteria("Crafted heavy engineering block", "triumph:player_crafted_item")
+criteria.setItem(<immersiveengineering:metal_decoration0:5>)
+
+
+
+
+setPos(0,0)
+
+setAnnounceToChat(false)
+setShowToast(false)

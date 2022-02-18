@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot:5>)
+setTitle("Nickel")
+setDescription("Smelt nickel ore in a furnace")
+addParent("triumph:pack/start/pickaxe_iron")
+setRequiresParents()
+setPos(175,60)
+
+criteria = addCriteria("Obtained nickel ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotNickel>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

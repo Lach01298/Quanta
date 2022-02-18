@@ -1,0 +1,15 @@
+setIcon(<minecraft:diamond>)
+setTitle("Diamond")
+setDescription("Mine some diamonds")
+addParent("triumph:pack/start/pickaxe_iron")
+setRequiresParents()
+setPos(175,90)
+
+
+criteria = addCriteria("Mined diamond", "triumph:player_harvest_block")
+criteria.setBlock(<ore:oreDiamond>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+

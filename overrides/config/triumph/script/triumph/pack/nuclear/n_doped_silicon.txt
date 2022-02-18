@@ -1,0 +1,14 @@
+setIcon(<qmd:semiconductor:1>)
+setTitle("N-Type Doped Silicon")
+setDescription("Irradiating silicon wafers make highly uniform N-type doped silicon")
+addParent("triumph:pack/nuclear/solid_fission")
+addParent("triumph:pack/nuclear/irradiator")
+setRequiresParents()
+setPos(140,-30)
+
+
+criteria = addCriteria("Obtained N_type doped silicon", "minecraft:inventory_changed")
+criteria.addItem(<ore:siliconNDoped>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,14 @@
+setIcon(<minecraft:log>)
+setTitle("Preindustrial Age")
+setDescription("Good old tree punching")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+
+setPos(0,0)
+
+criteria = addCriteria("Mined Log", "triumph:player_harvest_block")
+criteria.setBlock(<ore:logWood>)
+
+setAnnounceToChat(false)
+setShowToast(false)

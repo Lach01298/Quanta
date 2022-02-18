@@ -1,0 +1,157 @@
+{
+  enabled: true
+  dimensions: [ 131 ]
+  replaceableBlocks: [ "stone", "contenttweaker:anorthosite_regolith", "undergroundbiomes:igneous_stone:3" ]
+  wallDecorators: [
+    {
+      states: gravel
+      height: [ 8, 80 ]
+      matchers: [ "stone" ]
+      directions: down
+      placement: embed
+      integrity: 0.15
+    }
+    {
+      states: packed_ice
+      height: [ 8, 60 ]
+      matchers: [ "stone" ]
+      directions: [ "side" ]
+      placement: embed
+      integrity: 0.04
+    }
+  ]
+  tunnels: [
+    {
+      height: [
+        8
+        255
+      ]
+      originHeight: [
+        55
+        95
+      ]
+      count: 3
+      hasBranches: false
+      systemChance: 1
+      chance: 0.1
+      systemDensity: 1
+      distance: 100
+      resizeBranches: true
+      checkWater: true
+      scale: {
+        startVal: 3
+        startValRandFactor: 2
+        randFactor: 0
+        factor: 1
+      }
+      yaw: {
+        startVal: 0
+        startValRandFactor: 6
+      }
+      dYaw: {
+        startVal: 0
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      pitch: {
+        startVal: -0.1
+        startValRandFactor: 0.2
+      }
+      dPitch: {
+        startVal: -0.1
+        factor: 1
+        randFactor: 0.05
+        exponent: 1
+      }
+    }
+    {
+      height: [
+        8
+        255
+      ]
+      originHeight: [
+        55
+        95
+      ]
+      count: 3
+      hasBranches: false
+      systemChance: 1
+      chance: 0.1
+      systemDensity: 1
+      distance: 200
+      resizeBranches: true
+      checkWater: true
+      scale: {
+        startVal: 3
+        startValRandFactor: 2
+        randFactor: 0
+        factor: 1
+      }
+      yaw: {
+        startVal: 0
+        startValRandFactor: 6
+      }
+      dYaw: {
+        startVal: 0
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      pitch: {
+        startVal: -0.1
+        startValRandFactor: 0.2
+      }
+      dPitch: {
+        startVal: -0.1
+        factor: 1
+        randFactor: 0.05
+        exponent: 1
+      }
+    }
+    {
+      height: [
+        8
+        255
+      ]
+      originHeight: [
+        55
+        95
+      ]
+      count: 3
+      hasBranches: false
+      systemChance: 1
+      chance: 0.1
+      systemDensity: 1
+      distance: 300
+      resizeBranches: true
+      checkWater: true
+      scale: {
+        startVal: 3
+        startValRandFactor: 2
+        randFactor: 0
+        factor: 1
+      }
+      yaw: {
+        startVal: 0
+        startValRandFactor: 6
+      }
+      dYaw: {
+        startVal: 0
+        factor: 1
+        randFactor: 0.1
+        exponent: 1
+      }
+      pitch: {
+        startVal: -0.1
+        startValRandFactor: 0.2
+      }
+      dPitch: {
+        startVal: -0.1
+        factor: 1
+        randFactor: 0.05
+        exponent: 1
+      }
+    }
+  ]
+}

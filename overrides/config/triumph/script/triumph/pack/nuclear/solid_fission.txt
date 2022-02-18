@@ -1,0 +1,19 @@
+setIcon(<nuclearcraft:solid_fission_controller>)
+setTitle("Solid Fuel Fission Reactor")
+setDescription("Build a solid fission reactor")
+addParent("triumph:pack/nuclear/decay_hastener")
+setRequiresParents()
+setPos(105,0)
+
+criteria = addCriteria("Completed Beryllium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/space/beryllium"
+
+criteria = addCriteria("Crafted solid fuel fission controller", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:solid_fission_controller>)
+criteria = addCriteria("Crafted solid fuel fission fuel cell", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:solid_fission_cell>)
+criteria = addCriteria("Crafted Ra-Be fission neutron source", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:fission_source>)
+
+setAnnounceToChat(false)
+setShowToast(false)

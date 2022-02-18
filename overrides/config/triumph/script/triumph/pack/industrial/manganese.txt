@@ -1,0 +1,15 @@
+setIcon(<nuclearcraft:ingot:11>)
+setTitle("Manganese")
+setDescription("Crushing and sieving limestone or dolomite has a by product of rhodochrosite. This can be further processed into manganese")
+addParent("triumph:pack/industrial/crusher")
+addParent("triumph:pack/industrial/sieve")
+setRequiresParents()
+setPos(70,-30)
+
+
+
+criteria = addCriteria("Obtained manganese ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotManganese>)
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,13 @@
+setIcon(<advancedrocketry:hotturf>)
+setTitle("Mars")
+setDescription("Land on Mars")
+addParent("triumph:pack/space/nuclear_rocketry")
+addParent("triumph:pack/space/space_suit")
+setRequiresParents()
+setPos(210,60)
+
+criteria = addCriteria("Landed on Mars", "minecraft:changed_dimension")
+criteria.setDimensionDestination(140)
+
+setAnnounceToChat(false)
+setShowToast(false)

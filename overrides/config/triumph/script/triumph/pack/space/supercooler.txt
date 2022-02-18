@@ -1,0 +1,18 @@
+setIcon(<nuclearcraft:supercooler>)
+setTitle("Supercooler")
+setDescription("Craft a supercooler")
+addParent("triumph:pack/space/root")
+setRequiresParents()
+setPos(35,30)
+
+criteria = addCriteria("Crafted supercooler", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:supercooler>)
+
+criteria = addCriteria("Completed Titanium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/titanium")
+
+criteria = addCriteria("Completed Helium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/helium")
+
+setAnnounceToChat(false)
+setShowToast(false)

@@ -1,0 +1,538 @@
+{
+  enabled: true
+  dimensions: [ 0 ]
+  inner: [
+    {
+      burrows: [
+        {
+          radius: 2.5
+          target: 0.065
+          branches: {
+            count: 8
+            chance: 0.8
+            systemChance: 0
+          }
+          offset: {
+            range: [
+              20
+              40
+            ]
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+      caverns: [
+        {
+          height: [
+            0
+            25
+          ]
+          stretch: 0.75
+          floor: {
+            range: [
+              1
+              9
+            ]
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+      tunnels: [
+        {
+          height: [
+            8
+            128
+          ]
+          count: 3
+          chance: 0.25
+          systemChance: 0.01
+          systemDensity: 2
+          noiseYReduction: false
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+          checkWater: false
+        }
+      ]
+      ravines: [
+        {
+          height: [
+            18
+            69
+          ]
+          chance: 0.007692307692307693
+          cutoffStrength: 0.3
+          noiseYFactor: 0.8
+          pitch: [
+            1.5
+            1
+          ]
+          dPitch: [
+            0.1
+            0
+            0.95
+          ]
+          walls: {
+            frequency: 0.05
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone
+            undergroundbiomes:igneous_stone:1
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:4
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+          checkWater: false
+        }
+        {
+          height: [
+            18
+            69
+          ]
+          chance: 0.004
+          cutoffStrength: 0
+          pitch: [
+            1.5
+            2.5
+          ]
+          dPitch: [
+            0.1
+            0
+            0.95
+          ]
+          scale: [
+            4.5
+            2
+            1
+          ]
+          stretch: [
+            0.25
+            0.15
+            1
+          ]
+          matchers: [
+            undergroundbiomes:igneous_stone
+            undergroundbiomes:igneous_stone:1
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:4
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+          checkWater: false
+        }
+      ]
+      caveBlocks: [
+        {
+          states: water
+          height: [
+            12
+            63
+          ]
+        }
+        {
+          states: magma
+          height: 11
+          integrity: 0.025
+        }
+        {
+          states: obsidian
+          height: 11
+        }
+        {
+          states: lava
+          height: [
+            0
+            10
+          ]
+        }
+      ]
+      wallDecorators: [
+        {
+          states: gravel
+          height: [
+            5
+            63
+          ]
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+          directions: down
+          integrity: 0.25
+        }
+      ]
+      biomes: {
+        types: [
+          OCEAN
+        ]
+      }
+    }
+    {
+      burrows: [
+        {
+          radius: 2.5
+          target: 0.065
+          branches: {
+            count: 8
+            chance: 0.8
+            systemChance: 0
+          }
+          offset: {
+            range: [
+              20
+              40
+            ]
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+      caverns: [
+        {
+          height: [
+            0
+            25
+          ]
+          stretch: 0.75
+          floor: {
+            range: [
+              1
+              9
+            ]
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+      tunnels: [
+        {
+          height: [
+            8
+            128
+          ]
+          count: 3
+          chance: 0.25
+          systemChance: 0.01
+          systemDensity: 2
+          noiseYReduction: false
+          matchers: [
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+      ravines: [
+        {
+          height: [
+            18
+            69
+          ]
+          chance: 0.007692307692307693
+          cutoffStrength: 0.3
+          noiseYFactor: 0.8
+          pitch: [
+            1.5
+            1
+          ]
+          dPitch: [
+            0.1
+            0
+            0.95
+          ]
+          walls: {
+            frequency: 0.05
+          }
+          matchers: [
+            undergroundbiomes:igneous_stone
+            undergroundbiomes:igneous_stone:1
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:4
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+        {
+          height: [
+            18
+            69
+          ]
+          chance: 0.004
+          cutoffStrength: 0
+          pitch: [
+            1.5
+            2.5
+          ]
+          dPitch: [
+            0.1
+            0
+            0.95
+          ]
+          scale: [
+            4.5
+            2
+            1
+          ]
+          stretch: [
+            0.25
+            0.15
+            1
+          ]
+          matchers: [
+            undergroundbiomes:igneous_stone
+            undergroundbiomes:igneous_stone:1
+            undergroundbiomes:igneous_stone:2
+            undergroundbiomes:igneous_stone:3
+            undergroundbiomes:igneous_stone:4
+            undergroundbiomes:igneous_stone:5
+            undergroundbiomes:igneous_stone:6
+            undergroundbiomes:igneous_stone:7
+            undergroundbiomes:metamorphic_stone
+            undergroundbiomes:metamorphic_stone:1
+            undergroundbiomes:metamorphic_stone:2
+            undergroundbiomes:metamorphic_stone:3
+            undergroundbiomes:metamorphic_stone:4
+            undergroundbiomes:metamorphic_stone:5
+            undergroundbiomes:metamorphic_stone:6
+            undergroundbiomes:metamorphic_stone:7
+            undergroundbiomes:sedimentary_stone
+            undergroundbiomes:sedimentary_stone:1
+            undergroundbiomes:sedimentary_stone:2
+            undergroundbiomes:sedimentary_stone:3
+            undergroundbiomes:sedimentary_stone:4
+            undergroundbiomes:sedimentary_stone:5
+            undergroundbiomes:sedimentary_stone:6
+            undergroundbiomes:sedimentary_stone:7
+            sandstone
+            red_sandstone
+          ]
+        }
+      ]
+    }
+  ]
+  caveBlocks: {
+    states: lava
+    height: [
+      0
+      10
+    ]
+  }
+}

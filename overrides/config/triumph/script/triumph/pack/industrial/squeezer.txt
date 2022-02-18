@@ -1,0 +1,14 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:7>)
+setTitle("Squeezer")
+setDescription("Make an industrial squeezer")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,210)
+
+criteria = addCriteria("Built squeezer", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Squeezer")
+
+setAnnounceToChat(false)
+setShowToast(false)
+

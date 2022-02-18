@@ -1,0 +1,13 @@
+Parser.addRequiredMod("immersivepetroleum")
+setIcon(<immersivepetroleum:metal_multiblock>)
+setTitle("Distillation Tower")
+setDescription("Make a distillation tower.(Immersive petroleum advancement trigger broken)")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,-150)
+
+
+
+
+setAnnounceToChat(false)
+setShowToast(false)

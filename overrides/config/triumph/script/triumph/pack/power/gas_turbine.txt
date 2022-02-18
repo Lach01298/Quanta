@@ -1,0 +1,19 @@
+setIcon(<immersivetech:metal_multiblock1>)
+setTitle("Gas Turbine")
+setDescription("Build a gas turbine and alternator. Output 3072 RF/t")
+addParent("triumph:pack/power/root")
+
+hideLines()
+setPos(105,0)
+
+criteria = addCriteria("Completed Aluminium", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/industrial/aluminium")
+
+criteria = addCriteria("Built gas turbine", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:GasTurbine")
+criteria = addCriteria("Built alternator", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:Alternator")
+
+
+setAnnounceToChat(false)
+setShowToast(false)

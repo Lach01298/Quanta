@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot2>)
+setTitle("Yttrium")
+setDescription("Make some yttrium")
+addParent("triumph:pack/nuclear/synchrotron")
+setRequiresParents()
+setPos(280,-30)
+
+
+criteria = addCriteria("Obtained yttrium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotYttrium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

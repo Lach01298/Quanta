@@ -1,0 +1,66 @@
+name: titanium_ore
+mod: libvulpes
+block: {
+  location: libvulpes:ore0:8
+  hardness: 3
+  level: 2
+}
+
+texture: {
+  original: libvulpes:blocks/orerutile
+}
+
+gen: [
+  {
+    dimensions: [0]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [110]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [120]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [131]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [131]
+	biomes: {
+        names: ["biometweaker:lunar_mare"]
+      }
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [140]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [151]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+  {
+    dimensions: [152]
+    height: [ 0, 28 ]
+    size: 6
+    count: 6
+  }
+   
+]

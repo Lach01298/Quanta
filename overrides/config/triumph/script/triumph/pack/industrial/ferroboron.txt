@@ -1,0 +1,17 @@
+setIcon(<nuclearcraft:alloy:6>)
+setTitle("Ferroboron")
+setDescription("Boron ore is crushed into borax then dissolved in water and reacted with hydrochloric acid to make boric acid. This is smelted with coke and steel in a arc furnace to create ferroboron")
+addParent("triumph:pack/industrial/chemical_reactor")
+addParent("triumph:pack/industrial/distiller")
+addParent("triumph:pack/industrial/mixer")
+addParent("triumph:pack/industrial/hydrochloric_acid")
+setRequiresParents()
+setPos(245,0)
+
+
+
+criteria = addCriteria("Obtained ferroboron ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotFerroboron>)
+
+setAnnounceToChat(false)
+setShowToast(false)

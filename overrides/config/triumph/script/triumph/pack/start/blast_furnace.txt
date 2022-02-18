@@ -1,0 +1,20 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:stone_decoration:1>)
+setTitle("Blast Furnace")
+setDescription("Make a blast furnace")
+addParent("triumph:pack/start/iron")
+addParent("triumph:pack/start/clay")
+addParent("triumph:pack/start/aluminium_oxide")
+addParent("triumph:pack/start/calcium_oxide")
+setRequiresParents()
+
+setPos(175,-60)
+
+criteria = addCriteria("Built blast furnace", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnace")
+
+setAnnounceToChat(false)
+setShowToast(false)
+
+
+

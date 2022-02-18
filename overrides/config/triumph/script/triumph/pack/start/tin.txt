@@ -1,0 +1,14 @@
+setIcon(<nuclearcraft:ingot:1>)
+setTitle("Tin")
+setDescription("Smelt Tin ore in a furnace")
+addParent("triumph:pack/start/furnace")
+setRequiresParents()
+setPos(105,60)
+
+
+
+criteria = addCriteria("Obtained tin ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTin>)
+
+setAnnounceToChat(false)
+setShowToast(false)

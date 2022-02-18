@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:tholin_soil>)
+setTitle("Titan")
+setDescription("Land on Titan!")
+addParent("triumph:pack/space/nuclear_rocketry")
+addParent("triumph:pack/space/space_suit")
+setRequiresParents()
+setPos(210,180)
+
+criteria = addCriteria("Landed on Titan", "minecraft:changed_dimension")
+criteria.setDimensionDestination(162)
+
+setAnnounceToChat(false)
+setShowToast(false)

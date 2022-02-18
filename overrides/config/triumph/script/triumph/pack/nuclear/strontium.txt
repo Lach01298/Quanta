@@ -1,0 +1,13 @@
+setIcon(<qmd:ingot:14>)
+setTitle("Strontium")
+setDescription("Make some strontium")
+addParent("triumph:pack/nuclear/synchrotron")
+setRequiresParents()
+setPos(280,0)
+
+
+criteria = addCriteria("Obtained strontium ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotStrontium>)
+
+setAnnounceToChat(false)
+setShowToast(false)

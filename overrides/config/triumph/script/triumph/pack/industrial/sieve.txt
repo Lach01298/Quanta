@@ -1,0 +1,12 @@
+setIcon(<magneticraft:sieve>)
+setTitle("Sieve")
+setDescription("Make a sieve")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,-30)
+
+criteria = addCriteria("Crafted sieve", "triumph:player_crafted_item")
+criteria.setItem(<magneticraft:sieve>)
+
+setAnnounceToChat(false)
+setShowToast(false)

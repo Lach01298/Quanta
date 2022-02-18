@@ -1,0 +1,13 @@
+setIcon(<minecraft:coal>)
+setTitle("Coal")
+setDescription("Mine some coal. Coal is only found in sedimentary rocks")
+addParent("triumph:pack/start/pickaxe_wood")
+setRequiresParents()
+setPos(70,0)
+
+criteria = addCriteria("Obtained coal", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:coal>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

@@ -1,0 +1,12 @@
+setIcon(<nuclearcraft:alloy_furnace>)
+setTitle("Alloy Furnace")
+setDescription("Craft an alloy furnace. A much better alloy kiln")
+addParent("triumph:pack/industrial/root")
+setRequiresParents()
+setPos(35,-60)
+
+criteria = addCriteria("Crafted alloy furnace", "triumph:player_crafted_item")
+criteria.setItem(<nuclearcraft:alloy_furnace>)
+
+setAnnounceToChat(false)
+setShowToast(false)

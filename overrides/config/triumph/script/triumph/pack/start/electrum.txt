@@ -1,0 +1,16 @@
+setIcon(<immersiveengineering:metal:7>)
+setTitle("Electrum")
+setDescription("Acquire bronze by mixing gold and silver")
+addParent("triumph:pack/start/alloy_kiln")
+addParent("triumph:pack/start/gold")
+addParent("triumph:pack/start/silver")
+setRequiresParents()
+setPos(210,0)
+
+
+criteria = addCriteria("Obtained electrum ingot", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotBronze>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

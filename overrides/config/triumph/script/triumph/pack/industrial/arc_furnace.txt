@@ -1,0 +1,18 @@
+Parser.addRequiredMod("immersiveengineering")
+setIcon(<immersiveengineering:metal_multiblock:13>)
+setTitle("Arc Furnace")
+setDescription("Make an arc furnace")
+addParent("triumph:pack/industrial/graphite")
+
+setRequiresParents()
+setPos(105,0)
+
+criteria = addCriteria("Built arc furnace", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:ArcFurnace")
+
+criteria = addCriteria("Obtained Graphite Electrode", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:graphite_electrode>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+

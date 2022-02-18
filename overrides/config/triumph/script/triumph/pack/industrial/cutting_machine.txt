@@ -1,0 +1,22 @@
+setIcon(<advancedrocketry:cuttingmachine>)
+setTitle("Cutting Machine")
+setDescription("Make a cutting machine")
+addParent("triumph:pack/industrial/chromium")
+addParent("triumph:pack/industrial/simple_circuit")
+addParent("triumph:pack/industrial/alloy_furnace")
+
+setRequiresParents()
+setPos(210,-60)
+
+criteria = addCriteria("Completed Diamond", "triumph:completed_advancement")
+criteria.setAdvancement("triumph:pack/start/diamond")
+
+criteria = addCriteria("Crafted cuting machine", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:cuttingmachine>)
+
+criteria = addCriteria("Crafted saw blade", "triumph:player_crafted_item")
+criteria.setItem(<advancedrocketry:sawblade>)
+
+setAnnounceToChat(false)
+setShowToast(false)
+
