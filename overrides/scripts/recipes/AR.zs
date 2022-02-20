@@ -17,7 +17,17 @@ var removeItems= [<advancedrocketry:platepress>,
 <advancedrocketry:arcfurnace>,
 <advancedrocketry:blastbrick>,
 <libvulpes:coalgenerator>,
-<advancedrocketry:chemicalreactor>
+<advancedrocketry:chemicalreactor>,
+<libvulpes:productdust>,
+<libvulpes:ore0>,
+<libvulpes:productgem>,
+<advancedrocketry:hovercraft>,
+<advancedrocketry:wafer>,
+<advancedrocketry:itemcircuitplate>,
+<advancedrocketry:itemcircuitplate:1>,
+<advancedrocketry:terraformer>,
+<advancedrocketry:forcefieldprojector>,
+<advancedrocketry:warpmonitor>
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -156,7 +166,7 @@ recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
 recipes.addShaped(<advancedrocketry:advbipropellantrocketmotor>, [[<advancedrocketry:productplate:1>, <advancedrocketry:productplate:1>, <advancedrocketry:productplate:1>],[null, <advancedrocketry:productingot:1>, null], [<advancedrocketry:productingot:1>, null, <advancedrocketry:productingot:1>]]);
 recipes.addShapeless(<advancedrocketry:advbipropellantrocketmotor>, [<advancedrocketry:advrocketmotor>]);
 
-//recipes.addShaped(<advancedrocketry:nuclearcore>, [[<ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>],[<qmd:fission_reflector>, <ore:ingotHEU235Oxide>, <qmd:fission_reflector>], [<ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>]]);
+recipes.addShaped(<advancedrocketry:nuclearcore>, [[<ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>],[<qmd:fission_reflector>, <ore:ingotHEU235Oxide>, <qmd:fission_reflector>], [<ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>, <ore:ingotSuperAlloy>]]);
 
 recipes.remove(<advancedrocketry:fueltank>);
 recipes.addShapeless(<advancedrocketry:fueltank>, [<advancedrocketry:bipropellantfueltank>]);
@@ -165,11 +175,11 @@ recipes.addShapeless(<advancedrocketry:bipropellantfueltank>, [<advancedrocketry
 recipes.remove(<advancedrocketry:oxidizerfueltank>);
 recipes.addShaped(<advancedrocketry:oxidizerfueltank>, [[null, <contenttweaker:plastic_sheet>, null],[<contenttweaker:plastic_sheet>, <advancedrocketry:bipropellantfueltank>, <contenttweaker:plastic_sheet>], [null, <contenttweaker:plastic_sheet>, null]]);
 
-//recipes.remove(<advancedrocketry:nuclearfueltank>);
-//recipes.addShaped(<advancedrocketry:nuclearfueltank>, [[<libvulpes:productrod:7>, <contenttweaker:plastic_sheet>, <libvulpes:productrod:7>],[<contenttweaker:plastic_sheet>, <advancedrocketry:oxidizerfueltank>, <contenttweaker:plastic_sheet>], [<libvulpes:productrod:7>, <contenttweaker:plastic_sheet>, <libvulpes:productrod:7>]]);
+recipes.remove(<advancedrocketry:nuclearfueltank>);
+recipes.addShaped(<advancedrocketry:nuclearfueltank>, [[<libvulpes:productrod:7>, <contenttweaker:plastic_sheet>, <libvulpes:productrod:7>],[<contenttweaker:plastic_sheet>, <advancedrocketry:oxidizerfueltank>, <contenttweaker:plastic_sheet>], [<libvulpes:productrod:7>, <contenttweaker:plastic_sheet>, <libvulpes:productrod:7>]]);
 
-//recipes.remove(<advancedrocketry:nuclearrocketmotor>);
-//recipes.addShaped(<advancedrocketry:nuclearrocketmotor>, [[<ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>],[null, <ore:ingotSuperAlloy>, null], [<ore:ingotSuperAlloy>, null, <ore:ingotSuperAlloy>]]);
+recipes.remove(<advancedrocketry:nuclearrocketmotor>);
+recipes.addShaped(<advancedrocketry:nuclearrocketmotor>, [[<ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>],[null, <ore:ingotSuperAlloy>, null], [<ore:ingotSuperAlloy>, null, <ore:ingotSuperAlloy>]]);
 
 recipes.remove(<advancedrocketry:drill>);
 recipes.addShaped(<advancedrocketry:drill>, [[null, <ore:ingotTungstenCarbide>, null],[<ore:ingotTungstenCarbide>, <libvulpes:structuremachine>, <ore:ingotTungstenCarbide>], [<ore:ingotTungstenCarbide>, <libvulpes:advancedmotor>, <ore:ingotTungstenCarbide>]]);
@@ -224,5 +234,18 @@ recipes.addShaped(<libvulpes:holoprojector>, [[null, null, null],[null, <ore:dus
 
 recipes.remove(<advancedrocketry:lens>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>);
 
 recipes.addShaped(<advancedrocketry:blocklens>, [[<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>],[<ore:stickAluminum>, null, <ore:stickAluminum>], [<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>]]);
+
+recipes.remove(<advancedrocketry:deployablerocketbuilder>);
+recipes.addShaped(<advancedrocketry:deployablerocketbuilder>, [[<ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>],[<advancedrocketry:ic:2>, <advancedrocketry:rocketbuilder>, <advancedrocketry:ic:2>], [<ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>, <ore:plateTitaniumIridium>]]);
+
+recipes.remove(<advancedrocketry:stationbuilder>);
+recipes.addShaped(<advancedrocketry:stationbuilder>, [[<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>],[<advancedrocketry:ic:2>, <advancedrocketry:rocketbuilder>, <advancedrocketry:ic:2>], [<ore:plateTitanium>, <ore:plateTitanium>, <ore:plateTitanium>]]);
+
+recipes.remove(<advancedrocketry:vacuumlaser>);
+recipes.addShaped(<advancedrocketry:vacuumlaser>, [[<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>],[<ore:rodNdYAG>, <ore:rodNdYAG>, <ore:rodNdYAG>], [<ore:ingotSilver>, <qmd:part:10>, <ore:ingotSilver>]]);
+
+recipes.remove(<advancedrocketry:spacelaser>);
+recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:ingotSuperAlloy>, <libvulpes:advstructuremachine>, <ore:ingotSuperAlloy>],[<ore:ingotSuperAlloy>, <qmd:part:10>, <ore:ingotSuperAlloy>], [<ore:ingotSuperAlloy>, <advancedrocketry:lens>, <ore:ingotSuperAlloy>]]);

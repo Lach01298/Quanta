@@ -50,7 +50,7 @@ Grinder.addRecipe(<contenttweaker:feldspar>, <nuclearcraft:gem_dust:5>, <minecra
 Grinder.addRecipe(<minecraft:coal>, <nuclearcraft:gem_dust:7>, <minecraft:dirt>, 0.00, 40, true);
 Grinder.addRecipe(<nuclearcraft:gem:3>, <nuclearcraft:gem_dust:8>, <minecraft:dirt>, 0.00, 40, true);
 Grinder.addRecipe(<nuclearcraft:gem:4>, <nuclearcraft:gem_dust:9>, <minecraft:dirt>, 0.00, 40, true);
-Grinder.addRecipe(<nuclearcraft:gem:5>, <nuclearcraft:gem_dust:10>, <minecraft:dirt>, 0.00, 40, true);
+
 Grinder.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11>, <minecraft:dirt>, 0.00, 40, true);
 Grinder.addRecipe(<trinity:gem_witherite>, <trinity:gem_dust_witherite>, <minecraft:dirt>, 0.00, 40, true);
 

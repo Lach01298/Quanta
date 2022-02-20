@@ -5,6 +5,7 @@ import mods.immersiveengineering.ArcFurnace;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Melter;
+import mods.nuclearcraft.Infuser;
 import mods.immersivetechnology.PressurizedFluid;
 
 
@@ -47,7 +48,7 @@ Supercooler.addRecipe(<liquid:methane>*64,<liquid:liquid_methane>*1,0.0066666666
 //glass changes
 
 furnace.remove(<minecraft:glass>,<ore:sand>);
-furnace.addRecipe(<contenttweaker:dust_soda_lime>,<backportedflora:dried_kelp_block>);
+furnace.addRecipe(<contenttweaker:dust_sodium_carbonate>,<backportedflora:dried_kelp_block>);
 
 recipes.addShapeless(<contenttweaker:dust_soda_lime>*2, [<contenttweaker:dust_calcium_oxide>,<contenttweaker:dust_sodium_carbonate>]);
 
@@ -61,6 +62,13 @@ recipes.remove(<minecraft:tnt>);
 IngotFormer.addRecipe(<fluid:tnt>*100,<minecraft:tnt>,1.0,1.0);
 Melter.removeRecipeWithOutput(<fluid:tnt>*1000);
 Melter.addRecipe(<minecraft:tnt>,<fluid:tnt>*100,1.0,1.0);
+
+
+//infuser
+Infuser.addRecipe(<ore:dustIron>,<fluid:oxygen>*1000,<contenttweaker:dust_iron_oxide>,1.0,1.0);
+
+
+
 
 //---pressurised gases
 PressurizedFluid.add(<fluid:oxygen>);

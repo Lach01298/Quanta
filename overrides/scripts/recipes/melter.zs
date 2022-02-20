@@ -5,12 +5,26 @@ import mods.immersivetechnology.MeltingCrucible;
 var melterTime = 400 as int;
 var melterEnergy = 160000 as int;
 
-//sulfuric acid
+
 MeltingCrucible.addRecipe(<fluid:sulfur>*666, <ore:dustSulfur>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:naoh>*666, <ore:dustSodiumHydroxide>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:koh>*666, <ore:dustPotassiumHydroxide>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:arsenic>*666, <ore:dustAsenic>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:silicon>*144, <ore:itemSilicon>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:hard_carbon>*144, <ore:ingotHardCarbon>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:manganese_dioxide>*144, <ore:ingotManganeseDioxide>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:manganese_dioxide>*144, <ore:dustManganeseDioxide>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:lead_platinum>*144, <ore:ingotLeadPlatinum>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:redstone>*100, <ore:dustRedstone>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:redstone>*900, <ore:blockRedstone>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:fluorite>*666, <ore:gemFluorite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:fluorite>*666, <ore:dustFluorite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:villiaumite>*666, <ore:gemVilliaumite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:villiaumite>*666, <ore:dustVilliaumite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:carobbiite>*666, <ore:gemCarobbiite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:carobbiite>*666, <ore:dustCarobbiite>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:bas>*666, <ore:gemBoronArsenide>, melterEnergy, melterTime);
+
 Melter.removeRecipeWithInput(<ore:blockIce>);
 Melter.addRecipe(<ore:blockIce>,<fluid:water>*1000,0.1,0.1);
 MeltingCrucible.addRecipe(<fluid:water>*1000, <ore:blockIce>, melterEnergy/10, melterTime/10);
