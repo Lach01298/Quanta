@@ -21,8 +21,8 @@ texture: {
 gen: [
   {
     dimensions: [0]
-    height: [ 0, 50 ]
+    height: [ 0, 70 ]
     size: 7
-    count: 2
+    count: 4
   }
 ]

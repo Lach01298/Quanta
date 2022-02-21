@@ -10,7 +10,7 @@
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
-			"min-height": 0,
+			"min-height": 50,
 			"max-height": 256,
 			"retrogen": false,
 			"biome": "all",
@@ -38,6 +38,29 @@
 					-1,1
 				]
 			}
+		},
+		
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
 		}
 	}
 }

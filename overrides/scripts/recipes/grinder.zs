@@ -14,6 +14,7 @@ Grinder.removeRecipe(<magneticraft:ingots:11>);
 Grinder.removeRecipe(<magneticraft:ingots:12>);
 Grinder.removeRecipe(<magneticraft:ingots:13>);
 Grinder.removeRecipe(<magneticraft:ingots:14>);
+Grinder.removeRecipe(<minecraft:cobblestone>);
 
 
 

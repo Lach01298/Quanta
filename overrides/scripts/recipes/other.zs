@@ -17,7 +17,23 @@ var removeItems= [
 <biomesoplenty:gem_ore:2>,
 <biomesoplenty:gem_ore:3>,
 <biomesoplenty:gem_ore:4>,
-<biomesoplenty:gem_ore:5>
+<biomesoplenty:gem_ore:5>,
+<biomesoplenty:boat_sacred_oak>,
+<biomesoplenty:boat_cherry>,
+<biomesoplenty:boat_umbran>,
+<biomesoplenty:boat_fir>,
+<biomesoplenty:boat_ethereal>,
+<biomesoplenty:boat_magic>,
+<biomesoplenty:boat_mangrove>,
+<biomesoplenty:boat_palm>,
+<biomesoplenty:boat_redwood>,
+<biomesoplenty:boat_willow>,
+<biomesoplenty:boat_pine>,
+<biomesoplenty:boat_hellbark>,
+<biomesoplenty:boat_jacaranda>,
+<biomesoplenty:boat_mahogany>,
+<biomesoplenty:boat_ebony>,
+<biomesoplenty:boat_eucalyptus>
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -25,11 +41,36 @@ for i,item in removeItems{
 	mods.jei.JEI.hide(item);
 }
 
+// boat replacements
+
+recipes.addShaped(<minecraft:boat>, [[null, null, null],[<biomesoplenty:planks_0:*>, null, <biomesoplenty:planks_0:*>], [<biomesoplenty:planks_0:*>, <biomesoplenty:planks_0:*>, <biomesoplenty:planks_0:*>]]);
+
+
+
 //dyes
 recipes.addShapeless(<biomesoplenty:blue_dye>, [<backportedflora:cornflower>]);
 recipes.addShapeless(<biomesoplenty:white_dye>, [<backportedflora:lily_of_the_valley>]);
 recipes.addShapeless(<biomesoplenty:black_dye>, [<backportedflora:wither_rose>]);
 
+
+// cobblestone variants to normal cobblestone conversion
+
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble>, <undergroundbiomes:metamorphic_cobble>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:1>, <undergroundbiomes:metamorphic_cobble:1>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:2>, <undergroundbiomes:metamorphic_cobble:2>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:3>, <undergroundbiomes:metamorphic_cobble:3>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:4>, <undergroundbiomes:metamorphic_cobble:4>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:5>, <undergroundbiomes:metamorphic_cobble:5>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:6>, <undergroundbiomes:metamorphic_cobble:6>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:metamorphic_cobble:7>, <undergroundbiomes:metamorphic_cobble:7>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble>, <undergroundbiomes:igneous_cobble>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:1>, <undergroundbiomes:igneous_cobble:1>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:2>, <undergroundbiomes:igneous_cobble:2>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:3>, <undergroundbiomes:igneous_cobble:3>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:4>, <undergroundbiomes:igneous_cobble:4>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:5>, <undergroundbiomes:igneous_cobble:5>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:6>, <undergroundbiomes:igneous_cobble:6>], [null, null]]);
+recipes.addShaped(<minecraft:cobblestone> * 2, [[<undergroundbiomes:igneous_cobble:7>, <undergroundbiomes:igneous_cobble:7>], [null, null]]);
 
 //stone slab changes
 furnace.addRecipe(<quark:polished_stone>,<undergroundbiomes:igneous_stone:*>);
@@ -39,7 +80,7 @@ furnace.addRecipe(<quark:polished_stone>,<undergroundbiomes:sedimentary_stone:*>
 //brick changes
 recipes.removeShaped(<minecraft:brick_block>, [[<minecraft:brick>, <minecraft:brick>],[<minecraft:brick>, <minecraft:brick>]]);
 
-recipes.addShapeless(<contenttweaker:cement>*8, [<ore:sand>,<ore:sand>,<contenttweaker:dust_calcium_oxide>,<minecraft:water_bucket>]);
+recipes.addShapeless(<contenttweaker:cement>*12, [<ore:sand>,<ore:sand>,<contenttweaker:dust_calcium_oxide>,<minecraft:water_bucket>]);
 recipes.addShaped(<minecraft:brick_block> * 2, [[<minecraft:brick>, <contenttweaker:cement>, <minecraft:brick>],[<contenttweaker:cement>, <minecraft:brick>, <contenttweaker:cement>], [<minecraft:brick>, <contenttweaker:cement>, <minecraft:brick>]]);
 
 Supercooler.addRecipe(<liquid:methane>*64,<liquid:liquid_methane>*1,0.00666666666,5.0);

@@ -100,6 +100,8 @@ CrushingTable.addRecipe(<immersiveengineering:material:6>, <immersiveengineering
 CrushingTable.addRecipe(<minecraft:coal>, <nuclearcraft:gem_dust:7>, true);
 CrushingTable.addRecipe(<undergroundbiomes:metamorphic_cobble:3>,<nuclearcraft:gem_dust:2>,false);
 
+CrushingTable.addRecipe(<minecraft:gravel>,<minecraft:sand>, true);
+
 //---Sieve---
 Sieve.removeRecipe(<magneticraft:rocky_chunks>);
 Sieve.removeRecipe(<magneticraft:rocky_chunks:1>);
@@ -142,7 +144,7 @@ recipes.remove(<magneticraft:multiblock_parts> * 4);
 recipes.addShaped(<magneticraft:multiblock_parts> * 4, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 
 recipes.remove(<magneticraft:multiblock_parts:2> * 4);
-recipes.addShaped(<magneticraft:multiblock_parts:2> * 4, [[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],[<ore:stickIron>, <immersiveengineering:material:1>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
+recipes.addShaped(<magneticraft:multiblock_parts:2> * 4, [[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>],[<ore:stickIron>, <ore:stickIron>, <ore:stickIron>], [<ore:stickIron>, <ore:stickIron>, <ore:stickIron>]]);
 
 recipes.remove(<magneticraft:multiblock_parts:3> * 6);
 recipes.addShaped(<magneticraft:multiblock_parts:3> * 4, [[<ore:dyeBlack>, <ore:dyeYellow>, <ore:dyeBlack>],[<ore:dyeYellow>, <immersiveengineering:material:9>, <ore:dyeYellow>], [<ore:dyeBlack>, <ore:dyeYellow>, <ore:dyeBlack>]]);
