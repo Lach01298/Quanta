@@ -30,3 +30,7 @@ Enricher.addRecipe(<contenttweaker:dust_sodium_sulfate>,<fluid:water>*1000,<flui
 
 Mixer.addRecipe(<fluid:calcium_chloride_solution>*666, <fluid:water>*1000, [<contenttweaker:dust_calcium_chloride>], mixerEnergy);
 Enricher.addRecipe(<contenttweaker:dust_calcium_chloride>,<fluid:water>*1000,<fluid:calcium_chloride_solution>*666,1.0,1.0);
+
+//liquid concrete
+Mixer.removeRecipe(<fluid:concrete>*500);
+Mixer.addRecipe(<fluid:concrete>*500, <fluid:water>*500, [<ore:sand>,<ore:sand>,<ore:gravel>,<contenttweaker:cement>], mixerEnergy);

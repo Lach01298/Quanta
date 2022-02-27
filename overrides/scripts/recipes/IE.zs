@@ -61,9 +61,7 @@ recipes.remove(<immersivepetroleum:stone_decoration> * 12);
 recipes.addShaped(<immersivepetroleum:stone_decoration> * 8, [[<ore:sand>, <immersivepetroleum:material>, <ore:sand>],[<ore:gravel>, <minecraft:water_bucket>, <ore:gravel>], [<ore:sand>, <immersivepetroleum:material>, <ore:sand>]]);
 recipes.addShaped(<immersivepetroleum:stone_decoration> * 12, [[<ore:sand>, <immersivepetroleum:material>, <ore:sand>],[<ore:itemSlag>, <minecraft:water_bucket>, <ore:itemSlag>], [<ore:sand>, <immersivepetroleum:material>, <ore:sand>]]);
 
-//liquid concrete
-Mixer.removeRecipe(<fluid:concrete>*500);
-Mixer.addRecipe(<fluid:concrete>*500, <fluid:water>*500, [<ore:sand>,<ore:sand>,<ore:gravel>,<contenttweaker:cement>], 25000);
+
 
 //kinetic dynamo
 recipes.remove(<immersiveengineering:metal_device1:2>);
