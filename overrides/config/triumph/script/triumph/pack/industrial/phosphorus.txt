@@ -12,3 +12,4 @@ criteria.addItem(<contenttweaker:dust_white_phosphorus>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

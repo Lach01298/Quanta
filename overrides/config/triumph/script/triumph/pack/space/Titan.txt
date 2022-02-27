@@ -11,3 +11,4 @@ criteria.setDimensionDestination(162)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

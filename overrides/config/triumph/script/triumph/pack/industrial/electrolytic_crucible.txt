@@ -12,3 +12,4 @@ criteria.setMultiblock("IT:electrolyticCrucibleBattery")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -16,3 +16,4 @@ criteria.setMultiblock("IT:Boiler")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

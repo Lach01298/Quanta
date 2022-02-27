@@ -11,3 +11,4 @@ criteria.setItem(<nuclearcraft:fuel_reprocessor>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

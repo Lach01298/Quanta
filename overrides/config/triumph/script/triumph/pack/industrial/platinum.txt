@@ -12,3 +12,4 @@ criteria.addItem(<ore:ingotPlatinum>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

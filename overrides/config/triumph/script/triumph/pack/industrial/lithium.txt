@@ -1,6 +1,6 @@
 setIcon(<nuclearcraft:ingot:6>)
 setTitle("Lithium")
-setDescription("Pyroxene is crushed into spodumene which is then reacted with sulfuric acid to create lithium sulfate. This is reacted with sodium hydroxide to create lithium hydroxide, then reacted with carbon dioxide to create lithium carbonate and then reacted with hydrochloric acid to create lithium chloride which is finally electrolysed into molten lithium.")
+setDescription("Pyroxene is crushed into spodumene which is then reacted with sulfuric acid to create lithium sulfate. This is reacted with sodium hydroxide to create lithium hydroxide and then reacted with hydrochloric acid to create lithium chloride which is finally electrolysed into molten lithium.")
 addParent("triumph:pack/industrial/chemical_reactor")
 addParent("triumph:pack/industrial/sulfuric_acid")
 addParent("triumph:pack/industrial/hydrochloric_acid")
@@ -16,3 +16,4 @@ criteria.addItem(<ore:ingotLithium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -11,3 +11,4 @@ criteria.setItem(<qmd:target_chamber_controller>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

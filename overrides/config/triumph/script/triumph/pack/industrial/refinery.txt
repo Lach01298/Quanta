@@ -13,3 +13,4 @@ criteria.setMultiblock("IE:Refinery")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

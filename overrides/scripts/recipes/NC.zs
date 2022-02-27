@@ -134,6 +134,9 @@ recipes.addShaped(<nuclearcraft:decay_hastener>, [[<ore:plateDU>, <ore:ingotZirc
 recipes.remove(<nuclearcraft:fuel_reprocessor>);
 recipes.addShaped(<nuclearcraft:fuel_reprocessor>, [[<ore:plateDU>, <ore:servo>, <ore:plateDU>],[<ore:actuator>, <nuclearcraft:part:10>, <ore:actuator>], [<ore:plateDU>, <ore:motor>, <ore:plateDU>]]);
 
+recipes.remove(<nuclearcraft:turbine_controller>);
+recipes.addShaped(<nuclearcraft:turbine_controller>, [[<ore:ingotHSLASteel>, <immersiveengineering:material:9>, <ore:ingotHSLASteel>],[<ore:ingotHSLASteel>, <immersiveengineering:metal_decoration0:3>, <ore:ingotHSLASteel>], [<ore:ingotHSLASteel>, <immersiveengineering:material:9>, <ore:ingotHSLASteel>]]);
+
 recipes.remove(<nuclearcraft:turbine_casing> * 8);
 recipes.addShaped(<nuclearcraft:turbine_casing> * 8, [[null, <ore:ingotHSLASteel>, null],[<ore:ingotHSLASteel>, <immersiveengineering:metal_decoration0:4>, <ore:ingotHSLASteel>], [null, <ore:ingotHSLASteel>, null]]);
 

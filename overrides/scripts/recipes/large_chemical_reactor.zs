@@ -185,6 +185,7 @@ RecipeBuilder.newBuilder("spodumene", "large_chemical_reactor", 100)
     .addItemInput(<contenttweaker:spodumene>)
 	.addFluidInput(<fluid:sulfuric_acid>*1000)
 	.addItemOutput(<contenttweaker:dust_lithium_sulfate>)
+	.addItemOutput(<immersiveengineering:material:7>)
     .addFluidOutput(<fluid:water>*1000)
     .build();
 	
@@ -196,6 +197,22 @@ RecipeBuilder.newBuilder("lioh", "large_chemical_reactor", 100)
     .addFluidOutput(<fluid:sodium_sulfate_solution>*666)
     .build();
 	
+RecipeBuilder.newBuilder("licl", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_lithium_hydroxide>)
+	.addFluidInput(<fluid:hydrochloric_acid>*1000)
+	.addItemOutput(<contenttweaker:dust_lithium_chloride>)
+    .addFluidOutput(<fluid:water>*1000)
+    .build();
+
+RecipeBuilder.newBuilder("lioh_2", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_lithium_carbonate>)
+	.addItemInput(<contenttweaker:dust_calcium_hydroxide>)
+	.addItemOutput(<contenttweaker:dust_lithium_hydroxide>*2)
+    .addItemOutput(<contenttweaker:calcite>)
+    .build();
+	
 RecipeBuilder.newBuilder("li2co3", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_lithium_hydroxide>*2)
@@ -204,7 +221,7 @@ RecipeBuilder.newBuilder("li2co3", "large_chemical_reactor", 100)
     .addFluidOutput(<fluid:water>*1000)
     .build();
 
-RecipeBuilder.newBuilder("licl", "large_chemical_reactor", 100)
+RecipeBuilder.newBuilder("licl_2", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_lithium_carbonate>)
 	.addFluidInput(<fluid:hydrochloric_acid>*2000)
@@ -239,6 +256,12 @@ RecipeBuilder.newBuilder("phosphine", "large_chemical_reactor", 100)
 	.addItemOutput(<contenttweaker:dust_sodium_hypophosphite>*3)
     .build();	
 	
+RecipeBuilder.newBuilder("sodium_hypophosphite_decomp", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_sodium_hypophosphite>*2)
+	.addFluidOutput(<fluid:phosphine>*1000)
+	.addItemOutput(<minecraft:dye:15>)
+    .build();
 	
 // uranium
 RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", 100)
@@ -270,7 +293,7 @@ RecipeBuilder.newBuilder("uranium", "large_chemical_reactor", 100)
     .addItemInput(<contenttweaker:dust_uranium_tetrafluoride>)
 	.addItemInput(<qmd:dust:13>*2)
 	.addFluidOutput(<fluid:uranium>*144)
-	.addFluidOutput(<fluid:fluorite>*666)
+	.addFluidOutput(<fluid:fluorite>*1332)
     .build();
 
 	
@@ -289,7 +312,7 @@ RecipeBuilder.newBuilder("thorium", "large_chemical_reactor", 100)
     .addItemInput(<contenttweaker:dust_thorium_tetrafluoride>)
 	.addItemInput(<qmd:dust:13>*2)
 	.addFluidOutput(<fluid:thorium>*144)
-	.addFluidOutput(<fluid:fluorite>*666)
+	.addFluidOutput(<fluid:fluorite>*1332)
     .build();
 
 // hafnium
@@ -480,6 +503,17 @@ RecipeBuilder.newBuilder("olivine", "large_chemical_reactor", 100)
 	.addItemOutput(<contenttweaker:dust_magnesium_carbonate>)
 	.addItemOutput(<contenttweaker:dust_iron_carbonate>)
 	.addItemOutput(<minecraft:sand>)
+	.build();
+	
+// 3CaMg(CO3)2 + 4SiO2 ->  Mg3Si4O10(OH)2 +3CaCO3 + 3CO2
+RecipeBuilder.newBuilder("talc", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dolomite>*3)
+	.addItemInput(<minecraft:sand>*4)
+	.addFluidInput(<fluid:water>*1000)
+	.addItemOutput(<contenttweaker:talc>)
+	.addItemOutput(<contenttweaker:calcite>*3)
+	.addFluidOutput(<fluid:carbon_dioxide>*3000)
 	.build();
 	
 RecipeBuilder.newBuilder("mgco3_decomp", "large_chemical_reactor", 100)

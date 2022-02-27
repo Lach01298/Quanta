@@ -12,3 +12,4 @@ criteria.addItem(<ore:sheetPlastic>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

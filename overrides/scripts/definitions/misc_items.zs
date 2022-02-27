@@ -5,7 +5,9 @@ import mods.contenttweaker.VanillaFactory;
 
 var items = [
 "plastic_sheet",
-"cement"
+"cement",
+"carbon_filament",
+"light_bulb"
 ] as string[];
 
 for i, name in items

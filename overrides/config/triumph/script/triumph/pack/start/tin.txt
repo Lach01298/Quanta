@@ -12,3 +12,4 @@ criteria.addItem(<ore:ingotTin>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

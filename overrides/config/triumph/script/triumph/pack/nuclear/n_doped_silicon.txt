@@ -12,3 +12,4 @@ criteria.addItem(<ore:siliconNDoped>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

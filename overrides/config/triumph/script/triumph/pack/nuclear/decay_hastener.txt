@@ -11,4 +11,5 @@ criteria.setItem(<nuclearcraft:decay_hastener>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

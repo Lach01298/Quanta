@@ -67,6 +67,18 @@ MeltingCrucible.addRecipe(<fluid:beryllium>*144, <ore:ingotBeryllium>, melterEne
 MeltingCrucible.addRecipe(<fluid:beryllium>*144, <ore:dustBeryllium>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:beryllium>*1296, <ore:blockBeryllium>, melterEnergy, melterTime);
 
+MeltingCrucible.addRecipe(<fluid:magnesium>*144, <ore:ingotMagnesium>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:magnesium>*144, <ore:dustMagnesium>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:magnesium>*1296, <ore:blockMagnesium>, melterEnergy, melterTime);
+
+MeltingCrucible.addRecipe(<fluid:boron>*144, <ore:ingotBoron>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:boron>*144, <ore:dustBoron>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:boron>*1296, <ore:blockBoron>, melterEnergy, melterTime);
+
+MeltingCrucible.addRecipe(<fluid:lithium>*144, <ore:ingotLithium>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:lithium>*144, <ore:dustLithium>, melterEnergy, melterTime);
+MeltingCrucible.addRecipe(<fluid:lithium>*1296, <ore:blockLithium>, melterEnergy, melterTime);
+
 MeltingCrucible.addRecipe(<fluid:potassium>*144, <ore:ingotPotassium>, melterEnergy, melterTime);
 MeltingCrucible.addRecipe(<fluid:potassium>*144, <ore:dustPotassium>, melterEnergy, melterTime);
 
@@ -94,6 +106,12 @@ Melter.addRecipe(<contenttweaker:dust_beryllium_chloride>,<fluid:beryllium_chlor
 
 MeltingCrucible.addRecipe(<fluid:lithium_chloride>*144, <contenttweaker:dust_lithium_chloride>, melterEnergy, melterTime);
 Melter.addRecipe(<contenttweaker:dust_lithium_chloride>,<fluid:lithium_chloride>*144,1,1);
+
+MeltingCrucible.addRecipe(<fluid:lithium_fluoride>*144, <contenttweaker:dust_lithium_fluoride>, melterEnergy, melterTime);
+Melter.addRecipe(<contenttweaker:dust_lithium_fluoride>,<fluid:lithium_fluoride>*144,1,1);
+
+MeltingCrucible.addRecipe(<fluid:moltensalt>*144, <qmd:chemical_dust:3>, melterEnergy, melterTime);
+Melter.addRecipe(<qmd:chemical_dust:3>,<fluid:moltensalt>*144,1,1);
 
 
 

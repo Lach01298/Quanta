@@ -10,4 +10,4 @@ criteria.setItem(<minecraft:stone_pickaxe>)
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()

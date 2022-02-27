@@ -10,3 +10,4 @@ criteria.setItem(<nuclearcraft:ingot_former>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

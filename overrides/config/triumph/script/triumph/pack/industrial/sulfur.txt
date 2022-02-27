@@ -12,3 +12,4 @@ criteria.addItem(<ore:dustSulfur>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

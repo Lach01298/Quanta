@@ -17,3 +17,4 @@ criteria.setItem(<nuclearcraft:fission_source>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

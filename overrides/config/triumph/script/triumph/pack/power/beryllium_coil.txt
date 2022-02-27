@@ -18,3 +18,4 @@ criteria.setItem(<nuclearcraft:turbine_dynamo_coil:1>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

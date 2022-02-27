@@ -58,6 +58,8 @@ item.contenttweaker.dust_soda_lime.name=Soda Lime Mix
 
 item.contenttweaker.cement.name=Cement
 item.contenttweaker.plastic_sheet.name=Plastic Sheet
+item.contenttweaker.carbon_filament.name=Carbon Filament
+item.contenttweaker.light_bulb.name=Light Bulb
 
 fluid.ammonia_solution=Ammonia Solution
 fluid.ammonium_chloride_solution=Ammonium Chloride Solution

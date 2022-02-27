@@ -6,29 +6,29 @@ import mods.immersiveengineering.Refinery;
 
 var chemicalReactorEnergy = 100 as int;
 
-Refinery.addRecipe(<fluid:ammonia>*1, <fluid:hydrogen>*3, <fluid:nitrogen>*1, chemicalReactorEnergy);
-Refinery.addRecipe(<fluid:water>*1, <fluid:hydrogen>*2, <fluid:oxygen>*1, chemicalReactorEnergy);
-Refinery.addRecipe(<fluid:heavy_water>*1, <fluid:deuterium>*2, <fluid:oxygen>*1, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:ammonia>*5, <fluid:hydrogen>*15, <fluid:nitrogen>*5, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:water>*5, <fluid:hydrogen>*10, <fluid:oxygen>*5, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:heavy_water>*5, <fluid:deuterium>*10, <fluid:oxygen>*5, chemicalReactorEnergy);
 
-Refinery.addRecipe(<fluid:hydrofluoric_acid>*1, <fluid:hydrogen>*1, <fluid:fluorine>*1, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:hydrofluoric_acid>*10, <fluid:hydrogen>*5, <fluid:fluorine>*5, chemicalReactorEnergy);
 ChemicalReactor.removeRecipeWithInput(<fluid:hydrogen>*250,<fluid:fluorine>*250);
 ChemicalReactor.addRecipe(<fluid:hydrogen>*250,<fluid:fluorine>*250,<fluid:hydrofluoric_acid>*500,null,1,1);
 
-Refinery.addRecipe(<fluid:sulfur_dioxide>*2, <fluid:sulfur>*1, <fluid:oxygen>*2, chemicalReactorEnergy); //slight loss
-Refinery.addRecipe(<fluid:sulfur_dioxide>*2, <fluid:sulfur>*1, <fluid:compressed_air>*10, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:sulfur_dioxide>*10, <fluid:sulfur>*5, <fluid:oxygen>*10, chemicalReactorEnergy); //slight loss
+Refinery.addRecipe(<fluid:sulfur_dioxide>*10, <fluid:sulfur>*5, <fluid:compressed_air>*50, chemicalReactorEnergy);
 ChemicalReactor.addRecipe(<fluid:sulfur>*333,<fluid:compressed_air>*2500,<fluid:sulfur_dioxide>*500,null,1,1);
 
-Refinery.addRecipe(<fluid:sulfur_trioxide>*2, <fluid:sulfur_dioxide>*2, <fluid:oxygen>*1, chemicalReactorEnergy);
-Refinery.addRecipe(<fluid:sulfur_trioxide>*2, <fluid:sulfur_dioxide>*2, <fluid:compressed_air>*5, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:sulfur_trioxide>*10, <fluid:sulfur_dioxide>*10, <fluid:oxygen>*5, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:sulfur_trioxide>*10, <fluid:sulfur_dioxide>*10, <fluid:compressed_air>*25, chemicalReactorEnergy);
 ChemicalReactor.addRecipe(<fluid:sulfur_dioxide>*500,<fluid:compressed_air>*1250,<fluid:sulfur_trioxide>*500,null,1,1);
 
-Refinery.addRecipe(<fluid:sulfuric_acid>*1, <fluid:sulfur_trioxide>*1, <fluid:water>*1, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:sulfuric_acid>*5, <fluid:sulfur_trioxide>*5, <fluid:water>*5, chemicalReactorEnergy);
 
 ChemicalReactor.removeRecipeWithInput(<fluid:sugar>*72,<fluid:water>*500);
 
-Refinery.addRecipe(<fluid:methanol>*1, <fluid:carbon_monoxide>*1, <fluid:hydrogen>*2, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:methanol>*5, <fluid:carbon_monoxide>*5, <fluid:hydrogen>*10, chemicalReactorEnergy);
 
-Refinery.addRecipe(<fluid:hydrochloric_acid>*2, <fluid:hydrogen>*1, <fluid:chlorine>*1, chemicalReactorEnergy);
+Refinery.addRecipe(<fluid:hydrochloric_acid>*10, <fluid:hydrogen>*5, <fluid:chlorine>*5, chemicalReactorEnergy);
 
 //mods.immersiveengineering.Refinery.addRecipe(ILiquidStack output, ILiquidStack input0, ILiquidStack input1, int energy/tick); this is per tick
 

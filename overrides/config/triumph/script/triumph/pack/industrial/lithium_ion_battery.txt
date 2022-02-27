@@ -10,3 +10,4 @@ criteria.setItem(<nuclearcraft:lithium_ion_battery_basic>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

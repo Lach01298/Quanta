@@ -11,4 +11,5 @@ criteria.setMultiblock("IE:Fermenter")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

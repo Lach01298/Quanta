@@ -14,3 +14,4 @@ criteria.setItem(<nuclearcraft:rtg_plutonium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

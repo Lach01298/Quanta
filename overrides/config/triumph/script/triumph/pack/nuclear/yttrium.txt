@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotYttrium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -22,25 +22,25 @@ gen: [
   {
     dimensions: [0]
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
   {
     dimensions: [110]
     height: [ 0, 128 ]
-    size: 18
-    count: 20
+    size: 20
+    count: 18
   }
   {
     dimensions: [120]
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
   {
     dimensions: [131]
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
   {
@@ -49,25 +49,25 @@ gen: [
         names: ["biometweaker:lunar_mare"]
       }
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
   {
     dimensions: [140]
     height: [ 0, 128 ]
-    size: 11
+    size: 20
     count: 20
   }
   {
     dimensions: [151]
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
   {
     dimensions: [152]
     height: [ 0, 64 ]
-    size: 9
+    size: 16
     count: 20
   }
 ]

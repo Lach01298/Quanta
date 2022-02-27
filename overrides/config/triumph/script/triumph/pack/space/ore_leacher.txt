@@ -10,4 +10,5 @@ criteria.setItem(<qmd:ore_leacher>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

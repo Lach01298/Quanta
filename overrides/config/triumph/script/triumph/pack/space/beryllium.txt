@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotBerylium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

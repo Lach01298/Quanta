@@ -10,3 +10,4 @@ criteria.addItem(<ore:ingotAmericium241All>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

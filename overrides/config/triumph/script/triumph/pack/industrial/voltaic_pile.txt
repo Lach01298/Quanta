@@ -11,3 +11,4 @@ criteria.setItem(<nuclearcraft:voltaic_pile_basic>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -12,4 +12,5 @@ criteria.setMultiblock("IE:DieselGenerator")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

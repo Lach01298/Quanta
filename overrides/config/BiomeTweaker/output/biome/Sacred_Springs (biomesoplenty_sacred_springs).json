@@ -22,13 +22,13 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "MAGICAL",
-    "JUNGLE",
-    "DENSE",
+    "LUSH",
     "WET",
     "FOREST",
-    "LUSH"
+    "JUNGLE",
+    "RARE",
+    "MAGICAL",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

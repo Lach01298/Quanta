@@ -13,3 +13,4 @@ criteria.addItem(<immersiveengineering:material:27>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

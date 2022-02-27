@@ -13,3 +13,4 @@ criteria.addItem(<ore:siliconWafer>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

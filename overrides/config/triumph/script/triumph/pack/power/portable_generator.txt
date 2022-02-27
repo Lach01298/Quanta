@@ -13,4 +13,5 @@ criteria.setItem(<immersivepetroleum:metal_device:1>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

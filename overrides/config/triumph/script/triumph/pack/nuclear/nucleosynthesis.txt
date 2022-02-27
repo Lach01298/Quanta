@@ -12,3 +12,4 @@ criteria.setItem(<qmd:nucleosynthesis_chamber_controller>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

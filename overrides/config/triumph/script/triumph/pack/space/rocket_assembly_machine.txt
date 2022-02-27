@@ -14,3 +14,4 @@ criteria.setAdvancement("triumph:pack/industrial/titanium")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

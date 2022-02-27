@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotNiobium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -14,3 +14,4 @@ criteria.setItem(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modu
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -13,3 +13,4 @@ criteria.setItem(<qmd:neutral_containment_controller>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

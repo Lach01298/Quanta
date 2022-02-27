@@ -15,6 +15,6 @@ criteria.setMultiblock("IE:BlastFurnace")
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()
 
 

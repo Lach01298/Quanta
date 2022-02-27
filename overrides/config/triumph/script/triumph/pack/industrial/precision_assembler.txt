@@ -13,3 +13,4 @@ criteria.setItem(<advancedrocketry:precisionassemblingmachine>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

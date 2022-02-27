@@ -16,3 +16,4 @@ criteria.setAdvancement("triumph:pack/industrial/helium")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

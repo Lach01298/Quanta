@@ -39,6 +39,8 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "electrod
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<contenttweaker:cement>, <contenttweaker:dust_aluminium_oxide>, <contenttweaker:cement>],[<contenttweaker:dust_aluminium_oxide>, <minecraft:brick_block>, <contenttweaker:dust_aluminium_oxide>], [<contenttweaker:cement>, <contenttweaker:dust_aluminium_oxide>, <contenttweaker:cement>]]);
 
+recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3, [[<contenttweaker:cement>, <contenttweaker:dust_magnesium_oxide>, <contenttweaker:cement>],[<contenttweaker:dust_magnesium_oxide>, <minecraft:brick_block>, <contenttweaker:dust_magnesium_oxide>], [<contenttweaker:cement>, <contenttweaker:dust_magnesium_oxide>, <contenttweaker:cement>]]);
+
 //coke oven brick
 recipes.remove(<immersiveengineering:stone_decoration> * 3);
 recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [[<contenttweaker:cement>, <minecraft:brick>, <contenttweaker:cement>],[<minecraft:brick>, <ore:sandstone>, <minecraft:brick>], [<contenttweaker:cement>, <minecraft:brick>, <contenttweaker:cement>]]);
@@ -99,6 +101,33 @@ MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>);
 Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
 Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>, [<ore:ingotGraphite>, <ore:ingotGraphite>,<ore:ingotGraphite>]);
 
+//components blueprint
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), [[<ore:ingotCopper>, <ore:ingotElectrum>, <ore:ingotNickel>],[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>], [<ore:paper>, <ore:paper>, <ore:paper>]]);
+
+
+
+//light changes
+furnace.addRecipe(<contenttweaker:carbon_filament>,<minecraft:string>);
+Blueprint.addRecipe("components", <contenttweaker:light_bulb>, [<contenttweaker:carbon_filament>, <ore:blockGlass>,<ore:ingotIron>,<ore:wireCopper>]);
+Blueprint.addRecipe("components", <contenttweaker:light_bulb>*4, [<qmd:source>.withTag({particle_storage: {particle_amount: 50000000}}), <ore:blockGlass>,<ore:ingotIron>,<ore:wireCopper>]);
+
+
+recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 3, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}).onlyWithTag({FluidName: "creosote", Amount: 1000}), <ore:paneGlass>], [null, <ore:plateIron>, null]]);
+
+recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 3, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <forge:bucketfilled>.withTag({FluidName: "kerosene", Amount: 1000}).onlyWithTag({FluidName: "kerosene", Amount: 1000}), <ore:paneGlass>], [null, <ore:plateIron>, null]]);
+
+recipes.remove(<immersiveengineering:metal_device1:9>);
+recipes.addShaped(<immersiveengineering:metal_device1:9>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],[<ore:paneGlass>, <contenttweaker:light_bulb>, <immersiveengineering:metal_decoration0>], [<ore:ingotIron>, <immersiveengineering:material:8>, <ore:ingotIron>]]);
+
+recipes.remove(<immersiveengineering:metal_device1:4> * 3);
+recipes.addShaped(<immersiveengineering:metal_device1:4> * 3, [[null, <ore:plateIron>, null],[<ore:paneGlass>, <contenttweaker:light_bulb>, <ore:paneGlass>], [<ore:plateIron>, <ore:dustRedstone>, <ore:plateIron>]]);
+
+recipes.remove(<immersiveengineering:material:12>);
+recipes.addShaped(<immersiveengineering:material:12>, [[null, null, <immersiveengineering:material:5>],[null, <immersiveengineering:material:5>, null], [<immersiveengineering:material:5>, null, null]]);
+
+recipes.remove(<immersiveengineering:metal_decoration0:7> * 2);
+recipes.addShaped(<immersiveengineering:metal_decoration0:7> * 2, [[<ore:ingotAluminum>, <ore:ingotCopper>, <ore:ingotAluminum>],[<ore:ingotCopper>, <minecraft:water_bucket>, <ore:ingotCopper>], [<ore:ingotAluminum>, <ore:ingotCopper>, <ore:ingotAluminum>]]);
 
 
 // ethanol
@@ -116,7 +145,7 @@ Fermenter.addRecipe(null, <fluid:fermented_biomass>*100, <biomesoplenty:peach>, 
 Fermenter.addRecipe(null, <fluid:fermented_biomass>*100, <biomesoplenty:persimmon>, 2048);
 
 
-Distiller.addRecipe(<fluid:ethanol>*100, <fluid:fermented_biomass>*1000, <biomesoplenty:mudball>, 40000, 400, 0.05);
+Distiller.addRecipe(<fluid:ethanol>*1000, <fluid:fermented_biomass>*3000, <biomesoplenty:mudball>, 40000, 400, 0.05);
 
 
 

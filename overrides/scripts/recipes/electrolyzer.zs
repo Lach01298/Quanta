@@ -44,5 +44,8 @@ ElectrolyticCrucibleBattery.addRecipe(<fluid:calcium>*144, <fluid:fluorine>*1000
 Electrolyzer.addRecipe(<fluid:beryllium_chloride>*144,<fluid:beryllium>*144,<fluid:chlorine>*1000,null,null,1,1);
 ElectrolyticCrucibleBattery.addRecipe(<fluid:beryllium>*144, <fluid:chlorine>*1000, null, null, <fluid:beryllium_chloride>*144, electrolyzerEnergy, electrolyzerTime);
 
+Electrolyzer.addRecipe(<fluid:moltensalt>*144,<fluid:sodium>*144,<fluid:chlorine>*1000,null,null,1,1);
+ElectrolyticCrucibleBattery.addRecipe(<fluid:sodium>*144, <fluid:chlorine>*1000, null, null, <fluid:moltensalt>*144, electrolyzerEnergy, electrolyzerTime);
+
 
 //ElectrolyticCrucibleBattery.addRecipe(ILiquidStack outputFluid0, ILiquidStack outputFluid1, ILiquidStack outputFluid2, IItemStack outputItem, ILiquidStack inputFluid0, int energy, int time)

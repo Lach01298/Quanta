@@ -12,3 +12,4 @@ criteria.addItem(<ore:ingotMagnesium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

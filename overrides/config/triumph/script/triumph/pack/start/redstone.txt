@@ -11,5 +11,5 @@ criteria.setBlock(<ore:oreRedstone>)
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()
 

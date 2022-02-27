@@ -13,3 +13,4 @@ criteria.setItem(<qmd:accelerator_source>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

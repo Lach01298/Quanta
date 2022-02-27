@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotThorium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

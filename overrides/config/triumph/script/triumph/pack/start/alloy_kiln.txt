@@ -15,4 +15,5 @@ criteria.setMultiblock("IE:AlloySmelter")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

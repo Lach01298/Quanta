@@ -10,3 +10,4 @@ criteria.addItem(<ore:ingotPlutonium238All>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

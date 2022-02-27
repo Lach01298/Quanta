@@ -10,3 +10,4 @@ criteria.setItem(<minecraft:iron_pickaxe>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

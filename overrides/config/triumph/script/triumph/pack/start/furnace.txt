@@ -10,4 +10,4 @@ criteria.setItem(<minecraft:furnace>)
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()

@@ -17,3 +17,4 @@ criteria.setItem(<refinedstorage:disk_drive>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -11,3 +11,4 @@ criteria.setItem(<nuclearcraft:fission_irradiator>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -16,4 +16,5 @@ criteria.setMultiblock("IT:SolarReflector")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

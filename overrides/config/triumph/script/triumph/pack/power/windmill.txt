@@ -13,4 +13,5 @@ criteria.setItem(<immersiveengineering:wooden_device1:1>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

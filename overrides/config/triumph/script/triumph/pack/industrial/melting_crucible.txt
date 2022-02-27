@@ -11,4 +11,5 @@ criteria.setMultiblock("IT:meltingCrucible")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

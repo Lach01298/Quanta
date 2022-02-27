@@ -15,4 +15,5 @@ criteria.setMultiblock("IE:CokeOven")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

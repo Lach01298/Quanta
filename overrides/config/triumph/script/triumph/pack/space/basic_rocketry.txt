@@ -28,6 +28,7 @@ criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "liquid_oxygen"}>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 
 
 

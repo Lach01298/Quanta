@@ -17,3 +17,4 @@ criteria.setMultiblock("IT:Alternator")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

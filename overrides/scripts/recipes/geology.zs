@@ -180,7 +180,7 @@ Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel>, <contenttweaker:calcite>
 
 
 //chalk
-Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:1>, <contenttweaker:calcite>, 1.0, <contenttweaker:phosphorite>, 0.05, <minecraft:dirt>, 0.00, 100, false);
+Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:1>, <contenttweaker:calcite>, 1.0, <contenttweaker:phosphorite>, 0.05, <trinity:gem_witherite>, 0.10, 100, false);
 
 
 //shale
@@ -190,7 +190,7 @@ Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:2>, <contenttweaker:mica>,
 Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:3>, <minecraft:quartz>, 0.70, <contenttweaker:feldspar>, 0.30, <contenttweaker:phosphorite>, 0.05, 100, false);
 
 //Dolomite
-Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:5>, <contenttweaker:dolomite>, 1.0, <nuclearcraft:gem>, 0.1, <trinity:gem_witherite>, 0.05, 100, false);
+Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:5>, <contenttweaker:dolomite>, 1.0, <nuclearcraft:gem>, 0.1, <trinity:gem_witherite>, 0.10, 100, false);
 
 
 //greywacke
@@ -220,13 +220,13 @@ furnace.addRecipe(<contenttweaker:dust_magnesium_oxide>,<contenttweaker:dolomite
 furnace.addRecipe(<contenttweaker:dust_magnesium_oxide>,<contenttweaker:talc>);
 furnace.addRecipe(<trinity:compound_barium_oxide>,<ore:dustWitherite>);
 
-//olivine   1/2[Mg2Sio4 + Fe2SiO4] + CO2 ->  SiO2 +MgO + CO2 + FeO
 furnace.addRecipe(<contenttweaker:dust_magnesium_oxide>,<contenttweaker:dust_magnesium_carbonate>);
 furnace.addRecipe(<contenttweaker:dust_iron_oxide>,<contenttweaker:dust_iron_carbonate>);
 
 
+recipes.addShapeless(<minecraft:sand> * 4, [<ore:dustQuartz>,<ore:dustQuartz>,<ore:dustQuartz>,<ore:dustQuartz>]);
 
-
-
+recipes.addShapeless(<minecraft:clay_ball> * 4, [<ore:sand>,<contenttweaker:talc>,<contenttweaker:talc>,<ore:sand>]);
+recipes.addShapeless(<minecraft:clay_ball> * 4, [<ore:sand>,<contenttweaker:mica>,<contenttweaker:mica>,<ore:sand>]);
 
 

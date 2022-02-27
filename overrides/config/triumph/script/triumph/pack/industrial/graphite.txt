@@ -16,3 +16,4 @@ criteria.addItem(<ore:ingotGraphite>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

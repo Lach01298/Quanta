@@ -12,3 +12,4 @@ criteria.setBlock(<ore:logWood>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

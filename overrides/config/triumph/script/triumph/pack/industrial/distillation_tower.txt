@@ -11,3 +11,4 @@ setPos(35,-150)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

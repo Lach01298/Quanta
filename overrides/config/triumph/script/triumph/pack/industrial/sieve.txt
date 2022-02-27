@@ -10,3 +10,4 @@ criteria.setItem(<magneticraft:sieve>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

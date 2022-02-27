@@ -14,3 +14,4 @@ criteria.addItem(<ore:dustPolonium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

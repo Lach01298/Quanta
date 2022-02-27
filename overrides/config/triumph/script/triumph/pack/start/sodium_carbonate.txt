@@ -12,4 +12,5 @@ criteria.addItem(<contenttweaker:dust_sodium_carbonate>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

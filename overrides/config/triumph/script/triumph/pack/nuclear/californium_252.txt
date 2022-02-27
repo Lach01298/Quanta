@@ -10,3 +10,4 @@ criteria.addItem(<ore:ingotCalifornium252All>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

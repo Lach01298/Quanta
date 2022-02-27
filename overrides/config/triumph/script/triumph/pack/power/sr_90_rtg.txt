@@ -17,4 +17,5 @@ criteria.setItem(<qmd:rtg_strontium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

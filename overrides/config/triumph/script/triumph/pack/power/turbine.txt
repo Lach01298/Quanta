@@ -16,4 +16,5 @@ criteria.setItem(<nuclearcraft:turbine_controller>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

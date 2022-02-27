@@ -11,3 +11,4 @@ criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "sodium_hydroxide_solution"
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

@@ -9,4 +9,5 @@ criteria.setBlock(<ore:blockClay>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

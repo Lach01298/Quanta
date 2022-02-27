@@ -12,3 +12,4 @@ criteria.setMultiblock("IT:Distiller")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

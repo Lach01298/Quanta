@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotTungsten>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

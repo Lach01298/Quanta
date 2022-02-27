@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotUranium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

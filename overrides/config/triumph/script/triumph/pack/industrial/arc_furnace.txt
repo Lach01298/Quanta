@@ -15,4 +15,5 @@ criteria.addItem(<immersiveengineering:graphite_electrode>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

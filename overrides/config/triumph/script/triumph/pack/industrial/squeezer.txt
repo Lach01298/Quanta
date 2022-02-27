@@ -11,4 +11,5 @@ criteria.setMultiblock("IE:Squeezer")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

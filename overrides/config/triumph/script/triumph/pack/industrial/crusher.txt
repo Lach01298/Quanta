@@ -13,3 +13,4 @@ criteria.setMultiblock("IE:Crusher")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

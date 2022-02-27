@@ -10,4 +10,5 @@ criteria.addItem(<minecraft:coal>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

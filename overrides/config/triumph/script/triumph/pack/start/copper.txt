@@ -12,4 +12,5 @@ criteria.addItem(<ore:ingotCopper>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

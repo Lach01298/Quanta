@@ -13,3 +13,4 @@ criteria.addItem(<ore:ingotManganese>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

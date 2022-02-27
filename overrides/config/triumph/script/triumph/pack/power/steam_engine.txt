@@ -20,4 +20,5 @@ criteria.setItem(<magneticraft:electric_engine>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

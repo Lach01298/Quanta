@@ -104,9 +104,12 @@ IngotFormer.addRecipe(<fluid:tnt>*100,<minecraft:tnt>,1.0,1.0);
 Melter.removeRecipeWithOutput(<fluid:tnt>*1000);
 Melter.addRecipe(<minecraft:tnt>,<fluid:tnt>*100,1.0,1.0);
 
+// other
+recipes.addShaped(<minecraft:saddle>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],[<minecraft:leather>, <minecraft:iron_ingot>, <minecraft:leather>], [null, null, null]]);
 
 //infuser
 Infuser.addRecipe(<ore:dustIron>,<fluid:oxygen>*1000,<contenttweaker:dust_iron_oxide>,1.0,1.0);
+
 
 
 

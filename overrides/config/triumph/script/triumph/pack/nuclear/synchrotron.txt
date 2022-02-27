@@ -12,3 +12,4 @@ criteria.setItem(<qmd:ring_accelerator_controller>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

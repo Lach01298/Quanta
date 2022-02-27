@@ -11,3 +11,4 @@ criteria.addItem(<forge:bucketfilled,nbt:{FluidName: "natural_gas"}>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

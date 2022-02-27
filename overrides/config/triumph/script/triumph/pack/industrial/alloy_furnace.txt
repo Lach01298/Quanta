@@ -10,3 +10,4 @@ criteria.setItem(<nuclearcraft:alloy_furnace>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

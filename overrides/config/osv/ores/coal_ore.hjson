@@ -20,8 +20,8 @@ texture: {
 gen: [
   {
     dimensions: [0]
-	height: [ 0, 128 ]
-    size: 20
-    count: 17
+	height: [ 50, 256 ]
+    size: 24
+    count: 24
   }
 ]

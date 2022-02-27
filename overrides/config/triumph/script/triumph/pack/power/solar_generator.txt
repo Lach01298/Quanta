@@ -15,4 +15,5 @@ criteria.setItem(<advancedrocketry:solargenerator>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

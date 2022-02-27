@@ -11,4 +11,5 @@ criteria.setMultiblock("IE:Mixer")
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 

@@ -10,4 +10,4 @@ criteria.setItem(<magneticraft:crushing_table>)
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()

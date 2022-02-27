@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotChromium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

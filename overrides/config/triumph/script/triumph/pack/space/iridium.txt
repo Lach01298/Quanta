@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotIridium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

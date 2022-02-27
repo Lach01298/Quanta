@@ -11,3 +11,4 @@ criteria.addItem(<ore:ingotStrontium>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

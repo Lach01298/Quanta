@@ -10,4 +10,4 @@ criteria.addItem(<ore:ingotNickel>)
 
 setAnnounceToChat(false)
 setShowToast(false)
-
+alwaysVisible()

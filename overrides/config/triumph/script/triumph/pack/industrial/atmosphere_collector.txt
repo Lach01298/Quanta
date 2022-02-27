@@ -10,3 +10,4 @@ criteria.setItem(<qmd:atmosphere_collector>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

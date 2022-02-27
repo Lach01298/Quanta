@@ -25,3 +25,4 @@ criteria.addItem(<advancedrocketry:suitworkstation>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

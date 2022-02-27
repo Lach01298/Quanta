@@ -14,3 +14,4 @@ criteria.addItem(<ore:ingotTBU>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()

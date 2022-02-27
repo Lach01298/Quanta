@@ -19,4 +19,5 @@ criteria.setItem(<advancedrocketry:sawblade>)
 
 setAnnounceToChat(false)
 setShowToast(false)
+alwaysVisible()
 
