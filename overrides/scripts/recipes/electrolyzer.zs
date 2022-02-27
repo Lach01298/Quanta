@@ -32,8 +32,8 @@ ElectrolyticCrucibleBattery.addRecipe(<fluid:magnesium>*144, <fluid:chlorine>*10
 Electrolyzer.addRecipe(<fluid:lithium_chloride>*144,<fluid:lithium>*144,<fluid:chlorine>*500,null,null,1,1);
 ElectrolyticCrucibleBattery.addRecipe(<fluid:lithium>*144, <fluid:chlorine>*500, null, null, <fluid:lithium_chloride>*144, electrolyzerEnergy, electrolyzerTime);
 
-Electrolyzer.addRecipe(<fluid:lithium_fluoride>*144,<fluid:lithium>*144,<fluid:fluorine>*500,null,null,1,1);
-ElectrolyticCrucibleBattery.addRecipe(<fluid:lithium>*144, <fluid:fluorine>*500, null, null, <fluid:lithium_fluoride>*144, electrolyzerEnergy, electrolyzerTime);
+Electrolyzer.addRecipe(<fluid:lif>*144,<fluid:lithium>*144,<fluid:fluorine>*500,null,null,1,1);
+ElectrolyticCrucibleBattery.addRecipe(<fluid:lithium>*144, <fluid:fluorine>*500, null, null, <fluid:lif>*144, electrolyzerEnergy, electrolyzerTime);
 
 Electrolyzer.addRecipe(<fluid:calcium_chloride>*144,<fluid:calcium>*144,<fluid:chlorine>*1000,null,null,1,1);
 ElectrolyticCrucibleBattery.addRecipe(<fluid:calcium>*144, <fluid:chlorine>*1000, null, null, <fluid:calcium_chloride>*144, electrolyzerEnergy, electrolyzerTime);

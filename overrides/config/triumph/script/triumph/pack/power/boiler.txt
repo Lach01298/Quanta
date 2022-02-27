@@ -1,6 +1,6 @@
 setIcon(<immersivetech:metal_multiblock:4>)
 setTitle("Boiler")
-setDescription("Build a Boiler. It is more efficient than a diesel generator but requires a turbine to make power. Output ~2000-4000 RF/t")
+setDescription("Build a Boiler. It is more efficient than a diesel generator but requires a turbine to make power. Output ~10 kRF/t")
 addParent("triumph:pack/power/root")
 
 

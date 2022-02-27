@@ -1,6 +1,6 @@
 setIcon(<immersivepetroleum:metal_device:1>)
 setTitle("Portable")
-setDescription("Make a portable generator. It is quite inefficient but very compact. It can be fueled with gasoline, kerosene or light oil. Output 256 RF/t")
+setDescription("Make a portable generator. It is quite inefficient but very compact. It can be fueled with gasoline, ethanol, methanol,LPG or methane. Output 128 RF/t")
 addParent("triumph:pack/power/root")
 
 

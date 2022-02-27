@@ -59,8 +59,7 @@ var chemicalGases = [
 "hydrogen_cyanide",
 "hydrogen_sulfide",
 "methane",
-"phosphine",
-"cold_fluegas"
+"phosphine"
 
 ] as string[];
 
@@ -120,7 +119,6 @@ for i,name in chemicalLiquids{
 var moltenLiquids= [
 "magnesium_chloride",
 "lithium_chloride",
-"lithium_fluoride",
 "calcium_chloride",
 "beryllium_chloride"
 ] as string[];

@@ -1,4 +1,3 @@
-// Don't forget to disable all the default recipes for these machines!
 
 import mods.immersivetechnology.PressurizedFluid;
 import mods.immersivetechnology.Boiler;
@@ -24,61 +23,56 @@ PressurizedFluid.add(<fluid:low_quality_steam>);
 PressurizedFluid.add(<fluid:steam>);
 
 PressurizedFluid.add(<fluid:fluegas>);
-PressurizedFluid.add(<fluid:cold_fluegas>);
 
 
-
-
-
-// Steam cycle multiplier. Change this value to scale the whole system up or down. That way, the relative values stay correct and you can just choose how much power the whole system should produce.
-var scm = 1.0;
-
+PressurizedFluid.add(<fluid:distwater>);
+PressurizedFluid.add(<fluid:preheated_water>);
 
 
 
 
 // Boiler Fuels
-Boiler.addFuel(<fluid:oil_residue>*6, 10, 20);   // Needs 2 distillation towers to run in a boiler
-Boiler.addFuel(<fluid:lubricant>*14, 10, 20);   // Needs 2 distillation towers to run in a boiler
-Boiler.addFuel(<fluid:heavy_oil>*9, 10, 20);   // Needs 1 distillation tower to run in a boiler
+Boiler.addFuel(<fluid:oil_residue>*6, 1, 10);   // Needs 2 distillation towers to run in a boiler
+Boiler.addFuel(<fluid:lubricant>*14, 1, 10);   // Needs 2 distillation towers to run in a boiler
+Boiler.addFuel(<fluid:heavy_oil>*9, 1, 10);   // Needs 1 distillation tower to run in a boiler
 // This makes it so either burning heavy oil or burning all its products is equivalent in power production.
 
-Boiler.addFuel(<fluid:light_oil>*12, 10, 20);   // Needs 0.66666... distillation towers to run in a boiler
-Boiler.addFuel(<fluid:diesel>*8, 10, 20);   // Needs 2 distillation tower to run in a boiler
-Boiler.addFuel(<fluid:kerosene>*8, 10, 20);   // Needs 2 distillation tower to run in a boiler
-Boiler.addFuel(<fluid:gasoline>*8, 10, 20);   // Needs 4 distillation tower to run in a boiler
-Boiler.addFuel(<fluid:biodiesel>*10, 10, 20);
+Boiler.addFuel(<fluid:light_oil>*12, 1, 10);   // Needs 0.66666... distillation towers to run in a boiler
+Boiler.addFuel(<fluid:diesel>*8, 1, 10);   // Needs 2 distillation tower to run in a boiler
+Boiler.addFuel(<fluid:kerosene>*8, 1, 10);   // Needs 2 distillation tower to run in a boiler
+Boiler.addFuel(<fluid:gasoline>*8, 1, 10);   // Needs 4 distillation tower to run in a boiler
+Boiler.addFuel(<fluid:biodiesel>*10, 1, 10);
 // (Roughly) Same equivalency as with heavy oil. In this case, you burn 2/3 of your light oil, but still get to keep some so you can do things like get diesel for your portable mining drill.
 
-Boiler.addFuel(<fluid:ethanol>*10, 10, 20);
-Boiler.addFuel(<fluid:methanol>*10, 10, 20);
-Boiler.addFuel(<fluid:creosote>*10, 10, 20);
-Boiler.addFuel(<fluid:plantoil>*20, 10, 20);
+Boiler.addFuel(<fluid:ethanol>*10, 1, 10);
+Boiler.addFuel(<fluid:methanol>*10, 1, 10);
+Boiler.addFuel(<fluid:creosote>*10, 1, 10);
+Boiler.addFuel(<fluid:plantoil>*20, 1, 10);
 
 
 // Boiler
-Boiler.addRecipe(<fluid:high_pressure_steam> * 640*scm, <fluid:distwater> * 160*scm, 2);
-Boiler.addRecipe(<fluid:high_pressure_steam> * 640*scm, <fluid:preheated_water> * 160*scm, 1);
-// Basically, it's supposed to produce (8KiRF + a bit more so you have power to make the fuel)*scm.
+Boiler.addRecipe(<fluid:high_pressure_steam> * 640, <fluid:distwater> * 160, 2);
+Boiler.addRecipe(<fluid:high_pressure_steam> * 640, <fluid:preheated_water> * 160, 1);
+// Basically, it's supposed to produce 8KiRF + a bit more so you have power to make the fuel.
 
 
 // Gas Turbine
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:light_oil> * 12, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:diesel> * 8, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:diesel> * 10, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:kerosene> * 8, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:gasoline> * 8, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:light_oil> * 12, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:diesel> * 8, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:diesel> * 10, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:kerosene> * 8, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:gasoline> * 8, 1);
 
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:ethanol> * 10, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:methanol> * 10, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:ethanol> * 10, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:methanol> * 10, 1);
 
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:lpg> * 12, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320*scm, <fluid:methane> * 12, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:lpg> * 12, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:methane> * 12, 1);
 
 
 // Solar Tower
-SolarTower.addRecipe(<fluid:high_pressure_steam> * 768*scm, <fluid:distwater> * 192*scm, 2);
-SolarTower.addRecipe(<fluid:high_pressure_steam> * 768*scm, <fluid:preheated_water> * 192*scm, 1);
+SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:distwater> * 192, 2);
+SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:preheated_water> * 192, 1);
 // It's supposed to make about 12KiRF to compensate for the high resource cost and construction effort of this thing.
 
 
@@ -87,7 +81,7 @@ SolarTower.addRecipe(<fluid:high_pressure_steam> * 768*scm, <fluid:preheated_wat
 
 // Turbine
     /*   Keep NC as it is, i.e. 1mB of HPS -> 16RF   */
-    /*   The 640mB*scm of HPS above would make 5120mB*scm of Exhaust Steam    */
+    /*   The 640mB of HPS above would make 5120mB of Exhaust Steam    */
 	
 // Remove Mercury from Turbine
 mods.nuclearcraft.Turbine.removeRecipeWithOutput(<liquid:mercury>);
@@ -97,20 +91,16 @@ mods.nuclearcraft.Turbine.removeRecipeWithOutput(<liquid:mercury>);
 
 
 // Heat Exchanger
-HeatExchanger.addRecipe(<liquid:preheated_water>*320*scm, <liquid:preheated_water>*320*scm, <liquid:distwater>*320*scm, <liquid:exhaust_steam>*10240*scm, 0, 1);
-HeatExchanger.addRecipe(<liquid:preheated_water>*320*scm, <liquid:preheated_water>*320*scm, <liquid:exhaust_steam>*10240*scm, <liquid:distwater>*320*scm, 0, 1);
-// Adding both of them above, so you can put the fluids in each output, as this machine's recipes aren't shapeless.
-// Make sure the HX has at least 20480mB*scm of fluid capacity. I want it to be scaleable, so you don't need a massive wall of heat exchangers for when you upgrade to better power sources like nuclear reactors, and if has 20.48B*scm of fluid capacity, you can run up to two boilers in one heat exchanger, which opens up a path for higher powered nuclear reactors and such.
+HeatExchanger.addRecipe(<liquid:preheated_water>*320, <liquid:preheated_water>*320, <liquid:distwater>*320, <liquid:exhaust_steam>*10240, 0, 1);
+// Make sure the HX has at least 20480mB of fluid capacity. I want it to be scaleable, so you don't need a massive wall of heat exchangers for when you upgrade to better power sources like nuclear reactors, and if has 20.48B of fluid capacity, you can run up to two boilers in one heat exchanger, which opens up a path for higher powered nuclear reactors and such.
 
 // Heat Exchanger: Gas Turbine Edition
-HeatExchanger.addRecipe(<fluid:high_pressure_steam> * 640*scm, <fluid:cold_fluegas> * 640*scm, <fluid:distwater> * 160*scm, <fluid:fluegas> * 640*scm, 0, 1);
-HeatExchanger.addRecipe(<fluid:cold_fluegas> * 640*scm, <fluid:high_pressure_steam> * 640*scm, <fluid:fluegas> * 640*scm, <fluid:distwater> * 160*scm, 0, 1);
-// Same thing as above with adding both to basically make the recipe shapeless.
+HeatExchanger.addRecipe(<fluid:high_pressure_steam> * 640, null, <fluid:distwater> * 160, <fluid:fluegas> * 640, 0, 1);
 
 // Cooling Preheated Water
-CoolingTower.addRecipe(<liquid:distwater> * 640*scm, null, null, <liquid:preheated_water> * 640*scm, <liquid:distwater> * 16*scm, 1);
-Radiator.addRecipe(<liquid:distwater> * 80*scm, <liquid:preheated_water> * 80*scm, 1);
-// Makes the radiator 8 times as bad as the cooling tower. (That should mean that two radiators are enough for a boiler setup.)
+CoolingTower.addRecipe(<liquid:distwater> * 640, null, null, <liquid:preheated_water> * 640, <liquid:distwater> * 16, 1);
+Radiator.addRecipe(<liquid:distwater> * 80, <liquid:preheated_water> * 80, 1);
+// Makes the radiator 8 times as bad as the cooling tower. (That should mean that two radiators are enough for one boiler setup.)
 
 
 

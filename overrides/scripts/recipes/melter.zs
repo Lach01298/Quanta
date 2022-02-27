@@ -107,8 +107,8 @@ Melter.addRecipe(<contenttweaker:dust_beryllium_chloride>,<fluid:beryllium_chlor
 MeltingCrucible.addRecipe(<fluid:lithium_chloride>*144, <contenttweaker:dust_lithium_chloride>, melterEnergy, melterTime);
 Melter.addRecipe(<contenttweaker:dust_lithium_chloride>,<fluid:lithium_chloride>*144,1,1);
 
-MeltingCrucible.addRecipe(<fluid:lithium_fluoride>*144, <contenttweaker:dust_lithium_fluoride>, melterEnergy, melterTime);
-Melter.addRecipe(<contenttweaker:dust_lithium_fluoride>,<fluid:lithium_fluoride>*144,1,1);
+MeltingCrucible.addRecipe(<fluid:lif>*144, <contenttweaker:dust_lithium_fluoride>, melterEnergy, melterTime);
+Melter.addRecipe(<contenttweaker:dust_lithium_fluoride>,<fluid:lif>*144,1,1);
 
 MeltingCrucible.addRecipe(<fluid:moltensalt>*144, <qmd:chemical_dust:3>, melterEnergy, melterTime);
 Melter.addRecipe(<qmd:chemical_dust:3>,<fluid:moltensalt>*144,1,1);

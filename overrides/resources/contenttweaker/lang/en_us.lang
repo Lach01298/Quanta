@@ -72,7 +72,6 @@ fluid.hydrogen_cyanide=Hydrogen Cyanide
 fluid.hydrogen_sulfide=Hydrogen Sulfide
 fluid.liquid_methane=Liquid Methane
 fluid.lithium_chloride=Molten Lithium Chloride
-fluid.lithium_fluoride=Molten Lithium Fluoride
 fluid.magnesium_chloride=Molten Magnesium Chloride
 fluid.methane=Methane
 fluid.phosphine=Phosphine
@@ -85,6 +84,7 @@ fluid.toluene=Toluene
 fluid.venus_atmosphere=Venus Atmosphere
 fluid.mars_atmosphere=Mars Atmosphere
 fluid.titan_atmosphere=Titan Atmosphere
+
 
 tile.contenttweaker.ammonia_ice.name=Ammonia Ice
 tile.contenttweaker.anorthosite_regolith.name=Anorthosite Regolith
