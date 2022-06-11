@@ -59,7 +59,6 @@ Boiler.addRecipe(<fluid:high_pressure_steam> * 640, <fluid:preheated_water> * 16
 // Gas Turbine
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:light_oil> * 12, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:diesel> * 8, 1);
-GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:diesel> * 10, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:kerosene> * 8, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:gasoline> * 8, 1);
 

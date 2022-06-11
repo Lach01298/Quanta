@@ -94,7 +94,7 @@ RecipeBuilder.newBuilder("nh4cl_rec", "large_chemical_reactor", 100)
 RecipeBuilder.newBuilder("l_process_1", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addFluidInput(<fluid:sulfuric_acid> * 1000)
-	.addItemInput(<qmd:chemical_dust:2> * 3)
+	.addItemInput(<qmd:chemical_dust:3> * 2)
     .addItemOutput(<contenttweaker:dust_sodium_sulfate>)
     .addFluidOutput(<fluid:hydrochloric_acid> * 2000)
     .build();
@@ -103,9 +103,10 @@ RecipeBuilder.newBuilder("l_process_2", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_sodium_sulfate>)
 	.addItemInput(<ore:dustCoke>)
-	.addItemInput(<contenttweaker:calcite>)
+	.addItemInput(<contenttweaker:calcite>)#CaCO3
 	.addItemOutput(<contenttweaker:dust_sodium_carbonate>)
     .addItemOutput(<contenttweaker:dust_calcium_sulfide>)
+    .addFluidOutput(<fluid:carbon_dioxide>*1000)
     .build();
 	
 RecipeBuilder.newBuilder("l_process_3", "large_chemical_reactor", 100)
