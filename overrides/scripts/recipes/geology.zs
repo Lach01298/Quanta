@@ -51,22 +51,22 @@ Crusher.addRecipe(<undergroundbiomes:metamorphic_gravel:5>, <undergroundbiomes:m
 Crusher.addRecipe(<undergroundbiomes:metamorphic_gravel:6>, <undergroundbiomes:metamorphic_cobble:6>, baseCrusherEnergy,<minecraft:sand>,0.1);
 Crusher.addRecipe(<undergroundbiomes:metamorphic_gravel:7>, <undergroundbiomes:metamorphic_cobble:7>, baseCrusherEnergy,<minecraft:sand>,0.1);
 
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble>,<undergroundbiomes:igneous_gravel>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:1>,<undergroundbiomes:igneous_gravel:1>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:2>,<undergroundbiomes:igneous_gravel:2>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:3>,<undergroundbiomes:igneous_gravel:3>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:4>, <undergroundbiomes:igneous_gravel:4>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:5>, <undergroundbiomes:igneous_gravel:5>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:6>, <undergroundbiomes:igneous_gravel:6>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:igneous_cobble:7>, <undergroundbiomes:igneous_gravel:7>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble>, <undergroundbiomes:metamorphic_gravel>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:1>,<undergroundbiomes:metamorphic_gravel:1>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:2>,<undergroundbiomes:metamorphic_gravel:2>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:3>, <undergroundbiomes:metamorphic_gravel:3>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:4>,<undergroundbiomes:metamorphic_gravel:4>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:5>, <undergroundbiomes:metamorphic_gravel:5>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:6>,<undergroundbiomes:metamorphic_gravel:6>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:7>,<undergroundbiomes:metamorphic_gravel:7>, <minecraft:sand>,0.1, 40, true);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble>,<undergroundbiomes:igneous_gravel>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:1>,<undergroundbiomes:igneous_gravel:1>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:2>,<undergroundbiomes:igneous_gravel:2>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:3>,<undergroundbiomes:igneous_gravel:3>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:4>, <undergroundbiomes:igneous_gravel:4>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:5>, <undergroundbiomes:igneous_gravel:5>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:6>, <undergroundbiomes:igneous_gravel:6>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:igneous_cobble:7>, <undergroundbiomes:igneous_gravel:7>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble>, <undergroundbiomes:metamorphic_gravel>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:1>,<undergroundbiomes:metamorphic_gravel:1>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:2>,<undergroundbiomes:metamorphic_gravel:2>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:3>, <undergroundbiomes:metamorphic_gravel:3>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:4>,<undergroundbiomes:metamorphic_gravel:4>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:5>, <undergroundbiomes:metamorphic_gravel:5>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:6>,<undergroundbiomes:metamorphic_gravel:6>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:metamorphic_cobble:7>,<undergroundbiomes:metamorphic_gravel:7>, <minecraft:sand>,0.1, 40, false);
 
 
 
@@ -79,14 +79,14 @@ Crusher.addRecipe(<undergroundbiomes:sedimentary_gravel:5>, <undergroundbiomes:s
 Crusher.addRecipe(<undergroundbiomes:sedimentary_gravel:6>, <undergroundbiomes:sedimentary_stone:6>, baseCrusherEnergy,<minecraft:sand>,0.1);
 Crusher.addRecipe(<undergroundbiomes:sedimentary_gravel:7>, <undergroundbiomes:sedimentary_stone:7>, baseCrusherEnergy,<minecraft:sand>,0.1);
 
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone>,<undergroundbiomes:sedimentary_gravel>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:1>,<undergroundbiomes:sedimentary_gravel:1>,<minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:2>,<undergroundbiomes:sedimentary_gravel:2>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:3>,<undergroundbiomes:sedimentary_gravel:3>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:4>, <undergroundbiomes:sedimentary_gravel:4>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:5>, <undergroundbiomes:sedimentary_gravel:5>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:6>, <undergroundbiomes:sedimentary_gravel:6>, <minecraft:sand>,0.1, 40, true);
-Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:7>, <undergroundbiomes:sedimentary_gravel:7>, <minecraft:sand>,0.1, 40, true);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone>,<undergroundbiomes:sedimentary_gravel>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:1>,<undergroundbiomes:sedimentary_gravel:1>,<minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:2>,<undergroundbiomes:sedimentary_gravel:2>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:3>,<undergroundbiomes:sedimentary_gravel:3>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:4>, <undergroundbiomes:sedimentary_gravel:4>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:5>, <undergroundbiomes:sedimentary_gravel:5>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:6>, <undergroundbiomes:sedimentary_gravel:6>, <minecraft:sand>,0.1, 40, false);
+Grinder.addRecipe(<undergroundbiomes:sedimentary_stone:7>, <undergroundbiomes:sedimentary_gravel:7>, <minecraft:sand>,0.1, 40, false);
 
 
 
@@ -205,15 +205,15 @@ Sieve.addRecipe(<undergroundbiomes:sedimentary_gravel:6>, <minecraft:quartz>, 0.
 RockCrusher.addRecipe(<contenttweaker:feldspar>,ChanceItemIngredient.create(<ore:dustFluorite>,30),ChanceItemIngredient.create(<ore:dustCarobbiite>,30),ChanceItemIngredient.create(<ore:dustVilliaumite>,30),1,1);
 
 Crusher.addRecipe(<nuclearcraft:gem_dust:5>, <contenttweaker:feldspar>, baseCrusherEnergy);
-Grinder.addRecipe(<contenttweaker:feldspar>,<nuclearcraft:gem_dust:5>, <minecraft:dirt>,0.0, 40, true);
+Grinder.addRecipe(<contenttweaker:feldspar>,<nuclearcraft:gem_dust:5>, <minecraft:dirt>,0.0, 40, false);
 
 Crusher.addRecipe(<contenttweaker:spodumene>, <contenttweaker:pyroxene>, baseCrusherEnergy);
-Grinder.addRecipe( <contenttweaker:pyroxene>,<contenttweaker:spodumene>, <minecraft:dirt>,0.0, 40, true);
+Grinder.addRecipe( <contenttweaker:pyroxene>,<contenttweaker:spodumene>, <minecraft:dirt>,0.0, 40, false);
 RockCrusher.addRecipe(<contenttweaker:pyroxene>,<contenttweaker:spodumene>,null,null,1,1);
 
 RockCrusher.addRecipe(<contenttweaker:mica>,<quark:biotite>,ChanceItemIngredient.create(<ore:dustGraphite>,50),null,1,1);
 Crusher.addRecipe(<quark:biotite>, <contenttweaker:mica>, baseCrusherEnergy,<nuclearcraft:dust:8>,0.5);
-Grinder.addRecipe(<contenttweaker:mica>,<quark:biotite>, <minecraft:dirt>,0.0, 40, true);
+Grinder.addRecipe(<contenttweaker:mica>,<quark:biotite>, <minecraft:dirt>,0.0, 40, false);
 
 furnace.addRecipe(<contenttweaker:dust_calcium_oxide>,<contenttweaker:calcite>);
 furnace.addRecipe(<contenttweaker:dust_magnesium_oxide>,<contenttweaker:dolomite>);

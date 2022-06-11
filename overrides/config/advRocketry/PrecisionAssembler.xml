@@ -207,7 +207,7 @@
 		<input>
 			<itemStack>advancedrocketry:ic;4</itemStack>
 			<itemStack>advancedrocketry:lens;3</itemStack>
-			<oreDict>plateIridium</oreDict>
+			<oreDict>plateSilver</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>

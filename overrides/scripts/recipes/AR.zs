@@ -234,6 +234,7 @@ recipes.addShaped(<libvulpes:holoprojector>, [[null, null, null],[null, <ore:dus
 
 recipes.remove(<advancedrocketry:lens>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>);
 
 recipes.addShaped(<advancedrocketry:blocklens>, [[<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>],[<ore:stickAluminum>, null, <ore:stickAluminum>], [<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>]]);
@@ -249,3 +250,4 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>, [[<ore:ingotSilver>, <ore:ingo
 
 recipes.remove(<advancedrocketry:spacelaser>);
 recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:ingotSuperAlloy>, <libvulpes:advstructuremachine>, <ore:ingotSuperAlloy>],[<ore:ingotSuperAlloy>, <qmd:part:10>, <ore:ingotSuperAlloy>], [<ore:ingotSuperAlloy>, <advancedrocketry:lens>, <ore:ingotSuperAlloy>]]);
+

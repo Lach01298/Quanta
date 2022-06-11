@@ -61,7 +61,7 @@ recipes.addShaped(<modularmachinery:blockcasing>, [[null, <ore:ingotStainlessSte
 
 //---add recipes---
 
-recipes.addShaped(<modularmachinery:itemblueprint>, [[<ore:ingotNickel>, <ore:ingotPlatinum>, <ore:ingotNickel>],[<ore:ingotNichrome>, <immersiveengineering:material:27>, <ore:ingotNichrome>], [<ore:ingotNickel>, <immersiveengineering:material:9>, <ore:ingotNickel>]]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:large_chemical_reactor"}), [[<ore:ingotNickel>, <ore:ingotPlatinum>, <ore:ingotNickel>],[<ore:ingotNichrome>, <immersiveengineering:material:27>, <ore:ingotNichrome>], [<ore:ingotNickel>, <immersiveengineering:material:9>, <ore:ingotNickel>]]);
 
 recipes.addShaped(<modularmachinery:blockinputbus:2>, [[null, <ore:chest>, null],[null, <modularmachinery:blockcasing>, null], [null, <immersiveengineering:material:27>, null]]);
 

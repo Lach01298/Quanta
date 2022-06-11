@@ -114,6 +114,7 @@ Grinder.removeRecipe(<magneticraft:burnt_limestone>);
 
 // add
 Grinder.addRecipe(<minecraft:iron_ore>, <contenttweaker:dust_iron_oxide>*2, <contenttweaker:dust_chromium_oxide>, 0.1, 40, true);
+Grinder.addRecipe(<minecraft:gold_ore>, <immersiveengineering:metal:19>*2, <minecraft:dirt>, 0.0, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore>, <nuclearcraft:dust>*2, <nuclearcraft:gem_dust:6>, 0.25, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:1>, <nuclearcraft:dust:1>*2, <contenttweaker:scheelite>, 0.25, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:2>, <nuclearcraft:dust:2>*2, <nuclearcraft:gem_dust:6>, 0.25, 40, true);
