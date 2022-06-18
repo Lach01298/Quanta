@@ -29,6 +29,7 @@ for i,item in removeItems{
 mods.jei.JEI.hide(<refinedstorage:cover>);
 mods.jei.JEI.hide(<refinedstorage:hollow_cover>);
 
+furnace.remove(<refinedstorage:silicon>);
 furnace.remove(<refinedstorage:processor:3>,<refinedstorage:processor>);
 furnace.remove(<refinedstorage:processor:4>,<refinedstorage:processor:1>);
 furnace.remove(<refinedstorage:processor:5>,<refinedstorage:processor:2>);
