@@ -27,7 +27,12 @@ var removeItems= [<advancedrocketry:platepress>,
 <advancedrocketry:itemcircuitplate:1>,
 <advancedrocketry:terraformer>,
 <advancedrocketry:forcefieldprojector>,
-<advancedrocketry:warpmonitor>
+<advancedrocketry:warpmonitor>,
+<libvulpes:productdust:3>, #Si dust
+<libvulpes:productrod:6>, #steel rod
+<libvulpes:productnugget:3>, #Si nugget
+<libvulpes:productplate:3>, #Si plate
+<libvulpes:productsheet:4> #copper sheet with neither recipe nor use
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -234,7 +239,6 @@ recipes.addShaped(<libvulpes:holoprojector>, [[null, null, null],[null, <ore:dus
 
 recipes.remove(<advancedrocketry:lens>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
-recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>);
 
 recipes.addShaped(<advancedrocketry:blocklens>, [[<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>],[<ore:stickAluminum>, null, <ore:stickAluminum>], [<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>]]);
@@ -250,4 +254,3 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>, [[<ore:ingotSilver>, <ore:ingo
 
 recipes.remove(<advancedrocketry:spacelaser>);
 recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:ingotSuperAlloy>, <libvulpes:advstructuremachine>, <ore:ingotSuperAlloy>],[<ore:ingotSuperAlloy>, <qmd:part:10>, <ore:ingotSuperAlloy>], [<ore:ingotSuperAlloy>, <advancedrocketry:lens>, <ore:ingotSuperAlloy>]]);
-
