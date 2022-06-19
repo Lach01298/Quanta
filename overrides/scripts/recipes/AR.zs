@@ -238,7 +238,10 @@ recipes.remove(<libvulpes:holoprojector>);
 recipes.addShaped(<libvulpes:holoprojector>, [[null, null, null],[null, <ore:dustGlowstone>, null], [<magneticraft:light_plates>, <immersiveengineering:material:27>, <magneticraft:light_plates>]]);
 
 recipes.remove(<advancedrocketry:lens>);
-recipes.remove(<advancedrocketry:satelliteprimaryfunction>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:0>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:1>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>);
+recipes.remove(<advancedrocketry:satelliteprimaryfunction:3>);
 recipes.remove(<advancedrocketry:satelliteprimaryfunction:4>);
 
 recipes.addShaped(<advancedrocketry:blocklens>, [[<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>],[<ore:stickAluminum>, null, <ore:stickAluminum>], [<ore:stickAluminum>, <ore:itemLens>, <ore:stickAluminum>]]);
