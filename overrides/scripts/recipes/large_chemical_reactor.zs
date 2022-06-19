@@ -103,7 +103,7 @@ RecipeBuilder.newBuilder("l_process_2", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_sodium_sulfate>)
 	.addItemInput(<ore:dustCoke>)
-	.addItemInput(<contenttweaker:calcite>)#CaCO3
+	.addItemInput(<contenttweaker:calcite>) //CaCO3
 	.addItemOutput(<contenttweaker:dust_sodium_carbonate>)
     .addItemOutput(<contenttweaker:dust_calcium_sulfide>)
     .addFluidOutput(<fluid:carbon_dioxide>*1000)
@@ -394,7 +394,7 @@ RecipeBuilder.newBuilder("tungsten", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(400)
     .addItemInput(<ore:dustTungstenOxide>)
 	.addFluidInput(<fluid:hydrogen>*3000)
-	.addItemOutput(<qmd:dust>)#don't use oredicts as output
+	.addItemOutput(<qmd:dust>) //don't use oredicts as output
 	.addFluidOutput(<fluid:water>*3000)
     .build();
 	
@@ -465,6 +465,13 @@ RecipeBuilder.newBuilder("ammonium_sulfate_fertilizer", "large_chemical_reactor"
     .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
     .addItemInput(<minecraft:dye:15>)
 	.addItemOutput(<minecraft:dye:15>*2)
+	.build();
+	
+RecipeBuilder.newBuilder("ammonium_sulfate_decomposition", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+	.addFluidOutput(<fluid:ammonia>*2000)
+	.addFluidOutput(<fluid:sulfuric_acid>*1000)
 	.build();
 	
 RecipeBuilder.newBuilder("plastic", "large_chemical_reactor", 100)
