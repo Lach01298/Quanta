@@ -191,7 +191,7 @@ ore_leacher.addRecipe(<contenttweaker:monazite>,<fluid:sodium_hydroxide_solution
 
 ore_leacher.addRecipe(<ore:oreIridium>,<fluid:nitric_acid>*1000,<fluid:hydrochloric_acid>*4000,<fluid:ammonium_chloride_solution>*333,<ore:dustIridium>*3,ChanceItemIngredient.create(<ore:dustPlatinum>,50),ChanceItemIngredient.create(<ore:dustOsmium>,50), 1.0,1.0);
 
-ore_leacher.addRecipe(<ore:oreIron>,<fluid:sulfuric_acid>*100,null,null,<ore:dustIron>*3,ChanceItemIngredient.create(<contenttweaker:dust_chromium_oxide>,20),null, 1.0,1.0);
+ore_leacher.addRecipe(<ore:oreIron>,<fluid:sulfuric_acid>*100,null,null,<ore:dustIron>*3,ChanceItemIngredient.create(<contenttweaker:dust_chromium_oxide>,20),ChanceItemIngredient.create(<qmd:dust:4>,2), 1.0,1.0);
 
 ore_leacher.addRecipe(<ore:oreTin>,<fluid:sulfuric_acid>*100,null,null,<ore:dustTin>*3,ChanceItemIngredient.create(<contenttweaker:scheelite>,50),null, 1.0,1.0);
 
@@ -201,7 +201,7 @@ ore_leacher.addRecipe(<ore:oreSilver>,<fluid:sodium_cyanide_solution>*100,null,n
 
 ore_leacher.addRecipe(<ore:oreCopper>,<fluid:sulfuric_acid>*100,null,null,<ore:dustCopper>*3,ChanceItemIngredient.create(<ore:dustSulfur>,50),ChanceItemIngredient.create(<ore:dustArsenic>,50), 1.0,1.0);
 
-ore_leacher.addRecipe(<ore:oreLead>,<fluid:sulfuric_acid>*100,null,null,<ore:dustLead>*3,ChanceItemIngredient.create(<ore:dustSulfur>,50),ChanceItemIngredient.create(<ore:dustArsenic>,50), 1.0,1.0);
+ore_leacher.addRecipe(<ore:oreLead>,<fluid:sulfuric_acid>*100,null,null,<ore:dustLead>*3,ChanceItemIngredient.create(<ore:dustSulfur>,50),ChanceItemIngredient.create(<qmd:dust:7>,2), 1.0,1.0);
 
 ore_leacher.addRecipe(<ore:oreNickel>,<fluid:ammonia_solution>*100,null,null,<ore:dustNickel>*3,ChanceItemIngredient.create(<ore:dustPlatinum>,20),null, 1.0,1.0);
 
