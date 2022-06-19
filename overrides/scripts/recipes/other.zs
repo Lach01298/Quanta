@@ -33,7 +33,11 @@ var removeItems= [
 <biomesoplenty:boat_jacaranda>,
 <biomesoplenty:boat_mahogany>,
 <biomesoplenty:boat_ebony>,
-<biomesoplenty:boat_eucalyptus>
+<biomesoplenty:boat_eucalyptus>,
+<microblockcbe:saw_stone>,
+<microblockcbe:saw_iron>,
+<microblockcbe:saw_diamond>,
+<microblockcbe:stone_rod>
 ] as  IItemStack[];
 
 for i,item in removeItems{

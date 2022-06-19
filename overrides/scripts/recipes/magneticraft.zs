@@ -57,7 +57,16 @@ var removeItems= [<magneticraft:solar_panel>,
 <magneticraft:ores:1>,
 <magneticraft:ores:2>,
 <magneticraft:ores:3>,
-<magneticraft:ores:4>
+<magneticraft:ores:4>,
+<magneticraft:ingots:5>,#tungsten
+<magneticraft:light_plates:5>,
+<magneticraft:heavy_plates:5>,
+<magneticraft:nuggets:5>,
+<magneticraft:chunks:5>,
+<magneticraft:dusts:5>,
+<magneticraft:rocky_chunks:5>,
+<magneticraft:tungsten_gear>,
+<magneticraft:storage_blocks:3>
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -66,6 +75,7 @@ for i,item in removeItems{
 }
 
 recipes.remove(<magneticraft:ingots:4> * 9);
+furnace.remove(<magneticraft:ingots:5>);
 
 
 //---crushing table---

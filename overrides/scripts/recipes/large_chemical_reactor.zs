@@ -94,7 +94,7 @@ RecipeBuilder.newBuilder("nh4cl_rec", "large_chemical_reactor", 100)
 RecipeBuilder.newBuilder("l_process_1", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addFluidInput(<fluid:sulfuric_acid> * 1000)
-	.addItemInput(<qmd:chemical_dust:2> * 3)
+	.addItemInput(<qmd:chemical_dust:3> * 2)
     .addItemOutput(<contenttweaker:dust_sodium_sulfate>)
     .addFluidOutput(<fluid:hydrochloric_acid> * 2000)
     .build();
@@ -103,9 +103,10 @@ RecipeBuilder.newBuilder("l_process_2", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_sodium_sulfate>)
 	.addItemInput(<ore:dustCoke>)
-	.addItemInput(<contenttweaker:calcite>)
+	.addItemInput(<contenttweaker:calcite>)#CaCO3
 	.addItemOutput(<contenttweaker:dust_sodium_carbonate>)
     .addItemOutput(<contenttweaker:dust_calcium_sulfide>)
+    .addFluidOutput(<fluid:carbon_dioxide>*1000)
     .build();
 	
 RecipeBuilder.newBuilder("l_process_3", "large_chemical_reactor", 100)
@@ -274,7 +275,7 @@ RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", 
 	
 RecipeBuilder.newBuilder("uo3_reduction", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
-    .addItemInput(<contenttweaker:dust_uranium_trioxide>*2)
+    .addItemInput(<contenttweaker:dust_uranium_trioxide>)
 	.addFluidInput(<fluid:hydrogen>*1000)
 	.addItemOutput(<contenttweaker:dust_uranium_dioxide>)
 	.addFluidOutput(<fluid:water>*1000)
@@ -393,7 +394,7 @@ RecipeBuilder.newBuilder("tungsten", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(400)
     .addItemInput(<ore:dustTungstenOxide>)
 	.addFluidInput(<fluid:hydrogen>*3000)
-	.addItemOutput(<ore:dustTungsten>)
+	.addItemOutput(<qmd:dust>)#don't use oredicts as output
 	.addFluidOutput(<fluid:water>*3000)
     .build();
 	
@@ -449,6 +450,21 @@ RecipeBuilder.newBuilder("nh4f_decomp", "large_chemical_reactor", 100)
     .addItemInput(<contenttweaker:dust_ammonium_fluoride>)
 	.addFluidOutput(<fluid:ammonia>*1000)
 	.addFluidOutput(<fluid:hydrofluoric_acid>*1000)
+	.build();
+	
+RecipeBuilder.newBuilder("ammonium_sulfate_neutralization", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+    .addFluidInput(<fluid:sodium_hydroxide_solution>*1332)
+	.addFluidOutput(<fluid:ammonia_solution>*2000)
+	.addFluidOutput(<fluid:sodium_sulfate_solution>*666)
+	.build();
+
+RecipeBuilder.newBuilder("ammonium_sulfate_fertilizer", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+    .addItemInput(<minecraft:dye:15>)
+	.addItemOutput(<minecraft:dye:15>*2)
 	.build();
 	
 RecipeBuilder.newBuilder("plastic", "large_chemical_reactor", 100)

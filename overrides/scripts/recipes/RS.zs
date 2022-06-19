@@ -17,7 +17,8 @@ var removeItems= [
 <refinedstorage:processor>,
 <refinedstorage:processor:1>,
 <refinedstorage:processor:2>,
-<refinedstorage:processor_binding>
+<refinedstorage:processor_binding>,
+<refinedstorage:silicon>
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -25,6 +26,10 @@ for i,item in removeItems{
 	mods.jei.JEI.hide(item);
 }
 
+mods.jei.JEI.hide(<refinedstorage:cover>);
+mods.jei.JEI.hide(<refinedstorage:hollow_cover>);
+
+furnace.remove(<refinedstorage:silicon>);
 furnace.remove(<refinedstorage:processor:3>,<refinedstorage:processor>);
 furnace.remove(<refinedstorage:processor:4>,<refinedstorage:processor:1>);
 furnace.remove(<refinedstorage:processor:5>,<refinedstorage:processor:2>);
