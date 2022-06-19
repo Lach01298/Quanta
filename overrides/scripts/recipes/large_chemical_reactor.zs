@@ -452,6 +452,21 @@ RecipeBuilder.newBuilder("nh4f_decomp", "large_chemical_reactor", 100)
 	.addFluidOutput(<fluid:hydrofluoric_acid>*1000)
 	.build();
 	
+RecipeBuilder.newBuilder("ammonium_sulfate_neutralization", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+    .addFluidInput(<fluid:sodium_hydroxide_solution>*1332)
+	.addFluidOutput(<fluid:ammonia_solution>*2000)
+	.addFluidOutput(<fluid:sodium_sulfate_solution>*666)
+	.build();
+
+RecipeBuilder.newBuilder("ammonium_sulfate_fertilizer", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+    .addItemInput(<minecraft:dye:15>)
+	.addItemOutput(<minecraft:dye:15>*2)
+	.build();
+	
 RecipeBuilder.newBuilder("plastic", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addFluidInput(<fluid:ethene>*1000)
