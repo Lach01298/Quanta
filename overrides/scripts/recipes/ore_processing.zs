@@ -181,7 +181,7 @@ ore_leacher.removeAllRecipes();
 //add
 ore_leacher.addRecipe(<contenttweaker:columbite>,<fluid:hydrofluoric_acid>*5000,<fluid:ammonia_solution>*10000,null,<contenttweaker:dust_niobium_pentoxide>,<contenttweaker:dust_ammonium_fluoride>*10,null,1,1);
 
-ore_leacher.addRecipe(<contenttweaker:uranite>,<fluid:sulfuric_acid>*3000,<fluid:ammonia_solution>*4000,null,<contenttweaker:dust_ammonium_diuranate>,<contenttweaker:dust_ammonium_sulfate>*3,null,1,1);
+ore_leacher.addRecipe(<contenttweaker:uranite>,<fluid:sulfuric_acid>*3000,<fluid:ammonia_solution>*8000,null,<contenttweaker:dust_ammonium_diuranate>,<contenttweaker:dust_ammonium_sulfate>*3,null,1,1);
 
 ore_leacher.addRecipe(<contenttweaker:scheelite>*3,<fluid:hydrochloric_acid>*6000,<fluid:ammonia_solution>*2500,null,<ore:dustTungstenOxide>*3,<contenttweaker:dust_calcium_chloride>*3,null,1,1);
 
