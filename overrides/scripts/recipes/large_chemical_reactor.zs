@@ -275,7 +275,7 @@ RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", 
 	
 RecipeBuilder.newBuilder("uo3_reduction", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
-    .addItemInput(<contenttweaker:dust_uranium_trioxide>*2)
+    .addItemInput(<contenttweaker:dust_uranium_trioxide>)
 	.addFluidInput(<fluid:hydrogen>*1000)
 	.addItemOutput(<contenttweaker:dust_uranium_dioxide>)
 	.addFluidOutput(<fluid:water>*1000)
