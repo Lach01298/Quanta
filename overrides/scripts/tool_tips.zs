@@ -93,8 +93,8 @@ var chemicalDustsTooltips = [
 "UO₃",
 "P",
 "ZiO₂",
-"ZiCL₄",
-"soda_lime"
+"ZiCl₄",
+"CaO·H₂O"
 ] as string[];
 
 for i, name in chemicalDusts
