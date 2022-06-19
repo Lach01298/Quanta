@@ -61,6 +61,7 @@ GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:light_oil> * 12, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:diesel> * 8, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:kerosene> * 8, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:gasoline> * 8, 1);
+GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:biodiesel> * 10, 1);
 
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:ethanol> * 10, 1);
 GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:methanol> * 10, 1);
