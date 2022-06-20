@@ -92,7 +92,8 @@ var chemicalLiquids= [
 "sodium_fluorosilicate_solution",
 "sodium_sulfate_solution",
 "titanium_tetrachloride",
-"toluene"
+"toluene",
+"hexafluorosilic_acid"
 ] as string[];
 
 var chemicalColours= [
@@ -105,7 +106,8 @@ var chemicalColours= [
 "3389ff",
 "3389ff",
 "cdb9d4",
-"cba589"
+"cba589",
+"3389ff"
 ] as string[];
 
 for i,name in chemicalLiquids{
