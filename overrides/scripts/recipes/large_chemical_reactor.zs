@@ -1,6 +1,9 @@
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipeBuilder.newBuilder;
 
+var decomp_EnergyPerTick = 400 as int;
+var decomp_time = 200 as int;
+
 
 
 //steam cracking
@@ -58,9 +61,10 @@ RecipeBuilder.newBuilder("ft_process", "large_chemical_reactor", 300)
     .build();
 
 //Solvay process
-RecipeBuilder.newBuilder("calcite_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("calcite_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:calcite>)
+    .addItemInput(<contenttweaker:dust_calcium_oxide>).setChance(0.0)
     .addItemOutput(<contenttweaker:dust_calcium_oxide>)
     .addFluidOutput(<fluid:carbon_dioxide> * 1000)
     .build();
@@ -74,8 +78,8 @@ RecipeBuilder.newBuilder("solvay", "large_chemical_reactor", 100)
     .addFluidOutput(<fluid:ammonium_chloride_solution> * 666)
     .build();
 	
-RecipeBuilder.newBuilder("bicarb_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("bicarb_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
 	.addItemInput(<contenttweaker:dust_sodium_bicarbonate>*2)
     .addItemOutput(<contenttweaker:dust_sodium_carbonate>)
     .addFluidOutput(<fluid:carbon_dioxide> * 1000)
@@ -143,8 +147,8 @@ RecipeBuilder.newBuilder("boric_acid", "large_chemical_reactor", 100)
     .addFluidOutput(<fluid:sodium_chloride_solution>*1332)
     .build();
 	
-RecipeBuilder.newBuilder("boric_acid_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("boric_acid_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_boric_acid>*2)
 	.addItemOutput(<contenttweaker:dust_boron_trioxide>)
     .addFluidOutput(<fluid:water>*3000)
@@ -166,8 +170,8 @@ RecipeBuilder.newBuilder("diborane_lif", "large_chemical_reactor", 100)
     .addItemOutput(<contenttweaker:dust_lithium_fluoride>*6)
     .build();
 
-RecipeBuilder.newBuilder("diborane_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("diborane_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
 	.addFluidInput(<fluid:diborane>*500)
 	.addFluidOutput(<fluid:boron>*144)
     .addFluidOutput(<fluid:hydrogen>*1500)
@@ -257,16 +261,16 @@ RecipeBuilder.newBuilder("phosphine", "large_chemical_reactor", 100)
 	.addItemOutput(<contenttweaker:dust_sodium_hypophosphite>*3)
     .build();	
 	
-RecipeBuilder.newBuilder("sodium_hypophosphite_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("sodium_hypophosphite_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_sodium_hypophosphite>*2)
 	.addFluidOutput(<fluid:phosphine>*1000)
 	.addItemOutput(<minecraft:dye:15>)
     .build();
 	
 // uranium
-RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_ammonium_diuranate>)
 	.addItemOutput(<contenttweaker:dust_uranium_trioxide>*2)
 	.addFluidOutput(<fluid:ammonia>*2000)
@@ -445,15 +449,18 @@ RecipeBuilder.newBuilder("mno2_dust", "large_chemical_reactor", 100)
 	.addItemOutput(<ore:dustManganeseDioxide>)
 	.build();
 	
-RecipeBuilder.newBuilder("nh4f_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("nh4f_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_ammonium_fluoride>)
 	.addFluidOutput(<fluid:ammonia>*1000)
 	.addFluidOutput(<fluid:hydrofluoric_acid>*1000)
 	.build();
 	
+
+
+//ammonium sulfate
 RecipeBuilder.newBuilder("ammonium_sulfate_neutralization", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+    .addEnergyPerTickInput(10)
     .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
     .addFluidInput(<fluid:sodium_hydroxide_solution>*1332)
 	.addFluidOutput(<fluid:ammonia_solution>*2000)
@@ -463,17 +470,21 @@ RecipeBuilder.newBuilder("ammonium_sulfate_neutralization", "large_chemical_reac
 RecipeBuilder.newBuilder("ammonium_sulfate_fertilizer", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
-    .addItemInput(<minecraft:dye:15>)
+    .addItemInput(<minecraft:dye:15>).setChance(0.0)
 	.addItemOutput(<minecraft:dye:15>*2)
 	.build();
 	
-RecipeBuilder.newBuilder("ammonium_sulfate_decomposition", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("ammonium_sulfate_decomposition", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_ammonium_sulfate>)
+    .addItemInput(<advancedrocketry:ic>).setChance(0.0)
 	.addFluidOutput(<fluid:ammonia>*2000)
 	.addFluidOutput(<fluid:sulfuric_acid>*1000)
 	.build();
 	
+
+
+
 RecipeBuilder.newBuilder("plastic", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
     .addFluidInput(<fluid:ethene>*1000)
@@ -539,18 +550,18 @@ RecipeBuilder.newBuilder("talc", "large_chemical_reactor", 100)
 	.addFluidOutput(<fluid:carbon_dioxide>*3000)
 	.build();
 	
-RecipeBuilder.newBuilder("mgco3_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("mgco3_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_magnesium_carbonate>)
 	.addItemOutput(<contenttweaker:dust_magnesium_oxide>)
-	.addFluidOutput(<fluid:carbon_dioxide>*2000)
+	.addFluidOutput(<fluid:carbon_dioxide>*1000)
 	.build();
 	
-RecipeBuilder.newBuilder("feco3_decomp", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
+RecipeBuilder.newBuilder("feco3_decomp", "large_chemical_reactor", decomp_time)
+    .addEnergyPerTickInput(decomp_EnergyPerTick)
     .addItemInput(<contenttweaker:dust_iron_carbonate>)
 	.addItemOutput(<contenttweaker:dust_iron_oxide>)
-	.addFluidOutput(<fluid:carbon_dioxide>*2000)
+	.addFluidOutput(<fluid:carbon_dioxide>*1000)
 	.build();
 	
 RecipeBuilder.newBuilder("hydrogen_cyanide", "large_chemical_reactor", 100)
