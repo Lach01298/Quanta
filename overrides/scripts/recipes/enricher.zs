@@ -20,7 +20,7 @@ Mixer.addRecipe(<fluid:witherite_water>*666, <fluid:water>*1000, [<ore:dustWithe
 Mixer.addRecipe(<fluid:calcium_sulfate_solution>*333, <fluid:sulfuric_acid>*500, [<contenttweaker:dust_calcium_oxide>], mixerEnergy);
 Enricher.addRecipe(<contenttweaker:dust_calcium_oxide>,<fluid:sulfuric_acid>*500,<fluid:calcium_sulfate_solution>*333,1.0,1.0);
 
-Enricher.addRecipe(<ore:dustQuartz>,<fluid:hydrofluoric_acid>*6000,<fluid:sodium_fluorosilicate_solution>*1000,1.0,1.0);
+Enricher.addRecipe(<ore:dustQuartz>,<fluid:hydrofluoric_acid>*6000,<fluid:hexafluorosilic_acid>*1000,1.0,1.0);
 
 Mixer.addRecipe(<fluid:sodium_carbonate_solution>*666, <fluid:water>*1000, [<contenttweaker:dust_sodium_carbonate>], mixerEnergy);
 Enricher.addRecipe(<contenttweaker:dust_sodium_carbonate>,<fluid:water>*1000,<fluid:sodium_carbonate_solution>*666,1.0,1.0);
