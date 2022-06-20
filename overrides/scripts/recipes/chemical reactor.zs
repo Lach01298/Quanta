@@ -57,6 +57,6 @@ ChemicalReactor.addRecipe(<fluid:toluene>*1000,<fluid:nitric_acid>*3000,<fluid:t
 ChemicalReactor.addRecipe(<fluid:ammonia>*1000,<fluid:water>*1000,<fluid:ammonia_solution>*1000,null,1,1);
 ChemicalReactor.addRecipe(<fluid:hydrogen_cyanide>*1000,<fluid:naoh>*1000,<fluid:sodium_cyanide_solution>*1000,null,1,1);
 
-
-
+// hexafluorosilic_acid
+ChemicalReactor.addRecipe(<fluid:hexafluorosilic_acid>*1000,<fluid:sodium_chloride_solution>*2000,<fluid:sodium_fluorosilicate_solution>*1000,<fluid:hydrochloric_acid>*2000,1,1);
 
