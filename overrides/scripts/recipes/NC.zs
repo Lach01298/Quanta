@@ -26,7 +26,9 @@ var removeItems= [
 <nuclearcraft:solar_panel_du>,
 <nuclearcraft:solar_panel_advanced>,
 <nuclearcraft:solar_panel_basic>,
-<nuclearcraft:rtg_uranium>
+<nuclearcraft:rtg_uranium>,
+<nuclearcraft:water_source_dense>,
+<nuclearcraft:water_source_compact>
 ] as  IItemStack[];
 
 for i,item in removeItems{
@@ -38,8 +40,6 @@ for i,item in removeItems{
 
 //---------remove recipes---------
 recipes.remove(<nuclearcraft:water_source>);
-recipes.remove(<nuclearcraft:water_source_dense>);
-recipes.remove(<nuclearcraft:water_source_compact>);
 
 
 Manufactory.removeRecipeWithOutput(<ore:dustHOPGraphite>);
