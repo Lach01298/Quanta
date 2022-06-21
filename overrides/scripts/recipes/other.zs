@@ -97,9 +97,9 @@ furnace.addRecipe(<contenttweaker:dust_sodium_carbonate>,<backportedflora:dried_
 
 recipes.addShapeless(<contenttweaker:dust_soda_lime>*2, [<contenttweaker:dust_calcium_oxide>,<contenttweaker:dust_sodium_carbonate>]);
 
-AlloySmelter.addRecipe(<minecraft:glass>*2, <ore:sand>*2, <contenttweaker:dust_soda_lime>, 100);
-AlloySmelter.addRecipe(<minecraft:glass>*2, <contenttweaker:dust_soda_lime>, <ore:sand>*2, 100);
-AlloyFurnace.addRecipe(<ore:sand>*2,<contenttweaker:dust_soda_lime>,<minecraft:glass>*2,1.0,1.0);
+AlloySmelter.addRecipe(<minecraft:glass>*4, <ore:sand>*4, <contenttweaker:dust_soda_lime>, 100);
+AlloySmelter.addRecipe(<minecraft:glass>*4, <contenttweaker:dust_soda_lime>, <ore:sand>*4, 100);
+AlloyFurnace.addRecipe(<ore:sand>*8,<contenttweaker:dust_soda_lime>,<minecraft:glass>*8,1.0,1.0);
 
 
 //tnt changes
