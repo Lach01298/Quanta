@@ -59,7 +59,10 @@ var chemicalGases = [
 "hydrogen_cyanide",
 "hydrogen_sulfide",
 "methane",
-"phosphine"
+"phosphine",
+"uranium_hexafluoride",
+"uranium-238_hexafluoride",
+"uranium-235_hexafluoride"
 
 ] as string[];
 
@@ -69,7 +72,10 @@ var gasesColour= [
 "fffa77",
 "917f6f",
 "ec84ed",
-"aaaaaa"
+"aaaaaa",
+"2d452d",
+"2d452d",
+"2d452d"
 ] as string[];
 
 for i,name in chemicalGases{

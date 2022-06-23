@@ -268,38 +268,7 @@ RecipeBuilder.newBuilder("sodium_hypophosphite_decomp", "large_chemical_reactor"
 	.addItemOutput(<minecraft:dye:15>)
     .build();
 	
-// uranium
-RecipeBuilder.newBuilder("ammonium_diuranate_decomp", "large_chemical_reactor", decomp_time)
-    .addEnergyPerTickInput(decomp_EnergyPerTick)
-    .addItemInput(<contenttweaker:dust_ammonium_diuranate>)
-	.addItemOutput(<contenttweaker:dust_uranium_trioxide>*2)
-	.addFluidOutput(<fluid:ammonia>*2000)
-	.addFluidOutput(<fluid:water>*1000)
-    .build();	
-	
-RecipeBuilder.newBuilder("uo3_reduction", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
-    .addItemInput(<contenttweaker:dust_uranium_trioxide>)
-	.addFluidInput(<fluid:hydrogen>*1000)
-	.addItemOutput(<contenttweaker:dust_uranium_dioxide>)
-	.addFluidOutput(<fluid:water>*1000)
-    .build();
-	
-RecipeBuilder.newBuilder("uf4", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(100)
-    .addItemInput(<contenttweaker:dust_uranium_dioxide>)
-	.addFluidInput(<fluid:hydrofluoric_acid>*4000)
-	.addItemOutput(<contenttweaker:dust_uranium_tetrafluoride>)
-	.addFluidOutput(<fluid:water>*2000)
-    .build();
-	
-RecipeBuilder.newBuilder("uranium", "large_chemical_reactor", 100)
-    .addEnergyPerTickInput(400)
-    .addItemInput(<contenttweaker:dust_uranium_tetrafluoride>)
-	.addItemInput(<qmd:dust:13>*2)
-	.addFluidOutput(<fluid:uranium>*144)
-	.addFluidOutput(<fluid:fluorite>*1332)
-    .build();
+
 
 	
 // thorium
