@@ -85,6 +85,9 @@ fluid.toluene=Toluene
 fluid.venus_atmosphere=Venus Atmosphere
 fluid.mars_atmosphere=Mars Atmosphere
 fluid.titan_atmosphere=Titan Atmosphere
+fluid.uranium_hexafluoride=Uranium Hexafluoride
+fluid.uranium-235_hexafluoride=Uranium-235 Hexafluoride
+fluid.uranium-238_hexafluoride=Uranium-238 Hexafluoride
 
 
 tile.contenttweaker.ammonia_ice.name=Ammonia Ice
