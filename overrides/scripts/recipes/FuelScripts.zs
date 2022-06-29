@@ -71,8 +71,8 @@ GasTurbine.addFuel(<fluid:fluegas> * 320, <fluid:methane> * 12, 1);
 
 
 // Solar Tower
-SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:distwater> * 192, 2);
-SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:preheated_water> * 192, 1);
+SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:distwater> * 192, 8);
+SolarTower.addRecipe(<fluid:high_pressure_steam> * 768, <fluid:preheated_water> * 192, 4);
 // It's supposed to make about 12KiRF to compensate for the high resource cost and construction effort of this thing.
 
 
