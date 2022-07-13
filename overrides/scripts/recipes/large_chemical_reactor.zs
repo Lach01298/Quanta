@@ -24,7 +24,18 @@ RecipeBuilder.newBuilder("steam_cracking", "large_chemical_reactor", 100)
     .addFluidOutput(<fluid:hydrogen> * 1000)
     .addFluidOutput(<fluid:water> * 125)
     .build();
-	
+    
+RecipeBuilder.newBuilder("steam_cracking_hps", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addFluidInput(<fluid:lpg> * 1000)
+    .addFluidInput(<liquid:high_pressure_steam> * 2000)
+    .addFluidOutput(<fluid:ethene> * 1000)
+    .addFluidOutput(<fluid:hydrogen> * 1000)
+    .addFluidOutput(<fluid:water> * 125)
+    .build();
+
+
+
 //thermal cracking
 
 RecipeBuilder.newBuilder("thermal_cracking", "large_chemical_reactor", 100)
