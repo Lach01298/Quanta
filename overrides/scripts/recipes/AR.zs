@@ -258,3 +258,11 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>, [[<ore:ingotSilver>, <ore:ingo
 
 recipes.remove(<advancedrocketry:spacelaser>);
 recipes.addShaped(<advancedrocketry:spacelaser>, [[<ore:ingotSuperAlloy>, <libvulpes:advstructuremachine>, <ore:ingotSuperAlloy>],[<ore:ingotSuperAlloy>, <qmd:part:10>, <ore:ingotSuperAlloy>], [<ore:ingotSuperAlloy>, <advancedrocketry:lens>, <ore:ingotSuperAlloy>]]);
+
+// AR P-tank is gated so much while only holds 64 buckets and it's a good tank, unnerf it a bit
+recipes.remove(<advancedrocketry:liquidtank>);
+recipes.addShaped(<advancedrocketry:liquidtank>,[
+	[<ore:ingotStainlessSteel>,<ore:blockGlass>,<ore:ingotStainlessSteel>],
+	[<ore:blockGlass>,null,<ore:blockGlass>],
+	[<ore:ingotStainlessSteel>,<ore:blockGlass>,<ore:ingotStainlessSteel>]
+]);
