@@ -221,6 +221,7 @@ recipes.addShaped(<advancedrocketry:itemupgrade:4>, [[<minecraft:redstone>, <adv
 
 recipes.addShaped(<advancedrocketry:beaconfinder>, [[<ore:plateAluminum>, <advancedrocketry:ic>, <ore:plateAluminum>],[<advancedrocketry:lens>, <ore:plateAluminum>, <advancedrocketry:lens>], [null, null, null]]);
 
+recipes.remove(<libvulpes:battery>);
 recipes.addShaped(<libvulpes:battery>, [[null, <ore:plateAluminum>, null],[<ore:plateAluminum>, <nuclearcraft:lithium_ion_cell>, <ore:plateAluminum>], [null, <ore:plateAluminum>, null]]);
 
 recipes.addShaped(<libvulpes:battery:1>, [[null, null, null],[<ore:itemBattery>, <libvulpes:productplate:7>, <ore:itemBattery>], [null, null, null]]);
