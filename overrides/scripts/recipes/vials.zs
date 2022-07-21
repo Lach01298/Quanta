@@ -29,7 +29,7 @@ recipes.addShapeless(v6,[v4,v4,v4,v4,v4]); //if you want to craft this without h
 
 // ez recipes for endgame
 //mods.nuclearcraft.Manufactory.addRecipe(itemInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation);
-mods.nuclearcraft.Manufactory.addRecipe(<minecraft:glass_pane>, v1*4, 5, 2000);
-mods.nuclearcraft.Manufactory.addRecipe(v1*25, v2*4, 5, 1000);
-mods.nuclearcraft.Manufactory.addRecipe(v2*6, v5, 5, 1000);
-mods.nuclearcraft.Manufactory.addRecipe(<minecraft:glass>, v3*2, 5, 1000);
+mods.nuclearcraft.Manufactory.addRecipe(<minecraft:glass_pane>, v1*4, 0.1, 1);
+mods.nuclearcraft.Manufactory.addRecipe(v1*25, v2*4, 0.1, 5);
+mods.nuclearcraft.Manufactory.addRecipe(v2*6, v5, 0.1, 5);
+mods.nuclearcraft.Manufactory.addRecipe(<minecraft:glass>, v3*2, 0.1, 5);
