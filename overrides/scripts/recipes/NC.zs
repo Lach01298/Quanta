@@ -72,7 +72,7 @@ recipes.remove(<nuclearcraft:lithium_ion_battery_basic>);
 recipes.addShaped(<nuclearcraft:lithium_ion_battery_basic>, [[<immersiveengineering:material:22>, <minecraft:redstone>, <immersiveengineering:material:22>],[<nuclearcraft:lithium_ion_cell>, <nuclearcraft:lithium_ion_cell>, <nuclearcraft:lithium_ion_cell>], [<qmd:ingot_alloy:2>, <qmd:ingot_alloy:2>, <qmd:ingot_alloy:2>]]);
 
 recipes.remove(<nuclearcraft:lithium_ion_battery_advanced>);
-recipes.addShaped(<nuclearcraft:lithium_ion_battery_advanced>, [[<qmd:part:6>, <minecraft:redstone>, <qmd:part:6>],[<nuclearcraft:lithium_ion_battery_advanced>, <ore:ingotLithium>, <nuclearcraft:lithium_ion_battery_advanced>], [<qmd:ingot_alloy:6>, <qmd:ingot_alloy:6>, <qmd:ingot_alloy:6>]]);
+recipes.addShaped(<nuclearcraft:lithium_ion_battery_advanced>, [[<qmd:part:6>, <minecraft:redstone>, <qmd:part:6>],[<nuclearcraft:lithium_ion_battery_basic>, <ore:ingotLithium>, <nuclearcraft:lithium_ion_battery_basic>], [<qmd:ingot_alloy:6>, <qmd:ingot_alloy:6>, <qmd:ingot_alloy:6>]]);
 
 recipes.remove(<qmd:atmosphere_collector>);
 recipes.addShaped(<qmd:atmosphere_collector>, [[null, <libvulpes:productfan:6>, null],[null, <immersiveengineering:metal_decoration0:5>, null], [null, null, null]]);

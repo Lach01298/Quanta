@@ -115,7 +115,8 @@ Crusher.addRecipe(<undergroundbiomes:sedimentary_sand:4>*4, <undergroundbiomes:s
 Crusher.addRecipe(<undergroundbiomes:sedimentary_sand:5>*4, <undergroundbiomes:sedimentary_sandstone:5>, baseCrusherEnergy);
 Crusher.addRecipe(<undergroundbiomes:sedimentary_sand:6>*4, <undergroundbiomes:sedimentary_sandstone:6>, baseCrusherEnergy);
 Crusher.addRecipe(<undergroundbiomes:sedimentary_sand:7>*4, <undergroundbiomes:sedimentary_sandstone:7>, baseCrusherEnergy);
-
+// Magma->Slime
+Crusher.addRecipe(<minecraft:slime>*4,<minecraft:magma>, baseCrusherEnergy,<minecraft:blaze_rod>, 0.1);
 
 
 

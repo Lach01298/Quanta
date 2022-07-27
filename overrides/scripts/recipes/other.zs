@@ -212,3 +212,11 @@ recipes.addShaped(<alternatingflux:connector:1>, [[null, <forge:bucketfilled>.wi
 recipes.remove(<alternatingflux:wirecoil> * 4);
 recipes.addShaped(<alternatingflux:wirecoil> * 4, [[<ore:wireSteel>, <ore:wireBSCCO>, <ore:wireSteel>],[<ore:wireBSCCO>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000}), <ore:wireBSCCO>], [<ore:wireSteel>, <ore:wireBSCCO>, <ore:wireSteel>]]);
 
+// QoL wood recipes
+
+recipes.addShapeless(<minecraft:planks:0>*3, [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]); 
+#<ore:plankWood>.addTooltip(format.green("can be converted to vanilla wood by crafting 3"));
+recipes.addShapeless(<minecraft:log:0>*4, [<ore:logWood>,<ore:logWood>,<ore:logWood>,<ore:logWood>]);
+#<ore:plankWood>.addTooltip(format.green("can be converted to vanilla log by crafting 4"));
+recipes.addShapeless(<minecraft:chest>, [<ore:chest>]); // turn quark chest into vanilla chest
+recipes.addShaped(<minecraft:stick>*16,[[<ore:logWood>],[<ore:logWood>]]);
