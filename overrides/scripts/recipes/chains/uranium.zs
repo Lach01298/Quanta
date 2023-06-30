@@ -34,6 +34,14 @@ RecipeBuilder.newBuilder("uf4", "large_chemical_reactor", 100)
 	.addFluidOutput(<fluid:water>*2000)
     .build();
 	
+RecipeBuilder.newBuilder("uf42", "large_chemical_reactor", 100)
+    .addEnergyPerTickInput(100)
+    .addItemInput(<ore:ingotUranium>)
+	.addFluidInput(<fluid:hydrofluoric_acid>*4000)
+	.addItemOutput(<contenttweaker:dust_uranium_tetrafluoride>)
+	.addFluidOutput(<fluid:hydrogen>*4000)
+    .build();
+	
 
 RecipeBuilder.newBuilder("uf6", "large_chemical_reactor", 100)
     .addEnergyPerTickInput(100)
