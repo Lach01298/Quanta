@@ -7,6 +7,7 @@ import mods.immersivetechnology.Distiller;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Squeezer;
+import mods.nuclearcraft.Pressurizer;
 
 
 
@@ -145,6 +146,15 @@ Fermenter.addRecipe(null, <fluid:fermented_biomass>*100, <biomesoplenty:persimmo
 
 Distiller.addRecipe(<fluid:ethanol>*1000, <fluid:fermented_biomass>*3000, <biomesoplenty:mudball>, 40000, 400, 0.05);
 
+// U plate from U-238
+val plateUranium = <immersiveengineering:metal:35>;
+MetalPress.removeRecipe(plateUranium);
+MetalPress.addRecipe(plateUranium, <ore:ingotUranium238>, <immersiveengineering:mold>, 128);
 
+recipes.remove(plateUranium);
+recipes.addShapeless(plateUranium,[<ore:blockSheetmetalUranium>]);
+
+Pressurizer.removeRecipeWithInput(<ore:ingotUranium>);
+Pressurizer.addRecipe(<ore:ingotUranium238>, plateUranium);
 
 
