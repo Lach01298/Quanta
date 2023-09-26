@@ -22,7 +22,13 @@ Excavator.removeMineral("Pyrite");
 Excavator.removeMineral("Quarzite");
 Excavator.removeMineral("Silver");
 Excavator.removeMineral("Uranium");
-
+// remove immersive Intelegence Ores
+Excavator.removeMineral("Ferberite");
+Excavator.removeMineral("Fluorite");
+Excavator.removeMineral("Ferberite");
+Excavator.removeMineral("Phosphorite");
+Excavator.removeMineral("Platinum"); // this one has Iridium Lmao
+Excavator.removeMineral("Wolframite");
 
 Excavator.addMineral("Aluminium", 64, 0.1, ["oreAluminum"], [1],  [0,110,120,131,140,151,152]);
 Excavator.addMineral("Borax", 36, 0.1, ["oreBoron"], [1],  [0,140,152]);
