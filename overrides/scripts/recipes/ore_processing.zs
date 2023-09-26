@@ -80,7 +80,7 @@ Crusher.removeRecipesForInput(<libvulpes:ore0:8>);
 Crusher.addRecipe(<contenttweaker:dust_iron_oxide>*2, <ore:oreIron>, baseCrusherEnergy, <contenttweaker:dust_chromium_oxide>, 0.10);
 Crusher.addRecipe(<nuclearcraft:dust>*2, <ore:oreCopper>, baseCrusherEnergy, <nuclearcraft:gem_dust:6>, 0.25);
 Crusher.addRecipe(<nuclearcraft:dust:1>*2, <ore:oreTin>, baseCrusherEnergy, <contenttweaker:scheelite>, 0.25);
-Crusher.addRecipe(<nuclearcraft:dust:2>*2, <ore:oreLead>, baseCrusherEnergy, <nuclearcraft:gem_dust:6>, 0.5);
+Crusher.addRecipe(<nuclearcraft:dust:2>*2, <ore:oreLead>, baseCrusherEnergy, <qmd:dust:7>, 0.5);
 Crusher.addRecipe(<contenttweaker:monazite>*2, <ore:oreThorium>, baseCrusherEnergy);
 Crusher.addRecipe(<contenttweaker:uranite>*2, <ore:oreUranium>, baseCrusherEnergy, <contenttweaker:columbite>, 0.25);
 Crusher.addRecipe(<nuclearcraft:compound:7>*2, <ore:oreBoron>, baseCrusherEnergy);
@@ -117,7 +117,7 @@ Grinder.addRecipe(<minecraft:iron_ore>, <contenttweaker:dust_iron_oxide>*2, <con
 Grinder.addRecipe(<minecraft:gold_ore>, <immersiveengineering:metal:19>*2, <minecraft:dirt>, 0.0, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore>, <nuclearcraft:dust>*2, <nuclearcraft:gem_dust:6>, 0.25, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:1>, <nuclearcraft:dust:1>*2, <contenttweaker:scheelite>, 0.25, 40, true);
-Grinder.addRecipe(<nuclearcraft:ore:2>, <nuclearcraft:dust:2>*2, <nuclearcraft:gem_dust:6>, 0.25, 40, true);
+Grinder.addRecipe(<nuclearcraft:ore:2>, <nuclearcraft:dust:2>*2, <qmd:dust:7>, 0.25, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:3>, <contenttweaker:monazite>*2, <minecraft:dirt>, 0.00, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:4>, <contenttweaker:uranite>*2, <contenttweaker:columbite>, 0.25, 40, true);
 Grinder.addRecipe(<nuclearcraft:ore:5>, <nuclearcraft:compound:7>*2, <minecraft:dirt>, 0.00, 40, true);
@@ -142,6 +142,9 @@ ArcFurnace.removeRecipe(<nuclearcraft:ingot:6>*2);
 ArcFurnace.removeRecipe(<nuclearcraft:ingot:7>*2);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:1>*2);
 ArcFurnace.removeRecipe(<qmd:ingot:3>*2);
+ArcFurnace.removeRecipe(<immersiveintelligence:material:18>); // II flourite
+ArcFurnace.removeRecipe(<immersiveintelligence:material_boule>); // II silicon
+
 
 //add
 ArcFurnace.addRecipe(<nuclearcraft:ingot:12>*2,<contenttweaker:dust_aluminium_oxide>, null, baseArcTime, baseArcPower*2);
@@ -206,9 +209,6 @@ ore_leacher.addRecipe(<ore:oreLead>,<fluid:sulfuric_acid>*100,null,null,<ore:dus
 ore_leacher.addRecipe(<ore:oreNickel>,<fluid:ammonia_solution>*100,null,null,<ore:dustNickel>*3,ChanceItemIngredient.create(<ore:dustPlatinum>,20),null, 1.0,1.0);
 
 ore_leacher.addRecipe(<ore:oreAluminum>,<fluid:sodium_hydroxide_solution>*100,null,null,<contenttweaker:dust_aluminium_oxide>*3,ChanceItemIngredient.create(<contenttweaker:dust_iron_oxide>,50),ChanceItemIngredient.create(<contenttweaker:dust_titanium_dioxide>,10), 1.0,1.0);
-
-
-
 
 
 
