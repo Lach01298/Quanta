@@ -12,6 +12,8 @@ PrecissionAssembler.removeRecipe(<immersiveengineering:material:26>);
 // salt removal
 JEI.removeAndHide(<liquid:brine>);
 mods.jei.JEI.hideCategory("ii.electrolyzer");
+mods.immersiveengineering.Mixer.remove(<liquid:brine>);
+mods.nuclearcraft.Melter.removeRecipeWithOutput(<liquid:brine>);
 
 // circuit removal
 JEI.removeAndHide(<immersiveintelligence:material:11>);
